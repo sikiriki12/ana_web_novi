@@ -1,27 +1,7 @@
 import { useContext, useEffect } from 'react'
 import { Link } from 'react-router-dom'
-import { FaUserTie, FaGavel, FaBalanceScale, FaBuilding, FaUniversity, FaHandshake } from 'react-icons/fa'
+import { FaBalanceScale, FaGavel, FaUserTie } from 'react-icons/fa'
 import { LanguageContext } from '../../App'
-
-const Timeline = ({ items }) => (
-  <div className="space-y-12 relative">
-    {/* Vertical line */}
-    <div className="absolute left-6 top-6 bottom-10 w-[2px] bg-gradient-to-b from-primary-600 to-primary-200"></div>
-    
-    {items.map((item, index) => (
-      <div key={index} className="flex gap-6 fade-in-section">
-        <div className="min-w-12 h-12 rounded-full bg-primary-600 text-white flex items-center justify-center z-10">
-          {item.icon}
-        </div>
-        <div className="pt-1">
-          <h3 className="text-xl font-serif text-primary-800 font-bold">{item.year}</h3>
-          <h4 className="text-lg text-primary-700 mb-2">{item.title}</h4>
-          <p className="text-secondary-700">{item.description}</p>
-        </div>
-      </div>
-    ))}
-  </div>
-);
 
 export default function About() {
   const { language } = useContext(LanguageContext);
@@ -48,75 +28,10 @@ export default function About() {
     };
   }, []);
 
-  // Timeline data based on language
-  const timelineItems = language === 'en' ? [
-    {
-      year: '2010',
-      title: 'Law Firm Establishment',
-      description: 'Ana Bandalo Law Firm was established in Zagreb to provide specialized legal services.',
-      icon: <FaGavel className="text-lg" />
-    },
-    {
-      year: '2012',
-      title: 'Corporate Law Specialization',
-      description: 'Expanded practice to focus on corporate law and commercial dispute resolution.',
-      icon: <FaBuilding className="text-lg" />
-    },
-    {
-      year: '2015',
-      title: 'Team Expansion',
-      description: 'Expanded the team to include specialized legal professionals across multiple practice areas.',
-      icon: <FaUserTie className="text-lg" />
-    },
-    {
-      year: '2020',
-      title: 'Office Relocation',
-      description: 'Relocated the office to a new location to better serve our growing client base.',
-      icon: <FaBalanceScale className="text-lg" />
-    },
-    {
-      year: 'Present',
-      title: 'Continued Excellence',
-      description: 'Continuing to provide exceptional legal services while expanding expertise in emerging areas of law.',
-      icon: <FaUniversity className="text-lg" />
-    }
-  ] : [
-    {
-      year: '2010',
-      title: 'Osnivanje odvjetničkog ureda',
-      description: 'Odvjetnički ured Ana Bandalo osnovan je u Zagrebu radi pružanja specijaliziranih pravnih usluga.',
-      icon: <FaGavel className="text-lg" />
-    },
-    {
-      year: '2012',
-      title: 'Specijalizacija za korporativno pravo',
-      description: 'Proširena praksa s fokusom na korporativno pravo i rješavanje trgovačkih sporova.',
-      icon: <FaBuilding className="text-lg" />
-    },
-    {
-      year: '2015',
-      title: 'Proširenje tima',
-      description: 'Proširenje tima kako bi uključili specijalizirane pravne stručnjake iz više područja prakse.',
-      icon: <FaUserTie className="text-lg" />
-    },
-    {
-      year: '2020',
-      title: 'Preseljenje ureda',
-      description: 'Preseljenje ureda na novu lokaciju radi bolje usluge našim rastućim brojem klijenata.',
-      icon: <FaBalanceScale className="text-lg" />
-    },
-    {
-      year: 'Danas',
-      title: 'Kontinuirana izvrsnost',
-      description: 'Nastavak pružanja izvanrednih pravnih usluga uz širenje stručnosti u područjima prava koja se pojavljuju.',
-      icon: <FaUniversity className="text-lg" />
-    }
-  ];
-
   return (
     <div>
       {/* Hero Section */}
-      <section className="relative py-20 md:py-28 overflow-hidden bg-primary-800 text-white">
+      <section className="relative flex items-center justify-center min-h-[300px] pt-16 pb-7 md:pt-24 md:pb-7 overflow-hidden bg-primary-800 text-white">
         {/* Background pattern */}
         <div className="absolute inset-0 opacity-5 bg-repeat" style={{ backgroundImage: 'url(/images/backgrounds/legal-pattern.svg)' }}></div>
         
@@ -125,7 +40,7 @@ export default function About() {
         <div className="absolute top-20 right-20 w-20 h-20 rounded-full bg-primary-700 blur-xl"></div>
         <div className="absolute bottom-20 left-10 w-32 h-32 rounded-full bg-primary-600/30 blur-xl"></div>
         
-        <div className="container-custom relative z-10">
+        <div className="container-custom relative z-10 my-auto pt-32">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-white mb-6 animate-fade-in">
               {language === 'en' ? 'About Us' : 'O nama'}
@@ -133,7 +48,7 @@ export default function About() {
             <p className="text-xl text-primary-100 mb-8 animate-fade-in animate-delay-200">
               {language === 'en'
                 ? 'Committed to excellence and personalized legal solutions since 2010'
-                : 'Posvećeni izvrsnosti i personaliziranim pravnim rješenjima od 2010. godine'}
+                : 'Posvećeni izvrsnosti i personaliziranim pravnim rješenjima od 2010. godine, s fokusom na klijentu i uspjeh u svakom predmetu'}
             </p>
           </div>
         </div>
@@ -195,40 +110,8 @@ export default function About() {
         </div>
       </section>
 
-      {/* Our Journey / Timeline */}
-      <section className="py-16 bg-white relative overflow-hidden">
-        {/* Background decorations */}
-        <div className="absolute right-0 top-0 w-64 h-64 bg-primary-50 rounded-bl-full opacity-70"></div>
-        <div className="absolute left-0 bottom-0 w-72 h-72 bg-secondary-50 rounded-tr-full opacity-50"></div>
-        
-        <div className="container-custom relative z-10">
-          <div className="text-center mb-16 fade-in-section">
-            <div className="inline-flex items-center justify-center mb-3">
-              <span className="h-px w-6 bg-primary-600"></span>
-              <span className="mx-2 text-primary-600 font-medium uppercase tracking-wider text-sm">
-                {language === 'en' ? 'Our Journey' : 'Naš Put'}
-              </span>
-              <span className="h-px w-6 bg-primary-600"></span>
-            </div>
-            
-            <h2 className="text-3xl md:text-4xl font-serif font-bold text-primary-800 mb-6">
-              {language === 'en' ? 'Our History' : 'Naša Povijest'}
-            </h2>
-            
-            <p className="text-lg text-secondary-600 max-w-3xl mx-auto">
-              {language === 'en'
-                ? 'A timeline of our firm\'s growth and key milestones since our founding in 2010.'
-                : 'Vremenska crta rasta naše tvrtke i ključnih prekretnica od osnivanja 2010. godine.'}
-            </p>
-          </div>
-          
-          <div className="max-w-3xl mx-auto">
-            <Timeline items={timelineItems} />
-          </div>
-        </div>
-      </section>
 
-      {/* Philosophy & Approach */}
+      {/* Core Values Section */}
       <section className="py-16 bg-primary-50 relative overflow-hidden">
         {/* Background pattern */}
         <div className="absolute inset-0 opacity-5 bg-repeat" style={{ backgroundImage: 'url(/images/backgrounds/legal-pattern.svg)' }}></div>
@@ -238,59 +121,65 @@ export default function About() {
             <div className="inline-flex items-center justify-center mb-3">
               <span className="h-px w-6 bg-primary-600"></span>
               <span className="mx-2 text-primary-600 font-medium uppercase tracking-wider text-sm">
-                {language === 'en' ? 'Our Approach' : 'Naš Pristup'}
+                {language === 'en' ? 'Our Philosophy' : 'Naša Filozofija'}
               </span>
               <span className="h-px w-6 bg-primary-600"></span>
             </div>
             
             <h2 className="text-3xl md:text-4xl font-serif font-bold text-primary-800 mb-6">
-              {language === 'en' ? 'Our Philosophy' : 'Naša Filozofija'}
+              {language === 'en' ? 'Our Core Values' : 'Naše temeljne vrijednosti'}
             </h2>
+            
+            <p className="text-lg text-secondary-600 max-w-3xl mx-auto">
+              {language === 'en'
+                ? 'Building long-lasting client relationships since 2010 through our commitment to excellence and personalized service.'
+                : 'Izgradnja dugotrajnih odnosa s klijentima od 2010. kroz našu predanost izvrsnosti i osobnom pristupu.'}
+            </p>
           </div>
           
           <div className="grid md:grid-cols-3 gap-8">
-            {/* Commitment */}
+            {/* Personal Approach */}
             <div className="card hover-lift fade-in-section rounded-xl">
               <div className="text-primary-600 mb-4">
-                <FaHandshake size={40} />
+                <FaUserTie size={40} />
               </div>
               <h3 className="text-xl font-serif font-bold text-primary-800 mb-3">
-                {language === 'en' ? 'Client Commitment' : 'Predanost Klijentima'}
+                {language === 'en' ? 'Personal Approach' : 'Osobni pristup'}
               </h3>
               <p className="text-secondary-700">
                 {language === 'en'
-                  ? 'We place our clients at the center of everything we do. Their success is our success, and we are committed to providing the highest level of service.'
-                  : 'Naše klijente stavljamo u središte svega što radimo. Njihov uspjeh je naš uspjeh, i predani smo pružanju najviše razine usluge.'}
+                  ? 'We focus on building relationships and providing individualized attention to each client\'s unique needs and goals.'
+                  : 'Fokusiramo se na izgradnju odnosa i pružanje individualizirane pažnje jedinstvenim potrebama i ciljevima svakog klijenta.'}
               </p>
             </div>
             
-            {/* Integrity */}
+            {/* Professionalism */}
+            <div className="card hover-lift fade-in-section rounded-xl">
+              <div className="text-primary-600 mb-4">
+                <FaGavel size={40} />
+              </div>
+              <h3 className="text-xl font-serif font-bold text-primary-800 mb-3">
+                {language === 'en' ? 'Professionalism' : 'Profesionalizam'}
+              </h3>
+              <p className="text-secondary-700">
+                {language === 'en'
+                  ? 'We adhere to the highest standards of legal ethics and provide conscientious service based on years of experience.'
+                  : 'Pridržavamo se najviših standarda pravne etike i pružamo savjesnu uslugu temeljenu na dugogodišnjem iskustvu.'}
+              </p>
+            </div>
+            
+            {/* Excellence */}
             <div className="card hover-lift fade-in-section rounded-xl">
               <div className="text-primary-600 mb-4">
                 <FaBalanceScale size={40} />
               </div>
               <h3 className="text-xl font-serif font-bold text-primary-800 mb-3">
-                {language === 'en' ? 'Integrity & Ethics' : 'Integritet i Etika'}
+                {language === 'en' ? 'Excellence' : 'Izvrsnost'}
               </h3>
               <p className="text-secondary-700">
                 {language === 'en'
-                  ? 'We uphold the highest standards of professional ethics and integrity in all our dealings, providing honest and transparent advice.'
-                  : 'Održavamo najviše standarde profesionalne etike i integriteta u svim našim poslovima, pružajući iskrene i transparentne savjete.'}
-              </p>
-            </div>
-            
-            {/* Expertise */}
-            <div className="card hover-lift fade-in-section rounded-xl">
-              <div className="text-primary-600 mb-4">
-                <FaUniversity size={40} />
-              </div>
-              <h3 className="text-xl font-serif font-bold text-primary-800 mb-3">
-                {language === 'en' ? 'Continuous Learning' : 'Kontinuirano Učenje'}
-              </h3>
-              <p className="text-secondary-700">
-                {language === 'en'
-                  ? 'We continuously expand our knowledge and expertise to stay ahead of legal developments and provide innovative solutions.'
-                  : 'Kontinuirano proširujemo svoje znanje i stručnost kako bismo bili u tijeku s pravnim razvojem i pružali inovativna rješenja.'}
+                  ? 'We constantly improve our knowledge and stay current with legal trends to provide innovative and effective solutions.'
+                  : 'Stalno usavršavamo svoje znanje i pratimo pravne trendove kako bismo pružili inovativna i učinkovita rješenja.'}
               </p>
             </div>
           </div>

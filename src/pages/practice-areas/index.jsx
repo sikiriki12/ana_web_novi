@@ -124,12 +124,12 @@ export default function PracticeAreas() {
   return (
     <div>
       {/* Hero Section */}
-      <section className="relative py-20 md:py-28 overflow-hidden bg-primary-800 text-white">
+      <section className="relative flex items-center justify-center min-h-[300px] pt-16 pb-7 md:pt-24 md:pb-7 overflow-hidden bg-primary-800 text-white">
         {/* Background pattern */}
         <div className="absolute inset-0 opacity-5 bg-repeat" style={{ backgroundImage: 'url(/images/backgrounds/legal-pattern.svg)' }}></div>
         
         
-        <div className="container-custom relative z-10">
+        <div className="container-custom relative z-10 my-auto pt-32">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-white mb-6 animate-fade-in">
               {language === 'en' ? 'Practice Areas' : 'Područja prakse'}

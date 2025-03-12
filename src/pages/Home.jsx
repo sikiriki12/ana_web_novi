@@ -44,7 +44,7 @@ export default function Home() {
   return (
     <div>
       {/* Hero Section - Full height with elegant background */}
-      <section ref={heroRef} className="relative overflow-hidden flex flex-col justify-start sm:justify-center min-h-screen pt-36 sm:pt-32 md:pt-28 lg:pt-20 bg-offwhite">
+      <section ref={heroRef} className="relative overflow-hidden flex flex-col justify-start sm:justify-center min-h-screen pt-[95px] sm:pt-32 md:pt-28 lg:pt-20 bg-offwhite">
         {/* Subtle background pattern */}
         <div className="absolute inset-0 z-0 bg-offwhite opacity-95"></div>
         
@@ -64,7 +64,7 @@ export default function Home() {
               <p className="text-lg md:text-xl text-secondary-600 max-w-2xl animate-fade-in animate-delay-400">
                 {language === 'en'
                   ? 'Providing focused and passionate legal representation in corporate and civil law matters throughout Croatia.'
-                  : 'Pružamo fokusirano i strastveno pravno zastupanje u poslovima korporativnog i građanskog prava diljem Hrvatske.'}
+                  : 'Pružamo fokusirano i strastveno pravno zastupanje u poslovima korporativnog i građanskog prava diljem Hrvatske, s individualnim pristupom svakom klijentu.'}
               </p>
               
               <div className="flex flex-wrap gap-6 pt-4 animate-fade-in animate-delay-500">
@@ -105,117 +105,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Core Values Section */}
-      <section className="py-20 relative overflow-hidden">
-        {/* Background design */}
-        <div className="absolute top-0 right-0 w-full h-full bg-gray-50 z-0"></div>
-        <div className="absolute top-0 left-0 w-1/2 h-full bg-gradient-to-r from-primary-50 to-primary-50/0 z-0"></div>
-        <div className="absolute -top-10 -left-10 w-40 h-40 rounded-full bg-primary-100/50 z-0"></div>
-        
-        <div className="container-custom relative z-10">
-          <div className="text-center mb-16">
-            <div className="inline-flex items-center justify-center mb-3">
-              <span className="h-px w-6 bg-primary-600"></span>
-              <span className="mx-2 text-primary-600 font-medium uppercase tracking-wider text-sm">
-                {language === 'en' ? 'Our Philosophy' : 'Naša Filozofija'}
-              </span>
-              <span className="h-px w-6 bg-primary-600"></span>
-            </div>
-            <h2 className="text-3xl md:text-4xl font-serif font-bold text-primary-800 mb-6">
-              {language === 'en' ? 'Our Core Values' : 'Naše temeljne vrijednosti'}
-            </h2>
-            <p className="text-lg text-secondary-600 max-w-3xl mx-auto">
-              {language === 'en'
-                ? 'Building long-lasting client relationships since 2010 through our commitment to excellence and personalized service.'
-                : 'Izgradnja dugotrajnih odnosa s klijentima od 2010. kroz našu predanost izvrsnosti i osobnom pristupu.'}
-            </p>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {/* Personal Approach */}
-            <div className="group">
-              <div className="card rounded-xl bg-white shadow flex flex-col h-full">
-                <div className="bg-primary-100 p-6 rounded-t-xl relative overflow-hidden">
-                  <div className="absolute inset-0 z-0">
-                    <img src="/personal_approach.jpg" alt="Personal Approach" className="object-cover w-full h-full opacity-15" />
-                  </div>
-                  <div className="relative z-10">
-                    <div className="bg-white rounded-full p-3 w-16 h-16 flex items-center justify-center shadow-md mb-2">
-                      <FaUserTie className="text-primary-600 text-2xl" />
-                    </div>
-                  </div>
-                </div>
-                <div className="p-6 flex flex-col flex-grow">
-                  <h3 className="text-xl font-serif font-bold text-primary-800 mb-3 flex items-center">
-                    <span className="h-6 w-1 bg-primary-600 rounded-full mr-2"></span>
-                    {language === 'en' ? 'Personal Approach' : 'Osobni pristup'}
-                  </h3>
-                  <p className="text-secondary-600 flex-grow">
-                    {language === 'en'
-                      ? 'We focus on building relationships and providing individualized attention to each client\'s unique needs and goals.'
-                      : 'Fokusiramo se na izgradnju odnosa i pružanje individualizirane pažnje jedinstvenim potrebama i ciljevima svakog klijenta.'}
-                  </p>
-                </div>
-              </div>
-            </div>
-            
-            {/* Professionalism */}
-            <div className="group">
-              <div className="card rounded-xl bg-white shadow flex flex-col h-full">
-                <div className="bg-primary-100 p-6 rounded-t-xl relative overflow-hidden">
-                  <div className="absolute inset-0 z-0">
-                    <img src="/professionalism.jpg" alt="Professionalism" className="object-cover w-full h-full opacity-15" />
-                  </div>
-                  <div className="relative z-10">
-                    <div className="bg-white rounded-full p-3 w-16 h-16 flex items-center justify-center shadow-md mb-2">
-                      <FaGavel className="text-primary-600 text-2xl" />
-                    </div>
-                  </div>
-                </div>
-                <div className="p-6 flex flex-col flex-grow">
-                  <h3 className="text-xl font-serif font-bold text-primary-800 mb-3 flex items-center">
-                    <span className="h-6 w-1 bg-primary-600 rounded-full mr-2"></span>
-                    {language === 'en' ? 'Professionalism' : 'Profesionalizam'}
-                  </h3>
-                  <p className="text-secondary-600 flex-grow">
-                    {language === 'en'
-                      ? 'We adhere to the highest standards of legal ethics and provide conscientious service based on years of experience.'
-                      : 'Pridržavamo se najviših standarda pravne etike i pružamo savjesnu uslugu temeljenu na dugogodišnjem iskustvu.'}
-                  </p>
-                </div>
-              </div>
-            </div>
-            
-            {/* Excellence */}
-            <div className="group">
-              <div className="card rounded-xl bg-white shadow flex flex-col h-full">
-                <div className="bg-primary-100 p-6 rounded-t-xl relative overflow-hidden">
-                  <div className="absolute inset-0 z-0">
-                    <img src="/excellence.jpg" alt="Excellence" className="object-cover w-full h-full opacity-15" />
-                  </div>
-                  <div className="relative z-10">
-                    <div className="bg-white rounded-full p-3 w-16 h-16 flex items-center justify-center shadow-md mb-2">
-                      <FaBalanceScale className="text-primary-600 text-2xl" />
-                    </div>
-                  </div>
-                </div>
-                <div className="p-6 flex flex-col flex-grow">
-                  <h3 className="text-xl font-serif font-bold text-primary-800 mb-3 flex items-center">
-                    <span className="h-6 w-1 bg-primary-600 rounded-full mr-2"></span>
-                    {language === 'en' ? 'Excellence' : 'Izvrsnost'}
-                  </h3>
-                  <p className="text-secondary-600 flex-grow">
-                    {language === 'en'
-                      ? 'We constantly improve our knowledge and stay current with legal trends to provide innovative and effective solutions.'
-                      : 'Stalno usavršavamo svoje znanje i pratimo pravne trendove kako bismo pružili inovativna i učinkovita rješenja.'}
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      
       {/* Practice Areas */}
       <section className="py-20 bg-white relative overflow-hidden">
         {/* Background design elements */}
