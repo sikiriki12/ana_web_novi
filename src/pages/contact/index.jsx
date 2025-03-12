@@ -128,12 +128,13 @@ export default function Contact() {
                 <div className="space-y-6">
                   <ContactInfo icon={<FaMapMarkerAlt size={20} />} title={language === 'en' ? 'Office Address' : 'Adresa ureda'}>
                     <p>Ana Bandalo Law Office</p>
-                    <p>Ilica 191, 10000 Zagreb, Croatia</p>
+                    <p>Većeslava Holjevca 40, 10000 Zagreb, Croatia</p>
+                    <p>{language === 'en' ? '(Business center RECRO, 3rd floor)' : '(Poslovni centar RECRO, 3. kat)'}</p>
                   </ContactInfo>
                   
                   <ContactInfo icon={<FaPhone size={20} />} title={language === 'en' ? 'Phone Number' : 'Telefonski broj'}>
                     <p>+385 1 4668 833</p>
-                    <p>+385 98 279 722</p>
+                    <p>+385 91 518 74 73</p>
                   </ContactInfo>
                   
                   <ContactInfo icon={<FaEnvelope size={20} />} title={language === 'en' ? 'Email Address' : 'Email adresa'}>
@@ -141,7 +142,7 @@ export default function Contact() {
                   </ContactInfo>
                   
                   <ContactInfo icon={<FaClock size={20} />} title={language === 'en' ? 'Office Hours' : 'Radno vrijeme'}>
-                    <p>{language === 'en' ? 'Monday to Friday' : 'Ponedjeljak do petak'}: 9:00 - 17:00</p>
+                    <p>{language === 'en' ? 'Monday to Friday' : 'Ponedjeljak do petak'}: 9:00 - 17:00 {language === 'en' ? '(by appointment only)' : '(isključivo uz prethodnu najavu)'}</p>
                     <p>{language === 'en' ? 'Saturday & Sunday' : 'Subota i nedjelja'}: {language === 'en' ? 'Closed' : 'Zatvoreno'}</p>
                   </ContactInfo>
                 </div>
@@ -290,7 +291,7 @@ export default function Contact() {
           <div className="rounded-xl overflow-hidden shadow-elegant h-96 fade-in-section">
             <iframe
               title="Office Location"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2781.3135683896676!2d15.943526376888188!3d45.813565911308286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765d6e24eb98cf7%3A0xb286d9b7b91d486c!2sIlica%20191%2C%2010000%2C%20Zagreb!5e0!3m2!1sen!2shr!4v1711400856372!5m2!1sen!2shr"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2781.7890741539656!2d15.977645!3d45.777593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765d68b5d090f41%3A0xf66c41080881c656!2sVe%C4%87eslava%20Holjevca%2040%2C%2010000%2C%20Zagreb!5e0!3m2!1sen!2shr!4v1637330285695!5m2!1sen!2shr"
               width="100%"
               height="100%"
               style={{ border: 0 }}
