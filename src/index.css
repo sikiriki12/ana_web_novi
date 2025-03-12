@@ -1,0 +1,130 @@
+/* Custom fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Merriweather:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply text-primary-900 bg-offwhite min-h-screen;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif font-bold text-primary-800;
+  }
+
+  h1 {
+    @apply text-4xl md:text-5xl mb-6;
+  }
+
+  h2 {
+    @apply text-3xl md:text-4xl mb-4;
+  }
+
+  h3 {
+    @apply text-2xl md:text-3xl mb-3;
+  }
+
+  h4 {
+    @apply text-xl md:text-2xl mb-2;
+  }
+
+  p {
+    @apply mb-4;
+  }
+}
+
+@layer components {
+  .container-custom {
+    @apply container mx-auto px-4 py-8 max-w-7xl;
+  }
+  
+  .btn {
+    @apply inline-flex items-center px-6 py-3 rounded-md font-medium transition-all duration-300;
+  }
+  
+  .btn-primary {
+    @apply bg-primary-600 text-white hover:bg-primary-700 shadow-elegant hover:shadow-elegant-lg;
+  }
+  
+  .btn-secondary {
+    @apply bg-white text-primary-800 hover:bg-secondary-50 shadow-elegant hover:shadow-elegant-lg border border-secondary-200;
+  }
+
+  .card {
+    @apply bg-white p-6 rounded-lg shadow-elegant hover:shadow-elegant-lg transition-all duration-300;
+  }
+
+  /* Animation utilities */
+  .animate-delay-100 {
+    animation-delay: 100ms;
+  }
+  
+  .animate-delay-200 {
+    animation-delay: 200ms;
+  }
+  
+  .animate-delay-300 {
+    animation-delay: 300ms;
+  }
+
+  .animate-delay-400 {
+    animation-delay: 400ms;
+  }
+
+  .animate-delay-500 {
+    animation-delay: 500ms;
+  }
+}
+
+/* Fade-in animation for sections */
+.fade-in-section {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.fade-in-section.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Advanced hover effects */
+.hover-lift {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-lift:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+}
+
+/* Glass-morphism effects */
+.glass-effect {
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Ensure non-clickable cards don't show pointer cursor */
+div.group > div.card,
+div.group > div.bg-white {
+  cursor: default !important;
+}
+
+/* Fix link groups */
+a.group {
+  cursor: pointer;
+}
+
+/* Ensure all cards within plain div groups don't inherit link styling */
+div.group {
+  cursor: default;
+}
