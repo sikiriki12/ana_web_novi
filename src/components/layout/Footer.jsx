@@ -1,4 +1,5 @@
-import { FaMapMarkerAlt, FaPhone, FaMobile, FaEnvelope, FaClock, FaBalanceScale, FaChevronRight } from 'react-icons/fa'
+import { FaMapMarkerAlt, FaPhone, FaMobile, FaEnvelope, FaClock, FaBalanceScale, FaGavel, FaUserTie, FaBuilding, FaHandshake, FaFileContract, FaLaptopCode, FaPrescriptionBottleAlt, FaIndustry, FaHome, FaNewspaper } from 'react-icons/fa'
+import { Link } from 'react-router-dom'
 
 export default function Footer({ language }) {
   const currentYear = new Date().getFullYear()
@@ -115,28 +116,52 @@ export default function Footer({ language }) {
               </h3>
               <ul className="space-y-3">
                 <li>
-                  <div className="text-gray-300 flex items-center">
-                    <FaChevronRight className="mr-2 text-xs text-primary-400" />
+                  <Link to="/practice-areas/commercial-law" className="text-gray-300 hover:text-white transition-colors flex items-center group">
+                    <span className="mr-2 w-5 flex justify-center">
+                      <FaGavel className="text-primary-400 group-hover:text-primary-300 transition-colors" size={14} />
+                    </span>
                     {language === 'en' ? 'Commercial Law' : 'Trgovačko pravo'}
-                  </div>
+                  </Link>
                 </li>
                 <li>
-                  <div className="text-gray-300 flex items-center">
-                    <FaChevronRight className="mr-2 text-xs text-primary-400" />
+                  <Link to="/practice-areas/labor-law" className="text-gray-300 hover:text-white transition-colors flex items-center group">
+                    <span className="mr-2 w-5 flex justify-center">
+                      <FaUserTie className="text-primary-400 group-hover:text-primary-300 transition-colors" size={14} />
+                    </span>
                     {language === 'en' ? 'Labor Law' : 'Radno pravo'}
-                  </div>
+                  </Link>
                 </li>
                 <li>
-                  <div className="text-gray-300 flex items-center">
-                    <FaChevronRight className="mr-2 text-xs text-primary-400" />
+                  <Link to="/practice-areas/corporate-law" className="text-gray-300 hover:text-white transition-colors flex items-center group">
+                    <span className="mr-2 w-5 flex justify-center">
+                      <FaBuilding className="text-primary-400 group-hover:text-primary-300 transition-colors" size={14} />
+                    </span>
                     {language === 'en' ? 'Corporate Law' : 'Pravo trgovačkih društava'}
-                  </div>
+                  </Link>
                 </li>
                 <li>
-                  <div className="text-gray-300 flex items-center">
-                    <FaChevronRight className="mr-2 text-xs text-primary-400" />
+                  <Link to="/practice-areas/real-estate" className="text-gray-300 hover:text-white transition-colors flex items-center group">
+                    <span className="mr-2 w-5 flex justify-center">
+                      <FaBalanceScale className="text-primary-400 group-hover:text-primary-300 transition-colors" size={14} />
+                    </span>
                     {language === 'en' ? 'Real Estate & Civil Law' : 'Nekretnine i Građansko pravo'}
-                  </div>
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/practice-areas/contract-law" className="text-gray-300 hover:text-white transition-colors flex items-center group">
+                    <span className="mr-2 w-5 flex justify-center">
+                      <FaFileContract className="text-primary-400 group-hover:text-primary-300 transition-colors" size={14} />
+                    </span>
+                    {language === 'en' ? 'Contract Law' : 'Ugovorno pravo'}
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/practice-areas/dispute-resolution" className="text-gray-300 hover:text-white transition-colors flex items-center group">
+                    <span className="mr-2 w-5 flex justify-center">
+                      <FaHandshake className="text-primary-400 group-hover:text-primary-300 transition-colors" size={14} />
+                    </span>
+                    {language === 'en' ? 'Dispute Resolution' : 'Rješavanje sporova'}
+                  </Link>
                 </li>
               </ul>
               
@@ -146,28 +171,52 @@ export default function Footer({ language }) {
               </h3>
               <ul className="space-y-3">
                 <li>
-                  <div className="text-gray-300 flex items-center">
-                    <FaChevronRight className="mr-2 text-xs text-primary-400" />
+                  <Link to="/industry/construction" className="text-gray-300 hover:text-white transition-colors flex items-center group">
+                    <span className="mr-2 w-5 flex justify-center">
+                      <FaBuilding className="text-primary-400 group-hover:text-primary-300 transition-colors" size={14} />
+                    </span>
                     {language === 'en' ? 'Construction Industry' : 'Građevinska industrija'}
-                  </div>
+                  </Link>
                 </li>
                 <li>
-                  <div className="text-gray-300 flex items-center">
-                    <FaChevronRight className="mr-2 text-xs text-primary-400" />
+                  <Link to="/industry/it" className="text-gray-300 hover:text-white transition-colors flex items-center group">
+                    <span className="mr-2 w-5 flex justify-center">
+                      <FaLaptopCode className="text-primary-400 group-hover:text-primary-300 transition-colors" size={14} />
+                    </span>
                     {language === 'en' ? 'IT Industry' : 'IT Industrija'}
-                  </div>
+                  </Link>
                 </li>
                 <li>
-                  <div className="text-gray-300 flex items-center">
-                    <FaChevronRight className="mr-2 text-xs text-primary-400" />
+                  <Link to="/industry/pharma" className="text-gray-300 hover:text-white transition-colors flex items-center group">
+                    <span className="mr-2 w-5 flex justify-center">
+                      <FaPrescriptionBottleAlt className="text-primary-400 group-hover:text-primary-300 transition-colors" size={14} />
+                    </span>
                     {language === 'en' ? 'Pharma & Healthcare' : 'Pharma i zdravstvo'}
-                  </div>
+                  </Link>
                 </li>
                 <li>
-                  <div className="text-gray-300 flex items-center">
-                    <FaChevronRight className="mr-2 text-xs text-primary-400" />
+                  <Link to="/industry/manufacturing" className="text-gray-300 hover:text-white transition-colors flex items-center group">
+                    <span className="mr-2 w-5 flex justify-center">
+                      <FaIndustry className="text-primary-400 group-hover:text-primary-300 transition-colors" size={14} />
+                    </span>
                     {language === 'en' ? 'Manufacturing & Services' : 'Proizvodnja i usluge'}
-                  </div>
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/industry/real-estate" className="text-gray-300 hover:text-white transition-colors flex items-center group">
+                    <span className="mr-2 w-5 flex justify-center">
+                      <FaHome className="text-primary-400 group-hover:text-primary-300 transition-colors" size={14} />
+                    </span>
+                    {language === 'en' ? 'Real Estate' : 'Nekretnine'}
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/industry/media" className="text-gray-300 hover:text-white transition-colors flex items-center group">
+                    <span className="mr-2 w-5 flex justify-center">
+                      <FaNewspaper className="text-primary-400 group-hover:text-primary-300 transition-colors" size={14} />
+                    </span>
+                    {language === 'en' ? 'Media' : 'Mediji'}
+                  </Link>
                 </li>
               </ul>
             </div>

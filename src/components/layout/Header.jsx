@@ -6,13 +6,18 @@ import { FaBars, FaTimes, FaBalanceScale, FaPhone } from 'react-icons/fa'
 const navigation = [
   { name: 'About us', href: '/about', nameCro: 'O nama' },
   { name: 'Practice areas', href: '/practice-areas', nameCro: 'Područja prakse' },
-  { name: 'Experience', href: '/experience', nameCro: 'Iskustvo' },
+  { name: 'Industry', href: '/industry', nameCro: 'Industrija' },
   { name: 'Contact', href: '/contact', nameCro: 'Kontakt' },
 ]
 
 export default function Header({ language, setLanguage }) {
   const [scrolled, setScrolled] = useState(false)
   const location = useLocation()
+  
+  // Debug: Log path information
+  console.log("Current pathname:", location.pathname);
+  console.log("Path segments:", location.pathname.split('/'));
+  console.log("Path depth:", location.pathname.split('/').length);
   
   useEffect(() => {
     const handleScroll = () => {
@@ -26,6 +31,10 @@ export default function Header({ language, setLanguage }) {
     window.addEventListener('scroll', handleScroll)
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
+
+  // Determine if we're on a specific practice area page
+  const isSpecificPracticeArea = location.pathname.startsWith('/practice-areas/') && 
+                               location.pathname !== '/practice-areas/';
 
   return (
     <Disclosure as="nav" className={`fixed w-full z-50 transition-all duration-500 border-t-0 ${scrolled ? 'bg-white shadow-lg' : 'bg-white/95 backdrop-blur-sm'}`}>
@@ -94,7 +103,11 @@ export default function Header({ language, setLanguage }) {
                       key={item.href}
                       to={item.href}
                       className={`${
-                        location.pathname === item.href || (item.href !== '/' && location.pathname.startsWith(item.href))
+                        (location.pathname === item.href || 
+                         (location.pathname.startsWith(item.href) && 
+                          item.href !== '/practice-areas')) &&
+                         // Don't highlight "Practice areas" when on a specific area page  
+                         !(item.href === '/practice-areas' && isSpecificPracticeArea)
                           ? 'border-primary-600 text-primary-800'
                           : 'border-transparent text-secondary-800 hover:border-secondary-300 hover:text-primary-700'
                       } inline-flex items-center px-1 border-b text-base font-medium transition-all duration-300 hover:scale-105 h-full`}
@@ -136,7 +149,11 @@ export default function Header({ language, setLanguage }) {
                     as={Link}
                     to={item.href}
                     className={`${
-                      location.pathname === item.href || (item.href !== '/' && location.pathname.startsWith(item.href))
+                      (location.pathname === item.href || 
+                       (location.pathname.startsWith(item.href) && 
+                        item.href !== '/practice-areas')) &&
+                       // Don't highlight "Practice areas" when on a specific area page
+                       !(item.href === '/practice-areas' && isSpecificPracticeArea)
                         ? 'bg-primary-50 text-primary-800 border-l-4 border-primary-600 pl-3'
                         : 'text-secondary-800 hover:bg-secondary-50 hover:text-primary-700 pl-4'
                     } block py-3 rounded-md text-base font-medium transition-all duration-300`}

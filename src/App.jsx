@@ -4,8 +4,24 @@ import Layout from './components/layout/Layout'
 import Home from './pages/Home'
 import About from './pages/about'
 import PracticeAreas from './pages/practice-areas'
-import Experience from './pages/experience'
+import Industry from './pages/industry'
 import Contact from './pages/contact'
+
+// Practice Area detail pages
+import CommercialLaw from './pages/practice-areas/commercial-law/index.jsx'
+import LaborLaw from './pages/practice-areas/labor-law/index.jsx'
+import CorporateLaw from './pages/practice-areas/corporate-law/index.jsx'
+import RealEstate from './pages/practice-areas/real-estate/index.jsx'
+import ContractLaw from './pages/practice-areas/contract-law/index.jsx'
+import DisputeResolution from './pages/practice-areas/dispute-resolution/index.jsx'
+
+// Industry detail pages
+import ConstructionIndustry from './pages/industry/construction/index.jsx'
+import ITIndustry from './pages/industry/it/index.jsx'
+import PharmaIndustry from './pages/experience/pharma/index.jsx'
+import ManufacturingIndustry from './pages/experience/manufacturing/index.jsx'
+import RealEstateIndustry from './pages/industry/real-estate/index.jsx'
+import MediaIndustry from './pages/industry/media/index.jsx'
 
 // Create language context to avoid prop drilling
 export const LanguageContext = createContext({
@@ -36,60 +52,69 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/practice-areas" element={<PracticeAreas />} />
-        <Route path="/experience" element={<Experience />} />
+        <Route path="/industry" element={<Industry />} />
         <Route path="/contact" element={<Contact />} />
         
         {/* Practice Areas Detail Pages */}
         <Route 
           path="/practice-areas/commercial-law" 
-          element={<PlaceholderPage title={language === 'en' ? 'Commercial Law' : 'Trgovačko pravo'} />} 
+          element={<CommercialLaw />} 
         />
         <Route 
           path="/practice-areas/labor-law" 
-          element={<PlaceholderPage title={language === 'en' ? 'Labor Law' : 'Radno pravo'} />} 
+          element={<LaborLaw />} 
         />
         <Route 
           path="/practice-areas/corporate-law" 
-          element={<PlaceholderPage title={language === 'en' ? 'Corporate Law' : 'Pravo trgovačkih društava'} />} 
+          element={<CorporateLaw />} 
         />
         <Route 
           path="/practice-areas/real-estate" 
-          element={<PlaceholderPage title={language === 'en' ? 'Real Estate & Civil Law' : 'Nekretnine i Građansko pravo'} />} 
+          element={<RealEstate />} 
         />
         <Route 
           path="/practice-areas/contract-law" 
-          element={<PlaceholderPage title={language === 'en' ? 'Contract Law' : 'Ugovorno pravo'} />} 
+          element={<ContractLaw />} 
         />
         <Route 
           path="/practice-areas/dispute-resolution" 
-          element={<PlaceholderPage title={language === 'en' ? 'Dispute Resolution' : 'Rješavanje sporova'} />} 
+          element={<DisputeResolution />} 
         />
         
-        {/* Experience Detail Pages */}
+        {/* Industry Detail Pages */}
         <Route 
-          path="/experience/construction" 
-          element={<PlaceholderPage title={language === 'en' ? 'Construction Industry' : 'Građevinska industrija'} />} 
+          path="/industry/construction" 
+          element={<ConstructionIndustry />} 
         />
         <Route 
-          path="/experience/it" 
-          element={<PlaceholderPage title={language === 'en' ? 'IT Industry' : 'IT Industrija'} />} 
+          path="/industry/it" 
+          element={<ITIndustry />} 
         />
         <Route 
-          path="/experience/pharma" 
-          element={<PlaceholderPage title={language === 'en' ? 'Pharma & Healthcare' : 'Pharma i zdravstvo'} />} 
+          path="/industry/pharma" 
+          element={<PharmaIndustry />} 
         />
         <Route 
-          path="/experience/manufacturing" 
-          element={<PlaceholderPage title={language === 'en' ? 'Manufacturing & Services' : 'Proizvodnja i usluge'} />} 
+          path="/industry/manufacturing" 
+          element={<ManufacturingIndustry />} 
         />
         <Route 
-          path="/experience/education" 
-          element={<PlaceholderPage title={language === 'en' ? 'Education' : 'Obrazovanje'} />} 
+          path="/industry/real-estate" 
+          element={<RealEstateIndustry />} 
         />
         <Route 
-          path="/experience/financial" 
-          element={<PlaceholderPage title={language === 'en' ? 'Financial Services' : 'Financijske usluge'} />} 
+          path="/industry/media" 
+          element={<MediaIndustry />} 
         />
+        
+        {/* Legacy Experience Routes (redirects) */}
+        <Route path="/experience" element={<Industry />} />
+        <Route path="/experience/construction" element={<ConstructionIndustry />} />
+        <Route path="/experience/it" element={<ITIndustry />} />
+        <Route path="/experience/pharma" element={<PharmaIndustry />} />
+        <Route path="/experience/manufacturing" element={<ManufacturingIndustry />} />
+        <Route path="/experience/real-estate" element={<RealEstateIndustry />} />
+        <Route path="/experience/media" element={<MediaIndustry />} />
         
         {/* 404 Page */}
         <Route 

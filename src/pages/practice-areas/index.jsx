@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom'
 import { FaGavel, FaUserTie, FaBalanceScale, FaBuilding, FaHandshake, FaFileContract } from 'react-icons/fa'
 import { LanguageContext } from '../../App'
 
-const PracticeArea = ({ icon, title, description, index }) => (
-  <div className="fade-in-section hover-lift">
+const PracticeArea = ({ icon, title, description, index, link, language }) => (
+  <Link to={link} className="fade-in-section hover-lift">
     <div className="bg-white rounded-xl shadow-elegant hover:shadow-elegant-lg p-8 h-full border-t-4 border-transparent hover:border-primary-600 transition-all duration-300 flex flex-col">
       <div className="mb-6 flex items-center justify-between">
         <div className="bg-primary-50 text-primary-700 p-4 rounded-lg">
@@ -15,8 +15,18 @@ const PracticeArea = ({ icon, title, description, index }) => (
       
       <h3 className="text-2xl font-serif font-bold text-primary-800 mb-4">{title}</h3>
       <p className="text-secondary-700 flex-grow">{description}</p>
+      
+      {/* Learn more link */}
+      <div className="mt-4 pt-4 border-t border-gray-100">
+        <span className="text-primary-600 font-medium underline inline-flex items-center">
+          {language === 'en' ? 'Learn more' : 'Saznajte više'}
+          <svg className="ml-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"></path>
+          </svg>
+        </span>
+      </div>
     </div>
-  </div>
+  </Link>
 );
 
 export default function PracticeAreas() {
@@ -129,7 +139,7 @@ export default function PracticeAreas() {
         <div className="absolute inset-0 opacity-5 bg-repeat" style={{ backgroundImage: 'url(/images/backgrounds/legal-pattern.svg)' }}></div>
         
         
-        <div className="container-custom relative z-10 my-auto pt-32">
+        <div className="container-custom relative z-10 my-auto pt-36 sm:pt-32">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-white mb-6 animate-fade-in">
               {language === 'en' ? 'Practice Areas' : 'Područja prakse'}
@@ -155,6 +165,8 @@ export default function PracticeAreas() {
                 title={area.title}
                 description={area.description}
                 index={index + 1}
+                link={area.link}
+                language={language}
               />
             ))}
           </div>

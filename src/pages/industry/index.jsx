@@ -1,6 +1,6 @@
 import { useContext, useEffect } from 'react'
 import { Link } from 'react-router-dom'
-import { FaBuilding, FaLaptopCode, FaPrescriptionBottleAlt, FaIndustry, FaUniversity, FaPiggyBank } from 'react-icons/fa'
+import { FaBuilding, FaLaptopCode, FaPrescriptionBottleAlt, FaIndustry, FaHome, FaNewspaper } from 'react-icons/fa'
 import { LanguageContext } from '../../App'
 
 const IndustryCard = ({ icon, title, description, count, link }) => (
@@ -34,7 +34,7 @@ const IndustryCard = ({ icon, title, description, count, link }) => (
   </div>
 );
 
-export default function Experience() {
+export default function Industry() {
   const { language } = useContext(LanguageContext);
   
   // Animation for sections on scroll
@@ -66,42 +66,42 @@ export default function Experience() {
       title: 'Construction Industry',
       description: 'We provide comprehensive legal support for construction companies, contractors, and developers on matters including contracts, regulations, permits, and dispute resolution.',
       count: '01',
-      link: '/experience/construction'
+      link: '/industry/construction'
     },
     {
       icon: <FaLaptopCode size={28} />,
       title: 'IT Industry',
       description: 'Our expertise in technology law covers software licensing, data protection, intellectual property, and technology contracts, helping IT businesses navigate complex legal challenges.',
       count: '02',
-      link: '/experience/it'
+      link: '/industry/it'
     },
     {
       icon: <FaPrescriptionBottleAlt size={28} />,
       title: 'Pharmaceutical & Healthcare',
       description: 'We assist pharmaceutical companies and healthcare providers with regulatory compliance, licensing, intellectual property protection, and liability issues.',
       count: '03',
-      link: '/experience/pharma'
+      link: '/industry/pharma'
     },
     {
       icon: <FaIndustry size={28} />,
       title: 'Manufacturing & Services',
       description: 'Our firm provides tailored legal solutions for manufacturing companies and service providers on matters including contracts, labor law, and regulatory compliance.',
       count: '04',
-      link: '/experience/manufacturing'
+      link: '/industry/manufacturing'
     },
     {
-      icon: <FaUniversity size={28} />,
-      title: 'Education',
-      description: 'We advise educational institutions on legal matters related to operations, employment, student affairs, and regulatory compliance, helping them maintain focus on their educational mission.',
+      icon: <FaHome size={28} />,
+      title: 'Real Estate',
+      description: 'We provide comprehensive legal support for real estate transactions, property development, land use regulations, and real estate litigation for investors and property owners.',
       count: '05',
-      link: '/experience/education'
+      link: '/industry/real-estate'
     },
     {
-      icon: <FaPiggyBank size={28} />,
-      title: 'Financial Services',
-      description: 'Our team provides legal counsel to banks, investment firms, and insurance companies on regulatory compliance, transactions, and dispute resolution in the financial sector.',
+      icon: <FaNewspaper size={28} />,
+      title: 'Media',
+      description: 'Our expertise covers media law, intellectual property rights, defamation cases, privacy concerns, and contractual matters for media companies and professionals.',
       count: '06',
-      link: '/experience/financial'
+      link: '/industry/media'
     }
   ] : [
     {
@@ -109,42 +109,42 @@ export default function Experience() {
       title: 'Građevinska industrija',
       description: 'Pružamo sveobuhvatnu pravnu podršku građevinskim tvrtkama, izvođačima i investitorima u pitanjima koja uključuju ugovore, propise, dozvole i rješavanje sporova.',
       count: '01',
-      link: '/experience/construction'
+      link: '/industry/construction'
     },
     {
       icon: <FaLaptopCode size={28} />,
       title: 'IT Industrija',
       description: 'Naša stručnost u području tehnološkog prava obuhvaća licenciranje softvera, zaštitu podataka, intelektualno vlasništvo i tehnološke ugovore, pomažući IT tvrtkama u navigaciji složenih pravnih izazova.',
       count: '02',
-      link: '/experience/it'
+      link: '/industry/it'
     },
     {
       icon: <FaPrescriptionBottleAlt size={28} />,
       title: 'Farmaceutska industrija i zdravstvo',
       description: 'Pomažemo farmaceutskim tvrtkama i pružateljima zdravstvenih usluga s regulatornom usklađenošću, licenciranjem, zaštitom intelektualnog vlasništva i pitanjima odgovornosti.',
       count: '03',
-      link: '/experience/pharma'
+      link: '/industry/pharma'
     },
     {
       icon: <FaIndustry size={28} />,
       title: 'Proizvodnja i usluge',
       description: 'Naša tvrtka pruža prilagođena pravna rješenja za proizvodne tvrtke i pružatelje usluga u pitanjima koja uključuju ugovore, radno pravo i regulatornu usklađenost.',
       count: '04',
-      link: '/experience/manufacturing'
+      link: '/industry/manufacturing'
     },
     {
-      icon: <FaUniversity size={28} />,
-      title: 'Obrazovanje',
-      description: 'Savjetujemo obrazovne institucije o pravnim pitanjima vezanim uz poslovanje, zapošljavanje, studentska pitanja i regulatornu usklađenost, pomažući im održati fokus na obrazovnoj misiji.',
+      icon: <FaHome size={28} />,
+      title: 'Nekretnine',
+      description: 'Pružamo sveobuhvatnu pravnu podršku za transakcije nekretninama, razvoj nekretnina, propise o korištenju zemljišta i sporove vezane uz nekretnine za investitore i vlasnike nekretnina.',
       count: '05',
-      link: '/experience/education'
+      link: '/industry/real-estate'
     },
     {
-      icon: <FaPiggyBank size={28} />,
-      title: 'Financijske usluge',
-      description: 'Naš tim pruža pravne savjete bankama, investicijskim tvrtkama i osiguravajućim društvima o regulatornoj usklađenosti, transakcijama i rješavanju sporova u financijskom sektoru.',
+      icon: <FaNewspaper size={28} />,
+      title: 'Mediji',
+      description: 'Naša stručnost obuhvaća medijsko pravo, prava intelektualnog vlasništva, slučajeve klevete, pitanja privatnosti i ugovorne odnose za medijske tvrtke i profesionalce.',
       count: '06',
-      link: '/experience/financial'
+      link: '/industry/media'
     }
   ];
 

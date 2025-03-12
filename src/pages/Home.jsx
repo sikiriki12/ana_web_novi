@@ -44,7 +44,7 @@ export default function Home() {
   return (
     <div>
       {/* Hero Section - Full height with elegant background */}
-      <section ref={heroRef} className="relative overflow-hidden flex flex-col justify-start sm:justify-center min-h-screen pt-[95px] sm:pt-32 md:pt-28 lg:pt-20 bg-offwhite">
+      <section ref={heroRef} className="relative overflow-hidden flex flex-col justify-start sm:justify-center min-h-screen pt-[130px] sm:pt-32 md:pt-28 lg:pt-20 bg-offwhite">
         {/* Subtle background pattern */}
         <div className="absolute inset-0 z-0 bg-offwhite opacity-95"></div>
         
@@ -133,7 +133,7 @@ export default function Home() {
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
             {/* Commercial Law */}
-            <div className="group">
+            <Link to="/practice-areas/commercial-law" className="group">
               <div className="card rounded-lg bg-white shadow p-8 border-t-4 border-primary-600 relative overflow-hidden">
                 <div className="absolute top-0 right-0 w-0 h-0 border-t-[100px] border-t-primary-100/50 border-l-[100px] border-l-transparent z-0"></div>
                 
@@ -148,12 +148,22 @@ export default function Home() {
                       ? 'We provide legal assistance in business operations, offering legal advice in the field of contract law, drafting commercial contracts, and representation in commercial disputes.'
                       : 'Pružamo pravnu pomoć u poslovanju, pravne savjete iz područja ugovornog prava, sastavljamo trgovačke ugovore i zastupamo u trgovačkim sporovima.'}
                   </p>
+                  
+                  {/* Learn more link */}
+                  <div className="mt-4 pt-4 border-t border-gray-100">
+                    <span className="text-primary-600 font-medium underline inline-flex items-center">
+                      {language === 'en' ? 'Learn more' : 'Saznajte više'}
+                      <svg className="ml-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"></path>
+                      </svg>
+                    </span>
+                  </div>
                 </div>
               </div>
-            </div>
+            </Link>
             
             {/* Labor Law */}
-            <div className="group">
+            <Link to="/practice-areas/labor-law" className="group">
               <div className="card rounded-lg bg-white shadow p-8 border-t-4 border-primary-600 relative overflow-hidden">
                 <div className="absolute top-0 right-0 w-0 h-0 border-t-[100px] border-t-primary-100/50 border-l-[100px] border-l-transparent z-0"></div>
                 
@@ -168,12 +178,22 @@ export default function Home() {
                       ? 'We provide consulting and representation services regarding employment contracts, rights and obligations of workers and employers, and resolution of disputes in the field of labor relations.'
                       : 'Pružamo usluge savjetovanja i zastupanja u vezi s ugovorima o radu, pravima i obvezama radnika i poslodavaca, kao i u rješavanju sporova u području radnih odnosa.'}
                   </p>
+                  
+                  {/* Learn more link */}
+                  <div className="mt-4 pt-4 border-t border-gray-100">
+                    <span className="text-primary-600 font-medium underline inline-flex items-center">
+                      {language === 'en' ? 'Learn more' : 'Saznajte više'}
+                      <svg className="ml-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"></path>
+                      </svg>
+                    </span>
+                  </div>
                 </div>
               </div>
-            </div>
+            </Link>
             
             {/* Corporate Law */}
-            <div className="group">
+            <Link to="/practice-areas/corporate-law" className="group">
               <div className="card rounded-lg bg-white shadow p-8 border-t-4 border-primary-600 relative overflow-hidden">
                 <div className="absolute top-0 right-0 w-0 h-0 border-t-[100px] border-t-primary-100/50 border-l-[100px] border-l-transparent z-0"></div>
                 
@@ -188,12 +208,22 @@ export default function Home() {
                       ? 'We provide legal services related to the establishment of companies, management issues, and status changes, including complete legal support during mergers and acquisitions.'
                       : 'Pružamo pravne usluge u vezi s osnivanjem trgovačkih društava, pitanjima upravljanja i statusnim promjenama, uključujući i kompletnu pravnu podršku tijekom pripajanja i preuzimanja društava.'}
                   </p>
+                  
+                  {/* Learn more link */}
+                  <div className="mt-4 pt-4 border-t border-gray-100">
+                    <span className="text-primary-600 font-medium underline inline-flex items-center">
+                      {language === 'en' ? 'Learn more' : 'Saznajte više'}
+                      <svg className="ml-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"></path>
+                      </svg>
+                    </span>
+                  </div>
                 </div>
               </div>
-            </div>
+            </Link>
             
             {/* Real Estate & Civil Law */}
-            <div className="group">
+            <Link to="/practice-areas/real-estate" className="group">
               <div className="card rounded-lg bg-white shadow p-8 border-t-4 border-primary-600 relative overflow-hidden">
                 <div className="absolute top-0 right-0 w-0 h-0 border-t-[100px] border-t-primary-100/50 border-l-[100px] border-l-transparent z-0"></div>
                 
@@ -208,9 +238,19 @@ export default function Home() {
                       ? 'We provide complete legal support during real estate investments and represent clients in civil proceedings related to property rights, contract disputes, and damage compensation claims.'
                       : 'Pružamo kompletnu pravnu potporu prilikom nekretninskih investicija i zastupamo klijente u građanskim postupcima vezanim za vlasnička prava, ugovorne sporove i zahtjeve za naknadu štete.'}
                   </p>
+                  
+                  {/* Learn more link */}
+                  <div className="mt-4 pt-4 border-t border-gray-100">
+                    <span className="text-primary-600 font-medium underline inline-flex items-center">
+                      {language === 'en' ? 'Learn more' : 'Saznajte više'}
+                      <svg className="ml-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"></path>
+                      </svg>
+                    </span>
+                  </div>
                 </div>
               </div>
-            </div>
+            </Link>
           </div>
           
           <div className="text-center mt-12">
@@ -252,8 +292,8 @@ export default function Home() {
           
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             {/* Construction */}
-            <div className="group">
-              <div className="bg-white rounded-xl shadow-md flex flex-col items-center text-center p-8 h-full relative overflow-hidden">
+            <Link to="/industry/construction" className="group cursor-pointer">
+              <div className="bg-white rounded-xl shadow-md flex flex-col items-center text-center p-8 h-full relative overflow-hidden transition-all duration-300 hover:shadow-lg">
                 <div className="absolute -right-16 -top-20 w-32 h-32 bg-primary-100 rounded-full"></div>
                 <div className="relative z-10">
                   <div className="relative bg-white ring-8 ring-primary-50 shadow-md rounded-full p-6 mb-6">
@@ -264,18 +304,24 @@ export default function Home() {
                   <h3 className="text-lg font-serif font-bold text-primary-800 mb-3">
                     {language === 'en' ? 'Construction Industry' : 'Građevinska industrija'}
                   </h3>
-                  <p className="text-secondary-600 text-sm">
+                  <p className="text-secondary-600 text-sm h-20">
                     {language === 'en' 
                       ? 'Legal expertise in construction contracts, regulations, and dispute resolution.' 
                       : 'Pravna stručnost u građevinskim ugovorima, propisima i rješavanju sporova.'}
                   </p>
+                  <div className="mt-4 pt-4 border-t border-gray-100">
+                    <span className="text-primary-600 font-medium inline-flex items-center underline">
+                      {language === 'en' ? 'Learn more' : 'Saznajte više'}
+                      <FaArrowRight className="ml-1 w-3 h-3" />
+                    </span>
+                  </div>
                 </div>
               </div>
-            </div>
+            </Link>
             
             {/* IT */}
-            <div className="group">
-              <div className="bg-white rounded-xl shadow-md flex flex-col items-center text-center p-8 h-full relative overflow-hidden">
+            <Link to="/industry/it" className="group cursor-pointer">
+              <div className="bg-white rounded-xl shadow-md flex flex-col items-center text-center p-8 h-full relative overflow-hidden transition-all duration-300 hover:shadow-lg">
                 <div className="absolute -right-16 -top-20 w-32 h-32 bg-primary-100 rounded-full"></div>
                 <div className="relative z-10">
                   <div className="relative bg-white ring-8 ring-primary-50 shadow-md rounded-full p-6 mb-6">
@@ -286,18 +332,24 @@ export default function Home() {
                   <h3 className="text-lg font-serif font-bold text-primary-800 mb-3">
                     {language === 'en' ? 'IT Industry' : 'IT Industrija'}
                   </h3>
-                  <p className="text-secondary-600 text-sm">
+                  <p className="text-secondary-600 text-sm h-20">
                     {language === 'en' 
                       ? 'Specialized in intellectual property, data protection, and technology contracts.' 
                       : 'Specijalizirani za intelektualno vlasništvo, zaštitu podataka i tehnološke ugovore.'}
                   </p>
+                  <div className="mt-4 pt-4 border-t border-gray-100">
+                    <span className="text-primary-600 font-medium inline-flex items-center underline">
+                      {language === 'en' ? 'Learn more' : 'Saznajte više'}
+                      <FaArrowRight className="ml-1 w-3 h-3" />
+                    </span>
+                  </div>
                 </div>
               </div>
-            </div>
+            </Link>
             
             {/* Pharma */}
-            <div className="group">
-              <div className="bg-white rounded-xl shadow-md flex flex-col items-center text-center p-8 h-full relative overflow-hidden">
+            <Link to="/industry/pharma" className="group cursor-pointer">
+              <div className="bg-white rounded-xl shadow-md flex flex-col items-center text-center p-8 h-full relative overflow-hidden transition-all duration-300 hover:shadow-lg">
                 <div className="absolute -right-16 -top-16 w-32 h-32 bg-primary-100 rounded-full"></div>
                 <div className="relative z-10">
                   <div className="relative bg-white ring-8 ring-primary-50 shadow-md rounded-full p-6 mb-6">
@@ -308,18 +360,24 @@ export default function Home() {
                   <h3 className="text-lg font-serif font-bold text-primary-800 mb-3">
                     {language === 'en' ? 'Pharma & Healthcare' : 'Pharma i zdravstvo'}
                   </h3>
-                  <p className="text-secondary-600 text-sm">
+                  <p className="text-secondary-600 text-sm h-20">
                     {language === 'en' 
                       ? 'Legal expertise in pharmaceutical regulations, compliance, and healthcare law.' 
                       : 'Pravna stručnost u farmaceutskim propisima, usklađenosti i zdravstvenom pravu.'}
                   </p>
+                  <div className="mt-4 pt-4 border-t border-gray-100">
+                    <span className="text-primary-600 font-medium inline-flex items-center underline">
+                      {language === 'en' ? 'Learn more' : 'Saznajte više'}
+                      <FaArrowRight className="ml-1 w-3 h-3" />
+                    </span>
+                  </div>
                 </div>
               </div>
-            </div>
+            </Link>
             
-            {/* Manufanpmcturing */}
-            <div className="group">
-              <div className="bg-white rounded-xl shadow-md flex flex-col items-center text-center p-8 h-full relative overflow-hidden">
+            {/* Manufacturing */}
+            <Link to="/industry/manufacturing" className="group cursor-pointer">
+              <div className="bg-white rounded-xl shadow-md flex flex-col items-center text-center p-8 h-full relative overflow-hidden transition-all duration-300 hover:shadow-lg">
                 <div className="absolute -right-16 -top-16 w-32 h-32 bg-primary-100 rounded-full"></div>
                 <div className="relative z-10">
                   <div className="relative bg-white ring-8 ring-primary-50 shadow-md rounded-full p-6 mb-6">
@@ -330,18 +388,24 @@ export default function Home() {
                   <h3 className="text-lg font-serif font-bold text-primary-800 mb-3">
                     {language === 'en' ? 'Manufacturing & Services' : 'Proizvodnja i usluge'}
                   </h3>
-                  <p className="text-secondary-600 text-sm">
+                  <p className="text-secondary-600 text-sm h-20">
                     {language === 'en' 
                       ? 'Expert in production regulations, service contracts and business operations.' 
                       : 'Stručnjak za propise o proizvodnji, ugovore o uslugama i poslovne operacije.'}
                   </p>
+                  <div className="mt-4 pt-4 border-t border-gray-100">
+                    <span className="text-primary-600 font-medium inline-flex items-center underline">
+                      {language === 'en' ? 'Learn more' : 'Saznajte više'}
+                      <FaArrowRight className="ml-1 w-3 h-3" />
+                    </span>
+                  </div>
                 </div>
               </div>
-            </div>
+            </Link>
           </div>
           
           <div className="text-center mt-12">
-            <Link to="/experience" className="btn btn-primary inline-flex items-center">
+            <Link to="/industry" className="btn btn-primary inline-flex items-center">
               {language === 'en' ? 'Explore All Industry Expertise' : 'Istražite sva industrijska znanja'}
               <svg className="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>

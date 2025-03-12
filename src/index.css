@@ -120,11 +120,25 @@ div.group > div.bg-white {
 }
 
 /* Fix link groups */
-a.group {
-  cursor: pointer;
+a.group, a > div.group, a div.cursor-pointer, a > .block > .group {
+  cursor: pointer !important;
 }
 
 /* Ensure all cards within plain div groups don't inherit link styling */
 div.group {
   cursor: default;
+}
+
+/* Specific rule for industry cards */
+.fade-in-section a, 
+.fade-in-section a > div,
+.fade-in-section a > div.group,
+.fade-in-section a .bg-white,
+a .group {
+  cursor: pointer !important;
+}
+
+/* Additional fallback for any Link component wrapping divs */
+a div, div a, a > div {
+  cursor: pointer !important;
 }
