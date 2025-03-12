@@ -4,6 +4,15 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
+  build: {
+    outDir: 'dist',
+    // Improve build performance
+    minify: 'terser',
+    // Create a clean build
+    emptyOutDir: true,
+    // Inline smaller assets
+    assetsInlineLimit: 4096,
+  },
   server: {
     hmr: {
       overlay: true,
