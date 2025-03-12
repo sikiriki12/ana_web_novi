@@ -97,7 +97,7 @@ export default function Home() {
                 {/* Professional image - free from box */}
                 <div className="relative z-10">
                   <img 
-                    src="/src/assets/Ana_animated.webp"
+                    src="/Ana_animated.webp"
                     alt="Ana Bandalo"
                     className="max-w-full h-auto max-h-[600px] object-contain drop-shadow-xl animate-fade-in"
                   />
