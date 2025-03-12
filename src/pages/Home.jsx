@@ -44,7 +44,7 @@ export default function Home() {
   return (
     <div>
       {/* Hero Section - Full height with elegant background */}
-      <section ref={heroRef} className="relative overflow-hidden flex flex-col justify-start sm:justify-center min-h-screen pt-32 sm:pt-32 md:pt-28 lg:pt-20 bg-offwhite">
+      <section ref={heroRef} className="relative overflow-hidden flex flex-col justify-start sm:justify-center min-h-screen pt-20 sm:pt-32 md:pt-28 lg:pt-20 bg-offwhite">
         {/* Subtle background pattern */}
         <div className="absolute inset-0 z-0 bg-offwhite opacity-95"></div>
         
