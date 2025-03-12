@@ -78,7 +78,7 @@ export default function Contact() {
   return (
     <div>
       {/* Hero Section */}
-      <section className="relative py-20 md:py-28 overflow-hidden bg-gradient-to-r from-secondary-800 to-secondary-700 text-white">
+      <section className="relative py-20 md:py-28 overflow-hidden bg-primary-800 text-white">
         {/* Background pattern */}
         <div className="absolute inset-0 opacity-5 bg-repeat" style={{ backgroundImage: 'url(/images/backgrounds/legal-pattern.svg)' }}></div>
         
@@ -90,13 +90,8 @@ export default function Contact() {
         
         <div className="container-custom relative z-10">
           <div className="max-w-4xl mx-auto text-center">
-            <div className="inline-block glass-effect px-5 py-2 rounded-full mb-6 transform rotate-1 animate-fade-in">
-              <p className="text-sm md:text-base tracking-widest text-white font-medium uppercase">
-                {language === 'en' ? 'Get in Touch' : 'Kontaktirajte nas'}
-              </p>
-            </div>
             
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold mb-6 animate-fade-in">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-white mb-6 animate-fade-in">
               {language === 'en' ? 'Contact Us' : 'Kontakt'}
             </h1>
             
@@ -107,9 +102,6 @@ export default function Contact() {
             </p>
           </div>
         </div>
-        
-        {/* Bottom fade */}
-        <div className="absolute bottom-0 left-0 w-full h-16 bg-gradient-to-t from-offwhite to-transparent"></div>
       </section>
 
       {/* Contact Form & Info Section */}
