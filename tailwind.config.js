@@ -4,6 +4,32 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
+  safelist: [
+    // Text colors
+    'text-primary-900', 'text-primary-800', 'text-primary-700', 'text-primary-600', 'text-primary-500',
+    'text-secondary-900', 'text-secondary-800', 'text-secondary-700', 'text-secondary-600', 'text-secondary-500',
+    'text-white',
+    
+    // Background colors
+    'bg-primary-900', 'bg-primary-800', 'bg-primary-700', 'bg-primary-600', 'bg-primary-500', 
+    'bg-secondary-900', 'bg-secondary-800', 'bg-secondary-700', 'bg-secondary-600', 'bg-secondary-500',
+    'bg-white', 'bg-offwhite', 'bg-cream',
+    
+    // Hover states
+    'hover:bg-primary-700', 'hover:bg-primary-800', 'hover:bg-primary-900',
+    'hover:bg-secondary-50', 'hover:bg-secondary-100', 'hover:bg-secondary-200',
+    
+    // Border colors
+    'border-primary-900', 'border-primary-800', 'border-primary-700', 'border-primary-600', 'border-primary-500',
+    'border-secondary-900', 'border-secondary-800', 'border-secondary-700', 'border-secondary-600', 'border-secondary-500', 
+    'border-secondary-400', 'border-secondary-300', 'border-secondary-200', 'border-secondary-100',
+    
+    // Shadows
+    'shadow-elegant', 'shadow-elegant-lg',
+    
+    // Animations
+    'animate-float', 'animate-slide-up', 'animate-fade-in'
+  ],
   theme: {
     extend: {
       colors: {
