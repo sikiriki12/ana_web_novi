@@ -1,5 +1,8 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
+import tailwindcss from 'tailwindcss'
+import autoprefixer from 'autoprefixer'
+import tailwindConfig from './tailwind.config.js'
 
 // https://vite.dev/config/
 export default defineConfig({
@@ -12,6 +15,14 @@ export default defineConfig({
     emptyOutDir: true,
     // Inline smaller assets
     assetsInlineLimit: 4096,
+  },
+  css: {
+    postcss: {
+      plugins: [
+        tailwindcss(tailwindConfig),
+        autoprefixer(),
+      ],
+    },
   },
   server: {
     hmr: {
