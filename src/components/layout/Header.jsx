@@ -75,11 +75,8 @@ export default function Header({ language, setLanguage }) {
               {/* Logo */}
               <div className="flex-1 flex items-center justify-between relative">
                 <div className="flex-shrink-0 ml-1 sm:ml-0">
-                  <Link to="/" className="flex items-center group absolute top-1/2 translate-y-[-10px]">
-                    <div className="mr-1 text-primary-700 hidden sm:block">
-                      <FaBalanceScale size={12} className="group-hover:scale-110 transition-transform duration-300" />
-                    </div>
-                    <div>
+                <Link to="/" className="flex items-center group absolute top-1/2 translate-y-[-10px]">
+                  <div>
                       <h1 className="text-sm font-serif font-bold text-primary-800 m-0 leading-none">
                         Ana Bandalo
                       </h1>

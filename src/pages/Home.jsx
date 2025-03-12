@@ -53,23 +53,15 @@ export default function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
             {/* Text content - Animated entrance */}
             <div className="lg:col-span-7 space-y-6">
-              {/* Animated heading */}
-              <div className="space-y-2">
-                <h1 className="text-5xl md:text-6xl lg:text-7xl font-serif font-bold text-primary-800 leading-tight animate-slide-up">
-                  Ana Bandalo
-                </h1>
-                <p className="text-3xl md:text-4xl font-serif text-primary-600 animate-slide-up animate-delay-200">
-                  {language === 'en' ? 'Attorney at Law' : 'Odvjetnica'}
-                </p>
-              </div>
+              {/* Hero content starts directly with the first paragraph */}
               
-              <p className="text-xl md:text-2xl font-serif text-secondary-700 max-w-xl animate-fade-in animate-delay-300">
+              <p className="text-2xl md:text-3xl lg:text-4xl font-serif text-primary-800 font-bold max-w-2xl animate-fade-in animate-delay-300">
                 {language === 'en' 
                   ? 'With over 20 years of legal experience, delivering exceptional results for clients.' 
                   : 'S više od 20 godina pravnog iskustva, ostvarujemo iznimne rezultate za klijente.'}
               </p>
               
-              <p className="text-lg text-secondary-600 max-w-xl animate-fade-in animate-delay-400">
+              <p className="text-lg md:text-xl text-secondary-600 max-w-2xl animate-fade-in animate-delay-400">
                 {language === 'en'
                   ? 'Providing focused and passionate legal representation in corporate and civil law matters throughout Croatia.'
                   : 'Pružamo fokusirano i strastveno pravno zastupanje u poslovima korporativnog i građanskog prava diljem Hrvatske.'}
@@ -436,7 +428,7 @@ export default function Home() {
               </div>
             </div>
             
-            {/* Manufacturing */}
+            {/* Manufanpmcturing */}
             <div className="group">
               <div className="bg-white rounded-xl shadow-md flex flex-col items-center text-center p-8 h-full relative overflow-hidden">
                 <div className="absolute -right-16 -top-16 w-32 h-32 bg-primary-100 rounded-full"></div>
