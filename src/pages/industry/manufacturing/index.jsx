@@ -1,17 +1,12 @@
 import { Link } from 'react-router-dom'
-import { FaHome, FaArrowRight, FaBuilding, FaFileContract, FaGavel, FaUserTie } from 'react-icons/fa'
+import { FaIndustry, FaArrowRight, FaCogs, FaFileContract, FaGavel, FaUserTie } from 'react-icons/fa'
 import { useTranslations } from '../../../hooks/use-translations'
 
-export default function RealEstateIndustry() {
+export default function ManufacturingIndustry() {
   const { t } = useTranslations();
   
-  // Map service icons
-  const serviceIcons = [
-    <FaBuilding size={20} />,
-    <FaGavel size={20} />,
-    <FaFileContract size={20} />,
-    <FaUserTie size={20} />
-  ];
+  // Get service items from translations
+  const services = t('industry.manufacturing.services.items');
 
   return (
     <div>
@@ -29,18 +24,18 @@ export default function RealEstateIndustry() {
           <div className="max-w-4xl mx-auto text-center">
             <div className="inline-flex items-center mb-6 text-primary-300">
               <Link to="/industry" className="hover:text-white transition-colors">
-                {t('industry.real-estate.breadcrumb')}
+                {t('industry.manufacturing.breadcrumb')}
               </Link>
               <span className="mx-3">/</span>
-              <span>{t('industry.real-estate.title')}</span>
+              <span>{t('industry.manufacturing.title')}</span>
             </div>
             
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-white mb-6 animate-fade-in">
-              {t('industry.real-estate.title')}
+              {t('industry.manufacturing.title')}
             </h1>
             
             <p className="text-xl text-primary-100 mb-8 animate-fade-in animate-delay-200 max-w-3xl mx-auto">
-              {t('industry.real-estate.description')}
+              {t('industry.manufacturing.description')}
             </p>
           </div>
         </div>
@@ -56,19 +51,19 @@ export default function RealEstateIndustry() {
                 {/* Introduction */}
                 <div className="flex items-start">
                   <div className="bg-primary-50 p-3 rounded-lg text-primary-600 mr-5 mt-1">
-                    <FaHome size={28} />
+                    <FaIndustry size={28} />
                   </div>
                   <div>
                     <h2 className="text-3xl font-serif font-bold text-primary-800 mt-0 mb-4">
-                      {t('industry.real-estate.intro.title')}
+                      {t('industry.manufacturing.intro.title')}
                     </h2>
                     
                     <p>
-                      {t('industry.real-estate.intro.paragraph1')}
+                      {t('industry.manufacturing.intro.paragraph1')}
                     </p>
                     
                     <p>
-                      {t('industry.real-estate.intro.paragraph2')}
+                      {t('industry.manufacturing.intro.paragraph2')}
                     </p>
                   </div>
                 </div>
@@ -76,15 +71,15 @@ export default function RealEstateIndustry() {
                 {/* Our approach section */}
                 <div className="bg-primary-50 rounded-xl p-8 my-10">
                   <h3 className="text-2xl font-serif font-bold text-primary-800 mb-6">
-                    {t('industry.real-estate.approach.title')}
+                    {t('industry.manufacturing.approach.title')}
                   </h3>
                   
                   <p>
-                    {t('industry.real-estate.approach.paragraph1')}
+                    {t('industry.manufacturing.approach.paragraph1')}
                   </p>
                   
                   <p className="mb-0">
-                    {t('industry.real-estate.approach.paragraph2')}
+                    {t('industry.manufacturing.approach.paragraph2')}
                   </p>
                 </div>
               </div>
@@ -92,19 +87,29 @@ export default function RealEstateIndustry() {
               {/* Services Grid */}
               <div className="mt-12">
                 <h3 className="text-2xl font-serif font-bold text-primary-800 mb-8">
-                  {t('industry.real-estate.services.title')}
+                  {t('industry.manufacturing.services.title')}
                 </h3>
                 
                 <div className="grid md:grid-cols-2 gap-8">
-                  {t('industry.real-estate.services.items').map((service, index) => (
-                    <div key={index} className="bg-white rounded-xl shadow-elegant p-6 border border-primary-100 hover:border-primary-300 transition-all duration-300 hover:shadow-elegant-lg">
-                      <div className="bg-primary-50 p-3 w-fit rounded-lg text-primary-600 mb-4">
-                        {serviceIcons[index]}
+                  {services.map((service, index) => {
+                    // Set up icons mapping
+                    const iconMap = {
+                      0: <FaFileContract size={20} />,
+                      1: <FaGavel size={20} />,
+                      2: <FaUserTie size={20} />,
+                      3: <FaCogs size={20} />
+                    };
+
+                    return (
+                      <div key={index} className="bg-white rounded-xl shadow-elegant p-6 border border-primary-100 hover:border-primary-300 transition-all duration-300 hover:shadow-elegant-lg">
+                        <div className="bg-primary-50 p-3 w-fit rounded-lg text-primary-600 mb-4">
+                          {iconMap[index]}
+                        </div>
+                        <h4 className="text-xl font-serif font-bold text-primary-800 mb-3">{service.title}</h4>
+                        <p className="text-secondary-700">{service.description}</p>
                       </div>
-                      <h4 className="text-xl font-serif font-bold text-primary-800 mb-3">{service.title}</h4>
-                      <p className="text-secondary-700">{service.description}</p>
-                    </div>
-                  ))}
+                    );
+                  })}
                 </div>
               </div>
             </div>
@@ -114,11 +119,11 @@ export default function RealEstateIndustry() {
               {/* Quick Contact CTA */}
               <div className="bg-primary-800 text-white rounded-xl p-8 mb-8">
                 <h3 className="text-xl font-serif font-bold mb-4">
-                  {t('industry.real-estate.sidebar.cta.title')}
+                  {t('industry.manufacturing.sidebar.cta.title')}
                 </h3>
                 
                 <p className="text-primary-100 mb-6">
-                  {t('industry.real-estate.sidebar.cta.description')}
+                  {t('industry.manufacturing.sidebar.cta.description')}
                 </p>
                 
                 <Link to="/contact" className="btn bg-white text-primary-800 hover:bg-white/90 transition-all duration-300 w-full flex justify-center items-center">
@@ -130,11 +135,11 @@ export default function RealEstateIndustry() {
               {/* Why Choose Us */}
               <div className="bg-primary-50 rounded-xl p-8">
                 <h3 className="text-xl font-serif font-bold text-primary-800 mb-4">
-                  {t('industry.real-estate.sidebar.whyChooseUs.title')}
+                  {t('industry.manufacturing.sidebar.whyChooseUs.title')}
                 </h3>
                 
                 <ul className="space-y-4">
-                  {t('industry.real-estate.sidebar.whyChooseUs.reasons').map((reason, index) => (
+                  {t('industry.manufacturing.sidebar.whyChooseUs.reasons').map((reason, index) => (
                     <li key={index} className="flex items-start">
                       <div className="text-primary-600 mr-3 mt-1">
                         <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -158,15 +163,15 @@ export default function RealEstateIndustry() {
         <div className="container-custom">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl font-serif font-bold text-primary-800 mb-6">
-              {t('industry.real-estate.bottomCta.title')}
+              {t('industry.manufacturing.bottomCta.title')}
             </h2>
             
             <p className="text-lg text-secondary-700 mb-8 max-w-3xl mx-auto">
-              {t('industry.real-estate.bottomCta.description')}
+              {t('industry.manufacturing.bottomCta.description')}
             </p>
             
             <Link to="/contact" className="btn btn-primary">
-              {t('industry.real-estate.bottomCta.buttonText')}
+              {t('industry.manufacturing.bottomCta.buttonText')}
             </Link>
           </div>
         </div>

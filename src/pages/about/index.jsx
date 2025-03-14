@@ -1,10 +1,10 @@
-import { useContext, useEffect } from 'react'
+import { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { FaBalanceScale, FaGavel, FaUserTie } from 'react-icons/fa'
-import { LanguageContext } from '../../App'
+import { useTranslations } from '../../hooks/use-translations'
 
 export default function About() {
-  const { language } = useContext(LanguageContext);
+  const { t } = useTranslations();
   
   // Animation for sections on scroll
   useEffect(() => {
@@ -43,12 +43,10 @@ export default function About() {
         <div className="container-custom relative z-10 my-auto pt-32">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-white mb-6 animate-fade-in">
-              {language === 'en' ? 'About Us' : 'O nama'}
+              {t('about.title')}
             </h1>
             <p className="text-xl text-primary-100 mb-8 animate-fade-in animate-delay-200">
-              {language === 'en'
-                ? 'Committed to excellence and personalized legal solutions since 2010'
-                : 'Posvećeni izvrsnosti i personaliziranim pravnim rješenjima od 2010. godine, s fokusom na klijentu i uspjeh u svakom predmetu'}
+              {t('about.subtitle')}
             </p>
           </div>
         </div>
@@ -63,32 +61,24 @@ export default function About() {
               <div className="inline-flex items-center mb-4">
                 <span className="h-px w-6 bg-primary-600"></span>
                 <span className="mx-2 text-primary-600 font-medium uppercase tracking-wider text-sm">
-                  {language === 'en' ? 'Our Mission' : 'Naša Misija'}
+                  {t('about.mission.label')}
                 </span>
               </div>
               
               <h2 className="text-3xl md:text-4xl font-serif font-bold text-primary-800 mb-6">
-                {language === 'en' 
-                  ? 'Legal Excellence with a Personal Touch'
-                  : 'Pravna izvrsnost s osobnim pristupom'}
+                {t('about.mission.title')}
               </h2>
               
               <p className="text-lg text-secondary-700 mb-6">
-                {language === 'en'
-                  ? 'Ana Bandalo Law Firm, established in 2010, specializes in providing high-quality legal services in the fields of corporate, commercial, and civil law throughout Croatia.'
-                  : 'Odvjetnički ured Ana Bandalo, osnovan 2010. godine, specijaliziran je za pružanje visokokvalitetnih pravnih usluga u područjima korporativnog, trgovačkog i građanskog prava diljem Hrvatske.'}
+                {t('about.mission.paragraph1')}
               </p>
               
               <p className="text-lg text-secondary-700 mb-6">
-                {language === 'en'
-                  ? 'What distinguishes us is our approach - we combine professional excellence with a personal, client-centered approach to legal problem solving.'
-                  : 'Ono što nas razlikuje je naš pristup - kombiniramo profesionalnu izvrsnost s osobnim, klijentu orijentiranim pristupom pravnom rješavanju problema.'}
+                {t('about.mission.paragraph2')}
               </p>
               
               <p className="text-lg text-secondary-700">
-                {language === 'en'
-                  ? 'Our goal is to provide effective and comprehensive legal support that meets the unique needs of each client.'
-                  : 'Naš cilj je pružiti učinkovitu i sveobuhvatnu pravnu podršku koja zadovoljava jedinstvene potrebe svakog klijenta.'}
+                {t('about.mission.paragraph3')}
               </p>
             </div>
             
@@ -121,19 +111,17 @@ export default function About() {
             <div className="inline-flex items-center justify-center mb-3">
               <span className="h-px w-6 bg-primary-600"></span>
               <span className="mx-2 text-primary-600 font-medium uppercase tracking-wider text-sm">
-                {language === 'en' ? 'Our Philosophy' : 'Naša Filozofija'}
+                {t('about.values.label')}
               </span>
               <span className="h-px w-6 bg-primary-600"></span>
             </div>
             
             <h2 className="text-3xl md:text-4xl font-serif font-bold text-primary-800 mb-6">
-              {language === 'en' ? 'Our Core Values' : 'Naše temeljne vrijednosti'}
+              {t('about.values.title')}
             </h2>
             
             <p className="text-lg text-secondary-600 max-w-3xl mx-auto">
-              {language === 'en'
-                ? 'Building long-lasting client relationships since 2010 through our commitment to excellence and personalized service.'
-                : 'Izgradnja dugotrajnih odnosa s klijentima od 2010. kroz našu predanost izvrsnosti i osobnom pristupu.'}
+              {t('about.values.description')}
             </p>
           </div>
           
@@ -144,12 +132,10 @@ export default function About() {
                 <FaUserTie size={40} />
               </div>
               <h3 className="text-xl font-serif font-bold text-primary-800 mb-3">
-                {language === 'en' ? 'Personal Approach' : 'Osobni pristup'}
+                {t('about.values.personal.title')}
               </h3>
               <p className="text-secondary-700">
-                {language === 'en'
-                  ? 'We focus on building relationships and providing individualized attention to each client\'s unique needs and goals.'
-                  : 'Fokusiramo se na izgradnju odnosa i pružanje individualizirane pažnje jedinstvenim potrebama i ciljevima svakog klijenta.'}
+                {t('about.values.personal.description')}
               </p>
             </div>
             
@@ -159,12 +145,10 @@ export default function About() {
                 <FaGavel size={40} />
               </div>
               <h3 className="text-xl font-serif font-bold text-primary-800 mb-3">
-                {language === 'en' ? 'Professionalism' : 'Profesionalizam'}
+                {t('about.values.professionalism.title')}
               </h3>
               <p className="text-secondary-700">
-                {language === 'en'
-                  ? 'We adhere to the highest standards of legal ethics and provide conscientious service based on years of experience.'
-                  : 'Pridržavamo se najviših standarda pravne etike i pružamo savjesnu uslugu temeljenu na dugogodišnjem iskustvu.'}
+                {t('about.values.professionalism.description')}
               </p>
             </div>
             
@@ -174,12 +158,10 @@ export default function About() {
                 <FaBalanceScale size={40} />
               </div>
               <h3 className="text-xl font-serif font-bold text-primary-800 mb-3">
-                {language === 'en' ? 'Excellence' : 'Izvrsnost'}
+                {t('about.values.excellence.title')}
               </h3>
               <p className="text-secondary-700">
-                {language === 'en'
-                  ? 'We constantly improve our knowledge and stay current with legal trends to provide innovative and effective solutions.'
-                  : 'Stalno usavršavamo svoje znanje i pratimo pravne trendove kako bismo pružili inovativna i učinkovita rješenja.'}
+                {t('about.values.excellence.description')}
               </p>
             </div>
           </div>
@@ -197,17 +179,15 @@ export default function About() {
             
             <div className="relative z-10 text-center text-white max-w-3xl mx-auto">
               <h2 className="text-3xl md:text-4xl font-serif font-bold text-white mb-6">
-                {language === 'en' ? 'Ready to Work Together?' : 'Spremni za suradnju?'}
+                {t('about.cta.title')}
               </h2>
               
               <p className="text-xl text-primary-100 mb-8">
-                {language === 'en'
-                  ? 'Contact us today to schedule a consultation and discover how we can help with your legal needs.'
-                  : 'Kontaktirajte nas danas kako biste dogovorili konzultacije i otkrili kako vam možemo pomoći s vašim pravnim potrebama.'}
+                {t('about.cta.description')}
               </p>
               
               <Link to="/contact" className="btn bg-white text-primary-800 hover:bg-white/90 transition-all duration-300 inline-flex items-center shadow-elegant hover:shadow-elegant-lg hover:-translate-y-1">
-                {language === 'en' ? 'Contact Us' : 'Kontaktirajte nas'}
+                {t('common.contactUs')}
                 <svg className="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
                 </svg>

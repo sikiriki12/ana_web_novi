@@ -1,0 +1,951 @@
+{
+  "common": {
+    "learnMore": "Saznajte više",
+    "contactUs": "Kontaktirajte nas",
+    "pageNotFound": "Stranica nije pronađena",
+    "goBackToHomepage": "Povratak na naslovnicu",
+    "underConstruction": "Ova stranica je u izradi i bit će dostupna uskoro.",
+    "scheduleConsultation": "Dogovorite konzultacije",
+    "learnAboutOurFirm": "Saznajte o našoj tvrtki"
+  },
+  "navigation": {
+    "about": "O nama",
+    "practiceAreas": "Područja prakse",
+    "industry": "Industrija",
+    "contact": "Kontakt",
+    "lawFirm": "ODVJETNIČKI URED",
+    "switchToHr": "Hrvatski",
+    "switchToEn": "English"
+  },
+  "footer": {
+    "lawOffice": "Odvjetnički ured Ana Bandalo",
+    "address": "Adresa:",
+    "croatia": "Hrvatska",
+    "businessCenter": "Poslovni centar",
+    "floor": "kat",
+    "phone": "Telefon:",
+    "mobile": "Mobitel:",
+    "workingHours": "Radno vrijeme:",
+    "workingHoursValue": "Pon – Pet: 09:00 - 17:00 (isključivo uz prethodnu najavu)",
+    "practiceAreas": "Područja prakse",
+    "industryExpertise": "Industrijska stručnost",
+    "location": "Lokacija",
+    "attorneyAtLaw": "Odvjetnica Ana Bandalo",
+    "allRightsReserved": "Sva prava pridržana"
+  },
+  "commercialLaw": {
+    "breadcrumb": "Područja prakse",
+    "title": "Trgovačko pravo",
+    "description": "Stručno pravno zastupanje tvrtki u svim vrstama trgovačkih pitanja i sporova",
+    "ourServices": "Naše usluge trgovačkog prava",
+    "introText": "Klijentima pružamo sveobuhvatnu pravnu pomoć u poslovanju pružajući stručne savjete iz područja ugovornog prava, sastavljamo trgovačke ugovore i zastupamo u trgovačkim sporovima.",
+    "contractDrafting": {
+      "title": "Izrada i pregled ugovora",
+      "description": "Sastavljamo, pregledavamo i pregovaramo razne vrste trgovačkih ugovora, uključujući:",
+      "items": [
+        "Ugovori o distribuciji",
+        "Izdavački ugovori",
+        "Ugovori o licenciji",
+        "Ugovori o nabavi",
+        "Ugovori o izvođenju radova",
+        "Opći uvjeti poslovanja",
+        "Sva potrebna dokumentacija za poslovanje"
+      ]
+    },
+    "businessTransactions": {
+      "title": "Poslovne transakcije",
+      "description": "Zastupamo u pregovorima pri sklapanju poslovnih transakcija, izrađujemo potrebne ugovore (ugovori o prijenosu gospodarske cjeline, ugovori o prijenosu prava intelektualnog vlasništva itd.) te pružamo pravnu pomoć tijekom cijelog postupka transakcije."
+    },
+    "disputeResolution": {
+      "title": "Rješavanje sporova",
+      "description": "Zastupamo stranke u trgovačkim sporovima pred sudovima, u postupcima naplate potraživanja, javne nabave, pred upravnim i regulatornim tijelima, kao i u predstečajnim i stečajnim postupcima. Zastupamo u postupcima mirenja i arbitražnim postupcima."
+    },
+    "regulatoryCompliance": {
+      "title": "Regulatorna usklađenost",
+      "description": "Klijentima pružamo pravnu pomoć u svim aspektima poslovanja osiguravajući da poslovanje klijenta bude usklađeno s propisima, te zastupamo u postupcima inspekcijskih nadzora."
+    },
+    "sidebar": {
+      "title": "Trebate savjet iz trgovačkog prava?",
+      "description": "Kontaktirajte nas danas za dogovor konzultacija za pitanja trgovačkog prava."
+    }
+  },
+  "laborLaw": {
+    "breadcrumb": "Područja prakse",
+    "title": "Radno pravo",
+    "description": "Sveobuhvatne usluge radnog prava za poslodavce i zaposlenike",
+    "ourServices": "Naše usluge radnog prava",
+    "introText": "Pružamo usluge savjetovanja i zastupanja u vezi s ugovorima o radu, pravima i obvezama radnika i poslodavaca, kao i u rješavanju sporova u području radnih odnosa.",
+    "contractManagement": {
+      "title": "Upravljanje ugovorima o radu",
+      "description": "Pružamo pravnu potporu tijekom cijelog postupka upravljanja ugovorima o radu, uključujući:",
+      "items": [
+        "Izrada i pregled ugovora o radu",
+        "Pregovori i izmjene",
+        "Postupci otkazivanja ugovora o radu",
+        "Pravilnici o radu i odluke poslodavca",
+        "Planovi nagrađivanja radnika",
+        "Ugovori o troškovima edukacija i stručnom usavršavanju"
+      ]
+    },
+    "internationalServices": {
+      "title": "Međunarodne usluge zapošljavanja",
+      "description": "Pružamo savjete i kompletnu uslugu iz područja radnog prava poslodavcima i agencijama za privremeno zapošljavanje, uključujući pribavljanje dozvola za boravak i rad stranih radnika, sastavljanje specifičnih ugovora o radu s međunarodnim elementom i navigaciju propisa o prekograničnom zapošljavanju."
+    },
+    "collectiveRelations": {
+      "title": "Kolektivni radni odnosi",
+      "description": "Zastupamo u postupcima kolektivnog zbrinjavanja viška radnika, te zastupamo poslodavce pred sindikatima. Naša stručnost uključuje kolektivno pregovaranje, radne sporove koji uključuju više zaposlenika i usklađenost s kolektivnim ugovorima."
+    },
+    "disputeResolution": {
+      "title": "Rješavanje radnih sporova",
+      "description": "Imamo bogato iskustvo u zastupanju pred sudovima u radnopravnim sporovima vezanim uz različita pitanja, uključujući:",
+      "items": [
+        "Dopuštenost otkaza",
+        "Diskriminacija na radnom mjestu",
+        "Pravo na naknadu štete",
+        "Utvrđenje radnopravnog odnosa",
+        "Sporovi u vezi s radnim vremenom i odmorima",
+        "Zahtjevi zbog uznemiravanja na radnom mjestu"
+      ]
+    },
+    "sidebar": {
+      "title": "Trebate savjet iz radnog prava?",
+      "description": "Kontaktirajte nas danas za dogovor konzultacija za pitanja radnog prava."
+    }
+  },
+  "corporateLaw": {
+    "breadcrumb": "Područja prakse",
+    "title": "Pravo trgovačkih društava",
+    "description": "Stručna pravna podrška za osnivanje tvrtki, upravljanje i korporativne transakcije",
+    "ourServices": "Naše usluge prava trgovačkih društava",
+    "introText": "Pružamo sveobuhvatne pravne usluge u vezi s osnivanjem trgovačkih društava, pitanjima upravljanja i statusnim promjenama, nudeći stručno vodstvo kroz svaku fazu korporativnog razvoja.",
+    "companyFormation": {
+      "title": "Osnivanje i strukturiranje društava",
+      "description": "Pomažemo u osnivanju različitih poslovnih subjekata, savjetujući o najprikladnijoj korporativnoj strukturi na temelju vaših poslovnih ciljeva, pitanja odgovornosti, poreznih implikacija i operativnih zahtjeva. Naše usluge uključuju:",
+      "items": [
+        "Osnivanje društava s ograničenom odgovornošću (d.o.o.)",
+        "Osnivanje dioničkih društava (d.d.)",
+        "Osnivanje podružnica i predstavništava",
+        "Izrada društvenih ugovora i drugih osnivačkih dokumenata",
+        "Upravljanje svim regulatornim podnescima i registracijama"
+      ]
+    },
+    "mergersAcquisitions": {
+      "title": "Spajanja i preuzimanja",
+      "description": "Pružamo kompletnu pravnu podršku tijekom postupka pripajanja i preuzimanja društava. Vodimo klijente kroz cijeli proces M&A, od početne dubinske analize do konačnog zatvaranja transakcije."
+    },
+    "shareholderAgreements": {
+      "title": "Dioničarski i investitorski ugovori",
+      "description": "Sastavljamo i pregovaramo ugovore između članova društva, investitora i drugih dionika, uključujući:",
+      "items": [
+        "Ugovore između članova društva o upisu dionica/poslovnih udjela (Shareholders agreements)",
+        "Ugovore o konvertibilnim zajmovima (Convertible Loan Agreements)",
+        "Ugovore o prijenosu prava intelektualnog vlasništva",
+        "Opcijske ugovore između društva i radnika",
+        "Investicijske i financijske ugovore"
+      ]
+    },
+    "startupExpertise": {
+      "title": "Startup i IT industrija stručnost",
+      "description": "Imamo bogato iskustvo na području IT industrije i financiranja društava u ranim fazama razvoja. Pružamo specijalizirane pravne savjete o strategijama financiranja, uključujući povećanje temeljnog kapitala i upis dionica/udjela, kao i konvertibilnih zajmova strukturiranih prema dogovoru između investitora i osnivača društva."
+    },
+    "sidebar": {
+      "title": "Trebate savjet iz prava trgovačkih društava?",
+      "description": "Kontaktirajte nas danas za dogovor konzultacija za pitanja prava trgovačkih društava."
+    }
+  },
+  "disputeResolution": {
+    "breadcrumb": "Područja prakse",
+    "title": "Rješavanje sporova",
+    "description": "Strateško i učinkovito zastupanje u parničnim postupcima, arbitraži i medijaciji",
+    "ourServices": "Naše usluge rješavanja sporova",
+    "introText": "Zastupamo klijente u širokom rasponu postupaka rješavanja sporova, uključujući parnične postupke, arbitražu i medijaciju. Naš pristup je usmjeren na pronalaženje najučinkovitijih i ekonomičnih rješenja za složene pravne sporove.",
+    "litigation": {
+      "title": "Usluge parničenja",
+      "description": "Zastupamo klijente u sudskim postupcima u različitim područjima prava, pružajući:",
+      "items": [
+        "Stratešku procjenu i planiranje slučaja",
+        "Pregovore prije parnice",
+        "Zastupanje na sudu na svim razinama",
+        "Koordinaciju vještaka",
+        "Ovršne postupke",
+        "Žalbene postupke i postupke preispitivanja"
+      ]
+    },
+    "arbitration": {
+      "title": "Arbitraža",
+      "description": "Imamo veliko iskustvo u domaćim i međunarodnim arbitražnim postupcima. Naše usluge arbitraže uključuju sastavljanje arbitražnih klauzula, zastupanje klijenata tijekom arbitražnog postupka i izvršenje arbitražnih odluka. Uspješno smo vodili složene arbitraže u različitim sektorima, uključujući trgovačke, građevinske i investicijske sporove."
+    },
+    "mediation": {
+      "title": "Medijacija i alternativno rješavanje sporova",
+      "description": "Prepoznajemo da parnica nije uvijek najučinkovitiji pristup rješavanju sporova. Vješti smo u različitim oblicima alternativnog rješavanja sporova (ARS), uključujući:",
+      "items": [
+        "Zastupanje i zagovaranje u medijaciji",
+        "Pregovaračke nagodbe",
+        "Ranu neutralnu evaluaciju",
+        "Odbore za pregled sporova",
+        "Mini-suđenja i skraćena suđenja"
+      ]
+    },
+    "strategy": {
+      "title": "Strateški pristup rješavanju sporova",
+      "description": "Primjenjujemo strateški pristup rješavanju sporova, pažljivo procjenjujući svaki slučaj kako bismo odredili najučinkovitiji put naprijed. To uključuje:",
+      "items": [
+        "Ranu procjenu slučaja i analizu rizika",
+        "Analizu troškova i koristi različitih metoda rješavanja",
+        "Razvoj prilagođenih strategija za rješavanje sporova",
+        "Proaktivno upravljanje pravnim troškovima",
+        "Kreativna rješenja koja odgovaraju poslovnim ciljevima"
+      ],
+      "conclusion": "Naš krajnji cilj je postići najbolji mogući ishod za naše klijente uz minimiziranje troškova, poslovnih poremećaja i reputacijske štete. Usko surađujemo s klijentima kako bismo razumjeli njihove ciljeve i razvili strategije rješavanja sporova koje su usklađene s njihovim širim poslovnim ciljevima."
+    },
+    "sidebar": {
+      "title": "Trebate pomoć s rješavanjem spora?",
+      "description": "Kontaktirajte nas danas za razgovor o vašem slučaju i istraživanje opcija rješavanja sporova."
+    }
+  },
+  "contractLaw": {
+    "breadcrumb": "Područja prakse",
+    "title": "Ugovorno pravo",
+    "description": "Stručna izrada, pregled i pregovaranje ugovora koji štite vaše interese",
+    "ourServices": "Naše usluge ugovornog prava",
+    "introText": "Specijalizirani smo za izradu, pregled i pregovore o različitim vrstama ugovora i sporazuma. Naša stručnost osigurava da su vaši ugovori pravno valjani, štite vaše interese i učinkovito upravljaju rizicima u poslovnim odnosima.",
+    "drafting": {
+      "title": "Izrada i pregled ugovora",
+      "description": "Pružamo sveobuhvatne usluge izrade i pregleda ugovora, uključujući:",
+      "items": [
+        "Trgovački ugovori i sporazumi",
+        "Ugovori o nekretninama i imovini",
+        "Ugovori o opskrbi i distribuciji",
+        "Ugovori o radu i pravilnici",
+        "Licencni ugovori i ugovori o intelektualnom vlasništvu",
+        "Ugovori o povjerljivosti i tajnosti podataka",
+        "Partnerski ugovori i ugovori o zajedničkom pothvatu"
+      ]
+    },
+    "negotiation": {
+      "title": "Pregovaranje ugovora",
+      "description": "Naši iskusni odvjetnici zastupaju klijente u pregovorima o ugovorima kako bi osigurali povoljne uvjete. Pažljivo analiziramo svaku klauzulu, identificiramo potencijalne rizike, predlažemo izmjene i pregovaramo za postizanje najboljeg mogućeg ishoda za naše klijente. Naš pristup je i strateški i praktičan, s fokusom na zaštitu vaših interesa uz istovremeno olakšavanje uspješnih poslovnih odnosa."
+    },
+    "disputes": {
+      "title": "Rješavanje ugovornih sporova",
+      "description": "Kada dođe do ugovornih sporova, pružamo sveobuhvatno pravno zastupanje za zaštitu vaših interesa. Naše usluge uključuju:",
+      "items": [
+        "Procjena kršenja ugovora i potraživanja",
+        "Pregovori o sporovima i nagodbe",
+        "Medijacija i arbitraža",
+        "Zastupanje u parnicama",
+        "Restrukturiranje ugovora nakon spora"
+      ]
+    },
+    "management": {
+      "title": "Upravljanje ugovorima i usklađenost",
+      "description": "Pomažemo klijentima u razvoju učinkovitih sustava upravljanja ugovorima i osiguravanju usklađenosti s regulatornim zahtjevima. Pružamo smjernice o implementaciji ugovora, praćenju izvršenja i periodičnom pregledu kako bi se osigurala kontinuirana usklađenost i smanjenje rizika. Pomažemo tvrtkama održavati jasne evidencije o njihovim ugovornim obvezama i rokovima, smanjujući rizik od nenamjernih kršenja i pravne izloženosti."
+    },
+    "sidebar": {
+      "title": "Trebate pomoć s ugovorima?",
+      "description": "Kontaktirajte nas danas za razgovor o vašim ugovornim potrebama i pravnim zahtjevima."
+    }
+  },
+  "realEstate": {
+    "breadcrumb": "Područja prakse",
+    "title": "Nekretnine i Građansko pravo",
+    "description": "Sveobuhvatna pravna podrška za transakcije nekretnina i građanska pitanja",
+    "ourServices": "Naše usluge Nekretnina i Građanskog prava",
+    "introText": "Pružamo kompletnu pravnu potporu prilikom nekretninskih investicija i zastupamo klijente u građanskim postupcima, donoseći jasnoću u složene transakcije nekretnina i građanska pitanja.",
+    "transactions": {
+      "title": "Transakcije nekretninama",
+      "description": "Naša praksa u području nekretnina nudi sveobuhvatne pravne usluge za sve aspekte transakcija nekretninama, uključujući:",
+      "items": [
+        "Kupnja i prodaja nekretnina",
+        "Ugovori o zakupu",
+        "Razvojni projekti",
+        "Pitanja korištenja zemljišta i zoniranja",
+        "Sporovi oko vlasništva nekretnina",
+        "Građevinski ugovori"
+      ]
+    },
+    "civilLitigation": {
+      "title": "Građanske parnice",
+      "description": "Zastupamo klijente u širokom rasponu građanskih postupaka vezanih za:",
+      "items": [
+        "Sporovi o vlasničkim pravima",
+        "Ugovorni sporovi",
+        "Ovršni postupci",
+        "Naplata potraživanja",
+        "Zakupni odnosi",
+        "Zahtjevi za naknadu štete"
+      ]
+    },
+    "damageClaims": {
+      "title": "Specijalizirani zahtjevi za naknadu štete",
+      "description": "Imamo specifičnu stručnost u rješavanju složenih zahtjeva za naknadu štete, uključujući:",
+      "items": [
+        "Liječničke greške",
+        "Štete prouzročene informacijama objavljenim u medijima",
+        "Naknade za osobne ozljede",
+        "Zahtjevi za profesionalnu odgovornost"
+      ]
+    },
+    "administrativeDisputes": {
+      "title": "Upravni sporovi",
+      "description": "Zastupamo klijente u postupcima vezanim uz nezakonita postupanja državnih tijela i tijela s javnim ovlastima. Naša stručnost proteže se na sva područja upravnog prava, pomažući klijentima u navigaciji složenim regulatornim okruženjima."
+    },
+    "humanRights": {
+      "title": "Zaštita ljudskih prava",
+      "description": "Imamo bogato iskustvo u zastupanju klijenata pred Europskim sudom za ljudska prava i domaćim sudovima u slučajevima zaštite ljudskih prava. Predani smo zaštiti temeljnih prava i osiguravanju pravednog tretmana prema zakonu."
+    },
+    "sidebar": {
+      "title": "Trebate savjet iz područja nekretnina ili građanskog prava?",
+      "description": "Kontaktirajte nas danas za dogovor konzultacija za pitanja nekretnina i građanskog prava."
+    }
+  },
+  "practiceAreas": {
+    "title": "Područja prakse",
+    "description": "Sveobuhvatne pravne usluge prilagođene vašim specifičnim potrebama u različitim područjima prakse",
+    "areas": {
+      "commercialLaw": {
+        "title": "Trgovačko pravo",
+        "description": "Pružamo pravnu pomoć u poslovanju, pravne savjete iz područja ugovornog prava, sastavljamo trgovačke ugovore i zastupamo u trgovačkim sporovima. Pomažemo trgovačkim društvima u poslovanju, fokusirajući se na relevantne propise iz odnosne industrije."
+      },
+      "laborLaw": {
+        "title": "Radno pravo",
+        "description": "Naše usluge radnog prava uključuju savjetovanje i zastupanje u vezi s ugovorima o radu, definiranje prava i obveza radnika i poslodavaca, kao i rješavanje sporova. Pomažemo tvrtkama i zaposlenicima razumjeti složenosti radnih propisa i odnosa."
+      },
+      "corporateLaw": {
+        "title": "Pravo trgovačkih društava",
+        "description": "Pružamo sveobuhvatne pravne usluge u vezi s osnivanjem trgovačkih društava, pitanjima upravljanja i statusnim promjenama, uključujući i kompletnu pravnu podršku tijekom pripajanja i preuzimanja društava. Naš tim donosi stručnost u pitanjima upravljanja, usklađenosti i restrukturiranja."
+      },
+      "realEstate": {
+        "title": "Nekretnine i Građansko pravo",
+        "description": "Pružamo kompletnu pravnu potporu prilikom nekretninskih investicija i zastupamo klijente u građanskim postupcima vezanim za vlasnička prava, sporove iz obveznih odnosa i zahtjeve za naknadu štete. Donosimo jasnoću u složene transakcije nekretnina i građanska pitanja."
+      },
+      "contractLaw": {
+        "title": "Ugovorno pravo",
+        "description": "Specijalizirani smo za izradu, pregled i pregovore o različitim vrstama ugovora i sporazuma. Naša stručnost osigurava da su vaši ugovori pravno valjani, štite vaše interese i učinkovito upravljaju rizicima u poslovnim odnosima."
+      },
+      "disputeResolution": {
+        "title": "Rješavanje sporova",
+        "description": "Zastupamo klijente u širokom rasponu postupaka rješavanja sporova, uključujući parnične postupke, arbitražu i medijaciju. Naš pristup je usmjeren na pronalaženje najučinkovitijih i ekonomičnih rješenja za složene pravne sporove."
+      }
+    },
+    "methodology": {
+      "title": "Naša Metodologija",
+      "legalApproach": "Naš pravni pristup",
+      "description": "Bez obzira na područje prakse, pristupamo svakom slučaju s istim temeljnim načelima: temeljitost, strateško razmišljanje i rješenja usmjerena na klijenta.",
+      "steps": {
+        "consultation": {
+          "title": "Početne konzultacije i procjena",
+          "description": "Započinjemo s sveobuhvatnom procjenom vaše pravne situacije, razumijevanjem vaših ciljeva i briga."
+        },
+        "planning": {
+          "title": "Strateško planiranje",
+          "description": "Razvijamo prilagođenu strategiju temeljenu na vašoj specifičnoj situaciji, ciljevima i pravnom kontekstu."
+        },
+        "execution": {
+          "title": "Implementacija i izvršenje",
+          "description": "Izvršavamo strategiju s preciznošću, koristeći našu stručnost i iskustvo za postizanje najboljih mogućih rezultata."
+        },
+        "support": {
+          "title": "Kontinuirana podrška i prilagodba",
+          "description": "Pružamo kontinuiranu podršku i prilagođavamo naš pristup prema potrebi, informirajući vas tijekom cijelog procesa."
+        }
+      },
+      "philosophy": {
+        "title": "Filozofija usmjerena na klijenta",
+        "description1": "Naš pristup stavlja vaše potrebe u središte svega što radimo. Vjerujemo da učinkovito pravno zastupanje zahtijeva ne samo stručnost u pravu, već i duboko razumijevanje ciljeva i briga naših klijenata.",
+        "description2": "Ova filozofija vodi naš rad u svim područjima prakse, osiguravajući da su pravne strategije koje razvijamo uvijek usklađene s vašim najboljim interesima."
+      }
+    },
+    "cta": {
+      "title": "Trebate pomoć s pravnim pitanjem?",
+      "description": "Kontaktirajte nas danas kako biste dogovorili konzultacije s našim iskusnim pravnim timom i otkrili kako vam možemo pomoći."
+    }
+  },
+  "home": {
+    "hero": {
+      "mainText": "S više od 20 godina pravnog iskustva, ostvarujemo iznimne rezultate za klijente.",
+      "subText": "Pružamo izvrsno pravno zastupanje u poslovima korporativnog i građanskog prava diljem Hrvatske, s individualnim pristupom svakom klijentu."
+    },
+    "practiceAreas": {
+      "sectionTitle": "Pravna Stručnost",
+      "title": "Područja prakse",
+      "description": "Pružamo sveobuhvatne pravne usluge u različitim područjima prakse kako bismo zadovoljili vaše potrebe za pravnim savjetovanjem i zastupanjem.",
+      "viewAll": "Pregledajte sva područja prakse",
+      "areas": {
+        "commercialLaw": {
+          "title": "Trgovačko pravo",
+          "description": "Pružamo pravnu pomoć u poslovanju, pravne savjete iz područja ugovornog prava, sastavljamo trgovačke ugovore i zastupamo u trgovačkim sporovima."
+        },
+        "laborLaw": {
+          "title": "Radno pravo",
+          "description": "Pružamo usluge savjetovanja i zastupanja u vezi s ugovorima o radu, pravima i obvezama radnika i poslodavaca, kao i u rješavanju sporova u području radnih odnosa."
+        },
+        "corporateLaw": {
+          "title": "Pravo trgovačkih društava",
+          "description": "Pružamo pravne usluge u vezi s osnivanjem trgovačkih društava, pitanjima upravljanja i statusnim promjenama, uključujući i kompletnu pravnu podršku tijekom pripajanja i preuzimanja društava."
+        },
+        "realEstate": {
+          "title": "Nekretnine i Građansko pravo",
+          "description": "Pružamo kompletnu pravnu potporu prilikom nekretninskih investicija i zastupamo klijente u građanskim postupcima vezanim za vlasnička prava, ugovorne sporove i zahtjeve za naknadu štete."
+        }
+      }
+    },
+    "industry": {
+      "sectionTitle": "Specijalizirano Znanje",
+      "title": "Industrijska stručnost",
+      "description": "Imamo veliko iskustvo u različitim industrijama, što nam omogućuje pružanje specijaliziranih pravnih rješenja prilagođenih vašem specifičnom sektoru.",
+      "viewAll": "Istražite sva industrijska znanja",
+      "industries": {
+        "construction": {
+          "title": "Građevinska industrija",
+          "description": "Pravna stručnost u građevinskim ugovorima, propisima i rješavanju sporova."
+        },
+        "it": {
+          "title": "IT Industrija",
+          "description": "Specijalizirani za intelektualno vlasništvo, zaštitu podataka i tehnološke ugovore."
+        },
+        "pharma": {
+          "title": "Pharma i zdravstvo",
+          "description": "Pravna stručnost u farmaceutskim propisima, usklađenosti i zdravstvenom pravu."
+        },
+        "manufacturing": {
+          "title": "Proizvodnja i usluge",
+          "description": "Stručnjak za propise o proizvodnji, ugovore o uslugama i poslovne operacije."
+        }
+      }
+    },
+    "cta": {
+      "title": "Trebate pravnu pomoć?",
+      "description": "Kontaktirajte nas danas kako biste dogovorili konzultacije i otkrili kako vam možemo pomoći s vašim pravnim potrebama."
+    }
+  },
+  "industryMain": {
+    "hero": {
+      "title": "Industrijska stručnost",
+      "description": "Korištenje našeg opsežnog znanja iz različitih industrija za pružanje specijaliziranih pravnih rješenja"
+    },
+    "stats": [
+      { "count": "15+", "label": "Godina iskustva" },
+      { "count": "200+", "label": "Klijenata" },
+      { "count": "6+", "label": "Industrijskih sektora" },
+      { "count": "95%", "label": "Zadovoljstvo klijenata" }
+    ],
+    "industrySection": {
+      "sectionTitle": "Naša Stručnost",
+      "title": "Industrije kojima služimo",
+      "description": "Razvili smo specijaliziranu pravnu stručnost u širokom rasponu industrija, što nam omogućuje pružanje prilagođenih rješenja za jedinstvene izazove svakog sektora.",
+      "learnMore": "Saznajte više",
+      "industries": [
+        {
+          "title": "Građevinska industrija",
+          "description": "Pružamo sveobuhvatnu pravnu podršku građevinskim tvrtkama, izvođačima i investitorima u pitanjima koja uključuju ugovore, propise, dozvole i rješavanje sporova.",
+          "count": "01",
+          "link": "/industry/construction"
+        },
+        {
+          "title": "IT Industrija",
+          "description": "Naša stručnost u području tehnološkog prava obuhvaća licenciranje softvera, zaštitu podataka, intelektualno vlasništvo i tehnološke ugovore, pomažući IT tvrtkama u navigaciji složenih pravnih izazova.",
+          "count": "02",
+          "link": "/industry/it"
+        },
+        {
+          "title": "Farmaceutska industrija i zdravstvo",
+          "description": "Pomažemo farmaceutskim tvrtkama i pružateljima zdravstvenih usluga s regulatornom usklađenošću, licenciranjem, zaštitom intelektualnog vlasništva i pitanjima odgovornosti.",
+          "count": "03",
+          "link": "/industry/pharma"
+        },
+        {
+          "title": "Proizvodnja i usluge",
+          "description": "Naša tvrtka pruža prilagođena pravna rješenja za proizvodne tvrtke i pružatelje usluga u pitanjima koja uključuju ugovore, radno pravo i regulatornu usklađenost.",
+          "count": "04",
+          "link": "/industry/manufacturing"
+        },
+        {
+          "title": "Nekretnine",
+          "description": "Pružamo sveobuhvatnu pravnu podršku za transakcije nekretninama, razvoj nekretnina, propise o korištenju zemljišta i sporove vezane uz nekretnine za investitore i vlasnike nekretnina.",
+          "count": "05",
+          "link": "/industry/real-estate"
+        },
+        {
+          "title": "Mediji",
+          "description": "Naša stručnost obuhvaća medijsko pravo, prava intelektualnog vlasništva, slučajeve klevete, pitanja privatnosti i ugovorne odnose za medijske tvrtke i profesionalce.",
+          "count": "06",
+          "link": "/industry/media"
+        }
+      ]
+    },
+    "approach": {
+      "valueLabel": "Naša Vrijednost",
+      "title": "Industrijsko znanje koje čini razliku",
+      "description": "Naša industrijska stručnost omogućuje nam predviđanje izazova, identificiranje prilika i razvoj rješenja koja nisu samo pravno utemeljena, već i komercijalno praktična.",
+      "industryApproach": {
+        "title": "Pristup specifičan za industriju",
+        "paragraph1": "Svaka industrija djeluje unutar svog jedinstvenog pravnog okvira. Razumijemo da učinkovito pravno zastupanje zahtijeva ne samo stručnost u pravu, već i duboko poznavanje propisa, praksi i izazova specifičnih za industriju.",
+        "paragraph2": "Imamo izravno iskustvo u svakoj industriji kojoj služimo, osiguravajući da možemo pružiti praktične savjete koji su u skladu s poslovnom stvarnošću."
+      },
+      "features": [
+        {
+          "title": "Specijalizirano znanje",
+          "description": "Imamo specifično industrijsko iskustvo i razumijemo nijanse različitih poslovnih sektora."
+        },
+        {
+          "title": "Sveobuhvatna podrška",
+          "description": "Pružamo sveobuhvatne pravne usluge prilagođene specifičnim potrebama svake industrije, od regulatorne usklađenosti do rješavanja sporova."
+        },
+        {
+          "title": "Strateška prednost",
+          "description": "Naša industrijska stručnost daje našim klijentima konkurentsku prednost kroz učinkovitija i djelotvornija pravna rješenja."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Neka naša industrijska stručnost radi za vas",
+      "description": "Kontaktirajte nas danas da saznate kako naše specijalizirano industrijsko znanje može pomoći u rješavanju vaših pravnih izazova.",
+      "contactButton": "Kontaktirajte nas danas",
+      "exploreButton": "Istražite područja prakse"
+    }
+  },
+  "about": {
+    "title": "O nama",
+    "subtitle": "Posvećeni izvrsnosti i personaliziranim pravnim rješenjima od 2010. godine",
+    "mission": {
+      "label": "Naša Misija",
+      "title": "Pravna izvrsnost s osobnim pristupom",
+      "paragraph1": "Odvjetnički ured Ana Bandalo, osnovan 2010. godine, specijaliziran je za pružanje visokokvalitetnih pravnih usluga u područjima korporativnog, trgovačkog i građanskog prava diljem Hrvatske.",
+      "paragraph2": "Ono što nas razlikuje je naš pristup - kombiniramo profesionalnu izvrsnost s osobnim, klijentu orijentiranim pristupom pravnom rješavanju problema.",
+      "paragraph3": "Naš cilj je pružiti učinkovitu i sveobuhvatnu pravnu podršku koja zadovoljava jedinstvene potrebe svakog klijenta."
+    },
+    "values": {
+      "label": "Naša Filozofija",
+      "title": "Naše temeljne vrijednosti",
+      "description": "Izgradnja dugotrajnih odnosa s klijentima od 2010. kroz našu predanost izvrsnosti i osobnom pristupu.",
+      "personal": {
+        "title": "Osobni pristup",
+        "description": "Fokusiramo se na izgradnju odnosa i pružanje individualizirane pažnje jedinstvenim potrebama i ciljevima svakog klijenta."
+      },
+      "professionalism": {
+        "title": "Profesionalizam",
+        "description": "Pridržavamo se najviših standarda pravne etike i pružamo savjesnu uslugu temeljenu na dugogodišnjem iskustvu."
+      },
+      "excellence": {
+        "title": "Izvrsnost",
+        "description": "Stalno usavršavamo svoje znanje i pratimo pravne trendove kako bismo pružili inovativna i učinkovita rješenja."
+      }
+    },
+    "cta": {
+      "title": "Spremni za suradnju?",
+      "description": "Kontaktirajte nas danas kako biste dogovorili konzultacije i otkrili kako vam možemo pomoći s vašim pravnim potrebama."
+    }
+  },
+  "contact": {
+    "title": "Kontakt",
+    "subtitle": "Ovdje smo da pomognemo s vašim pravnim potrebama. Javite nam se za dogovor konzultacija.",
+    "contactInfo": {
+      "title": "Naši kontakt podaci",
+      "description": "Slobodno nas kontaktirajte putem bilo kojeg od sljedećih kanala. Radujemo se vašem javljanju.",
+      "address": {
+        "title": "Adresa ureda",
+        "line1": "Odvjetnički ured Ana Bandalo",
+        "line2": "Većeslava Holjevca 40, 10000 Zagreb, Hrvatska",
+        "line3": "(Poslovni centar RECRO, 3. kat)"
+      },
+      "phone": {
+        "title": "Telefonski broj",
+        "line1": "+385 1 4668 833",
+        "line2": "+385 91 518 74 73"
+      },
+      "email": {
+        "title": "Email adresa",
+        "line1": "info@bandalo.law"
+      },
+      "hours": {
+        "title": "Radno vrijeme",
+        "line1": "Ponedjeljak do petak: 9:00 - 17:00 (isključivo uz prethodnu najavu)",
+        "line2": "Subota i nedjelja: Zatvoreno"
+      }
+    },
+    "form": {
+      "title": "Pošaljite nam poruku",
+      "description": "Imate pitanje ili trebate pravnu pomoć? Ispunite donji obrazac i javit ćemo vam se što je prije moguće.",
+      "nameLabel": "Vaše ime",
+      "namePlaceholder": "Unesite vaše puno ime",
+      "emailLabel": "Email adresa",
+      "emailPlaceholder": "Unesite vašu email adresu",
+      "phoneLabel": "Telefonski broj",
+      "phonePlaceholder": "Unesite vaš telefonski broj",
+      "subjectLabel": "Predmet",
+      "subjectPlaceholder": "Unesite predmet",
+      "messageLabel": "Vaša poruka",
+      "messagePlaceholder": "Unesite vašu poruku ovdje...",
+      "submitButton": "Pošalji poruku",
+      "success": {
+        "title": "Hvala Vam!",
+        "message": "Vaša poruka je uspješno poslana. Javit ćemo vam se uskoro."
+      }
+    },
+    "location": {
+      "title": "Pronađite nas",
+      "description": "Naš ured je smješten u srcu Zagreba. Pozivamo vas da nas posjetite na konzultacije."
+    },
+    "faq": {
+      "title": "Često postavljena pitanja",
+      "subtitle": "Pronađite odgovore na uobičajena pitanja o našim uslugama i kako vam možemo pomoći s vašim pravnim potrebama.",
+      "questions": [
+        {
+          "question": "Kako dogovoriti konzultacije?",
+          "answer": "Konzultacije možete dogovoriti pozivom u naš ured, slanjem e-maila ili ispunjavanjem kontakt obrasca na ovoj stranici. Brzo ćemo vam se javiti kako bismo dogovorili sastanak u vrijeme koje vam odgovara."
+        },
+        {
+          "question": "Što trebam ponijeti na prvi sastanak?",
+          "answer": "Molimo donesite sve dokumente relevantne za vaš pravni predmet, uključujući ugovore, korespondenciju i sve sudske dokumente koje ste primili. To će nam pomoći da bolje razumijemo vašu situaciju i pružimo odgovarajući savjet."
+        },
+        {
+          "question": "Koje su vaše naknade?",
+          "answer": "Naše naknade variraju ovisno o prirodi i složenosti vašeg pravnog predmeta. Nudimo transparentne cijene i razgovarat ćemo o aranžmanima naknada tijekom vaših početnih konzultacija. Nastojimo pružiti ekonomična rješenja za sve naše klijente."
+        },
+        {
+          "question": "Koliko će trajati moj pravni predmet?",
+          "answer": "Vremenski okvir za rješavanje pravnih pitanja uvelike varira ovisno o specifičnostima vašeg slučaja. Tijekom konzultacija, dat ćemo procjenu na temelju našeg iskustva sa sličnim predmetima i informirati vas tijekom cijelog procesa."
+        }
+      ]
+    }
+  },
+  "industry": {
+    "construction": {
+      "breadcrumb": "Industrijska stručnost",
+      "title": "Građevinska industrija",
+      "description": "Sveobuhvatna pravna rješenja za građevinske tvrtke, izvođače i investitore u nekretnine",
+      "intro": {
+        "title": "Pravna stručnost za građevinski sektor",
+        "paragraph1": "Građevinska industrija djeluje unutar složenog pravnog okvira ugovora, propisa i potencijalnih sporova. Donosimo specijalizirano znanje i iskustvo kako bi pomogli građevinskim tvrtkama u navigaciji kroz ove izazove dok se fokusiraju na svoje osnovne djelatnosti.",
+        "paragraph2": "Surađujemo s građevinskim tvrtkama svih veličina, investitorima u nekretnine, izvođačima i podizvođačima kako bismo pružili sveobuhvatnu pravnu podršku kroz sve faze građevinskih projekata, od početnog stjecanja zemljišta do završetka projekta i dalje."
+      },
+      "approach": {
+        "title": "Naš pristup",
+        "paragraph1": "Razumijemo da građevinski projekti uključuju značajna ulaganja i kratke rokove. Naša pravna rješenja osmišljena su da budu praktična, učinkovita i da odgovaraju jedinstvenim zahtjevima građevinske industrije.",
+        "paragraph2": "Kombiniranjem znanja specifičnog za industriju s pravnom stručnošću, pomažemo klijentima predvidjeti potencijalne probleme prije nego što nastanu, učinkovito riješiti sporove kada se pojave i uspostaviti robusne pravne okvire koji podržavaju uspješne ishode projekata."
+      },
+      "services": {
+        "title": "Naše usluge za građevinsku industriju",
+        "items": [
+          {
+            "title": "Pravna potpora tijekom nekretninskih investicija",
+            "description": "Sveobuhvatna pravna podrška tijekom procesa investiranja u nekretnine, uključujući kupnju zemljišta, razvoj projekata i građevinske ugovore."
+          },
+          {
+            "title": "Pravno savjetovanje i zastupanje vezano za sporove u građevini",
+            "description": "Stručno pravno savjetovanje i zastupanje u svim vrstama građevinskih sporova, uključujući sporove oko ugovora, dozvola i odgovornosti."
+          },
+          {
+            "title": "Pravno savjetovanje i izrada trgovačkih ugovora",
+            "description": "Izrada i pregled specijaliziranih trgovačkih ugovora prilagođenih specifičnim potrebama i propisima građevinske industrije."
+          },
+          {
+            "title": "Zastupanje u trgovačkim i radnim sporovima",
+            "description": "Stručno zastupanje u trgovačkim i radnim sporovima, osiguravajući da su vaši poslovni interesi zaštićeni tijekom cijelog pravnog procesa."
+          }
+        ]
+      },
+      "sidebar": {
+        "cta": {
+          "title": "Trebate pravnu podršku u građevini?",
+          "description": "Kontaktirajte nas danas kako biste razgovarali o tome kako naše specijalizirane pravne usluge mogu podržati vaše građevinsko poslovanje."
+        },
+        "whyChooseUs": {
+          "title": "Zašto odabrati nas",
+          "reasons": [
+            "Duboko razumijevanje propisa građevinske industrije",
+            "Iskustvo sa složenim građevinskim ugovorima",
+            "Dokazani uspjeh u rješavanju građevinskih sporova",
+            "Prilagođeni savjeti za specifične potrebe vašeg projekta"
+          ]
+        }
+      },
+      "bottomCta": {
+        "title": "Izgradimo zajedno vašu građevinsku pravnu strategiju",
+        "description": "Kontaktirajte nas danas kako bismo razgovarali o tome kako možemo podržati vaše građevinsko poslovanje specijaliziranim pravnim rješenjima.",
+        "buttonText": "Zakažite konzultacije"
+      }
+    },
+    "it": {
+      "breadcrumb": "Industrijska stručnost",
+      "title": "IT Industrija",
+      "description": "Specijalizirana pravna rješenja za tehnološke tvrtke, startupove i digitalna poduzeća",
+      "intro": {
+        "title": "Pravna stručnost za tehnološki sektor",
+        "paragraph1": "IT industrija djeluje u brzo razvijajućem ekosustavu s jedinstvenim pravnim izazovima vezanim uz intelektualno vlasništvo, zaštitu podataka i digitalne transakcije. Specijalizirani smo za pružanje pravnih rješenja prilagođenih specifičnim potrebama tehnoloških tvrtki.",
+        "paragraph2": "Surađujemo s tvrtkama svih veličina u tehnološkom sektoru, od inovativnih startupova do etabliranih softverskih tvrtki, podržavajući ih tijekom rasta, korporativnih promjena i složenosti poslovanja na digitalnom tržištu."
+      },
+      "approach": {
+        "title": "Naš pristup",
+        "paragraph1": "Razumijemo da tehnološke tvrtke trebaju agilna, praktična pravna rješenja koja mogu držati korak s inovacijama. Naš pristup kombinira duboko tehničko razumijevanje s pravnom stručnošću kako bismo pružili savjete koji su pravno utemeljeni i usklađeni s poslovnim ciljevima.",
+        "paragraph2": "Bez obzira navigirate li složenim M&A transakcijama, štitite intelektualno vlasništvo, upravljate radnim odnosima ili strukturirate trgovačke sporazume, pružamo responzivno, tehnološki fokusirano pravno vodstvo."
+      },
+      "services": {
+        "title": "Naše usluge za IT industriju",
+        "items": [
+          {
+            "title": "Pravna potpora tijekom preuzimanja trgovačkih društava",
+            "description": "Sveobuhvatna pravna podrška tijekom preuzimanja trgovačkih društava i drugih statusnih promjena u tehnološkom sektoru."
+          },
+          {
+            "title": "Zastupanje u trgovačkim sporovima",
+            "description": "Stručno zastupanje u trgovačkim sporovima specifičnim za tehnološke tvrtke, uključujući intelektualno vlasništvo i ugovorne sporove."
+          },
+          {
+            "title": "Pravno savjetovanje i zastupanje na području radnog prava",
+            "description": "Pravno savjetovanje i zastupanje u pitanjima radnog prava, uključujući ugovore o radu, radne sporove i pitanja vlasništva nad intelektualnim vlasništvom."
+          },
+          {
+            "title": "Pravno savjetovanje u poslovanju",
+            "description": "Pravno savjetovanje za poslovanje uključujući izradu i pregled trgovačkih ugovora prilagođenih potrebama IT industrije."
+          }
+        ]
+      },
+      "sidebar": {
+        "cta": {
+          "title": "Trebate pravnu podršku u IT sektoru?",
+          "description": "Kontaktirajte nas danas kako biste razgovarali o tome kako naše specijalizirane pravne usluge mogu podržati vaše tehnološko poslovanje."
+        },
+        "whyChooseUs": {
+          "title": "Zašto odabrati nas",
+          "reasons": [
+            "Specijalizirano znanje o pravnim okvirima IT industrije",
+            "Iskustvo s tehnološkim M&A transakcijama",
+            "Razumijevanje pitanja intelektualnog vlasništva u tehnologiji",
+            "Podrška za startupove i rastuće tehnološke tvrtke"
+          ]
+        }
+      },
+      "bottomCta": {
+        "title": "Surađujte s nama za vaše tehnološke pravne potrebe",
+        "description": "Kontaktirajte nas danas kako bismo razgovarali o tome kako možemo podržati vaše tehnološko poslovanje specijaliziranim pravnim rješenjima.",
+        "buttonText": "Zakažite konzultacije"
+      }
+    },
+    "manufacturing": {
+      "breadcrumb": "Industrijska stručnost",
+      "title": "Proizvodnja i usluge",
+      "description": "Prilagođena pravna rješenja za proizvodne tvrtke i pružatelje usluga",
+      "intro": {
+        "title": "Pravna stručnost za proizvodnju i usluge",
+        "paragraph1": "Sektori proizvodnje i usluga suočavaju se s različitim pravnim izazovima, od složenih ugovora i radnih pitanja do regulatorne usklađenosti i rješavanja sporova. Naša tvrtka pruža sveobuhvatna pravna rješenja prilagođena specifičnim potrebama ovih industrija.",
+        "paragraph2": "Surađujemo s tvrtkama iz cijelog spektra proizvodnje i usluga, pomažući im navigirati kroz pravne složenosti uz održavanje operativne učinkovitosti i zaštitu njihovih poslovnih interesa."
+      },
+      "approach": {
+        "title": "Naš pristup",
+        "paragraph1": "Razumijemo da proizvodna i uslužna poduzeća posluju u konkurentnim okruženjima gdje pravna pitanja moraju biti riješena učinkovito i ekonomično. Naš pristup je praktičan i poslovno orijentiran, kombinirajući pravnu stručnost s poznavanjem industrije.",
+        "paragraph2": "Od pregovora o ugovorima do rješavanja sporova i radnih pitanja, pružamo strateške pravne smjernice koje su usklađene s vašim poslovnim ciljevima i smanjuju rizik, istovremeno podržavajući rast i operativnu izvrsnost."
+      },
+      "services": {
+        "title": "Naša stručnost za proizvodnju i usluge",
+        "items": [
+          {
+            "title": "Pravno savjetovanje i izrada trgovačkih ugovora",
+            "description": "Pravno savjetovanje i izrada trgovačkih ugovora prilagođenih proizvodnoj industriji i sektoru usluga."
+          },
+          {
+            "title": "Zastupanje u trgovačkim i radnim sporovima",
+            "description": "Stručno zastupanje u trgovačkim i radnim sporovima kako bi se osigurala zaštita vaših poslovnih interesa."
+          },
+          {
+            "title": "Zastupanje u postupku kolektivnog zbrinjavanja viška radnika",
+            "description": "Pravno zastupanje i savjetovanje tijekom postupka kolektivnog zbrinjavanja viška radnika uz osiguranje usklađenosti s radnim propisima."
+          },
+          {
+            "title": "Zastupanje u raznim pravnim postupcima",
+            "description": "Zastupanje u postupcima javne nabave, stečajnim i predstečajnim postupcima, te ovršnim postupcima."
+          }
+        ]
+      },
+      "sidebar": {
+        "cta": {
+          "title": "Trebate pravnu podršku za proizvodnju i usluge?",
+          "description": "Kontaktirajte nas danas kako biste razgovarali o tome kako naše specijalizirane pravne usluge mogu podržati vaše proizvodno ili uslužno poslovanje."
+        },
+        "whyChooseUs": {
+          "title": "Zašto odabrati nas",
+          "reasons": [
+            "Stručnost za ugovore specifične za industriju",
+            "Iskustvo sa složenim radnim pitanjima",
+            "Dokazani uspjeh u trgovačkim sporovima",
+            "Sveobuhvatna podrška za regulatornu usklađenost"
+          ]
+        }
+      },
+      "bottomCta": {
+        "title": "Surađujte s nama za vaše pravne potrebe u proizvodnji i uslugama",
+        "description": "Kontaktirajte nas danas kako bismo razgovarali o tome kako možemo podržati vaše proizvodno ili uslužno poslovanje specijaliziranim pravnim rješenjima.",
+        "buttonText": "Zakažite konzultacije"
+      }
+    },
+    "media": {
+      "breadcrumb": "Industrijska stručnost",
+      "title": "Medijska industrija",
+      "description": "Specijalizirana pravna rješenja za izdavače, televizijske kuće, digitalne medije i kreatore sadržaja",
+      "intro": {
+        "title": "Pravna stručnost za medijski sektor",
+        "paragraph1": "Medijska industrija suočava se s jedinstvenim pravnim izazovima na sjecištu intelektualnog vlasništva, slobode govora, privatnosti i brzo razvijajućih digitalnih tehnologija. Donosimo specijalizirano znanje kako bismo pomogli medijskim tvrtkama u navigaciji kroz ovaj složeni krajolik, istovremeno štiteći njihove interese i kreativnu imovinu.",
+        "paragraph2": "Surađujemo s tradicionalnim izdavačima, televizijskim kućama, platformama digitalnih medija, kreatorima sadržaja i oglašivačkim agencijama kako bismo pružili sveobuhvatnu pravnu podršku u svim aspektima medijskog poslovanja, od stvaranja i distribucije sadržaja do regulatorne usklađenosti i rješavanja sporova."
+      },
+      "approach": {
+        "title": "Naš pristup",
+        "paragraph1": "Razumijemo da medijsko pravo zahtijeva osjetljivu ravnotežu između pravne zaštite i kreativne slobode. Naš pristup kombinira duboko poznavanje industrije s pravnom stručnošću kako bismo pružili praktična rješenja koja štite vaša prava, istovremeno omogućujući inovativni razvoj i distribuciju sadržaja.",
+        "paragraph2": "U brzo razvijajućem medijskom okruženju, ostajemo na čelu novih pravnih pitanja vezanih uz digitalna prava, društvene medije, korisnički generiran sadržaj i prekograničnu distribuciju, pružajući napredne savjete koji predviđaju izazove prije nego što nastanu."
+      },
+      "services": {
+        "title": "Naše usluge za medijsku industriju",
+        "items": [
+          {
+            "title": "Intelektualno vlasništvo",
+            "description": "Zaštita i upravljanje pravima intelektualnog vlasništva za medijski sadržaj, uključujući registraciju autorskih prava, licencne ugovore i upravljanje IP portfeljem."
+          },
+          {
+            "title": "Medijski sporovi",
+            "description": "Zastupanje u slučajevima klevete, povrede autorskih prava, kršenja privatnosti i drugim sporovima specifičnim za medijsku i izdavačku industriju."
+          },
+          {
+            "title": "Regulatorna usklađenost",
+            "description": "Savjetovanje o medijskim propisima, standardima oglašavanja, zahtjevima zaštite podataka i specifičnim pitanjima usklađenosti za industriju."
+          },
+          {
+            "title": "Sadržaj i distribucija",
+            "description": "Pravna podrška za stvaranje sadržaja, izdavačke ugovore, distribucijske ugovore, upravljanje digitalnim pravima i ugovore s talentima."
+          }
+        ]
+      },
+      "sidebar": {
+        "cta": {
+          "title": "Trebate pravnu podršku za medije?",
+          "description": "Kontaktirajte nas danas kako biste razgovarali o tome kako naše specijalizirane pravne usluge mogu podržati vaše medijsko poslovanje i zaštititi vaš sadržaj."
+        },
+        "whyChooseUs": {
+          "title": "Zašto odabrati nas",
+          "reasons": [
+            "Specijalizirano znanje o medijskom i zabavnom pravu",
+            "Iskustvo sa složenim pitanjima intelektualnog vlasništva",
+            "Dokazani uspjeh u slučajevima klevete i privatnosti",
+            "Razumijevanje digitalnih medija i novih platformi"
+          ]
+        }
+      },
+      "bottomCta": {
+        "title": "Surađujte s nama za vaše medijske pravne potrebe",
+        "description": "Kontaktirajte nas danas kako bismo razgovarali o tome kako možemo podržati vaše medijsko poslovanje specijaliziranim pravnim rješenjima za stvaranje, distribuciju i zaštitu sadržaja.",
+        "buttonText": "Zakažite konzultacije"
+      }
+    },
+    "pharma": {
+      "breadcrumb": "Industrijska stručnost",
+      "title": "Farmaceutska industrija i zdravstvo",
+      "description": "Specijalizirana pravna rješenja za farmaceutske tvrtke i pružatelje zdravstvenih usluga",
+      "intro": {
+        "title": "Pravna stručnost za zdravstveni sektor",
+        "paragraph1": "Farmaceutska industrija i zdravstvo djeluju unutar visoko reguliranog okruženja sa složenim pravnim izazovima. Nudimo specijaliziranu pravnu stručnost za navigaciju kroz ove izazove, osiguravajući usklađenost s propisima specifičnim za industriju.",
+        "paragraph2": "Pomažemo farmaceutskim tvrtkama, pružateljima zdravstvenih usluga i povezanim poduzećima s regulatornom usklađenošću, radnim pitanjima, javnom nabavom, komercijalnim transakcijama i pitanjima odgovornosti jedinstvenim za zdravstveni sektor."
+      },
+      "approach": {
+        "title": "Naš pristup",
+        "paragraph1": "Razumijemo da zdravstvene i farmaceutske organizacije suočavaju se s jedinstvenim pravnim izazovima koji zahtijevaju i pravnu stručnost i poznavanje industrije. Naš pristup kombinira duboko razumijevanje zdravstvenih propisa s praktičnim poslovnim rješenjima.",
+        "paragraph2": "Blisko surađujemo s našim klijentima kako bismo razvili pravne strategije koje ne samo da osiguravaju usklađenost, već i podržavaju njihove poslovne ciljeve i štite njihove interese u ovom visoko specijaliziranom sektoru."
+      },
+      "services": {
+        "title": "Naše usluge za farmaceutsku industriju i zdravstvo",
+        "items": [
+          {
+            "title": "Pravno savjetovanje i zastupanje pred sudovima na području radnog prava",
+            "description": "Stručno pravno savjetovanje i zastupanje u području radnog prava, uključujući usklađenost sa zdravstvenim radnim propisima i rješavanje sporova."
+          },
+          {
+            "title": "Pravno savjetovanje i zastupanje u postupcima javne nabave",
+            "description": "Pravno savjetovanje i zastupanje u postupcima javne nabave, osiguravajući usklađenost s propisima o nabavi u zdravstvu."
+          },
+          {
+            "title": "Pravna potpora u poslovnim transakcijama, izrada trgovačkih ugovora",
+            "description": "Pravna potpora u poslovnim transakcijama, uključujući izradu i pregled trgovačkih ugovora prilagođenih potrebama farmaceutske industrije."
+          },
+          {
+            "title": "Zastupanje u postupcima radi naknade štete",
+            "description": "Zastupanje u parničnim postupcima radi naknade štete zbog liječničke pogreške, kao i u postupcima radi naknade štete prouzročene informacijama objavljenim u medijima."
+          }
+        ]
+      },
+      "sidebar": {
+        "cta": {
+          "title": "Trebate pravnu podršku u zdravstvu?",
+          "description": "Kontaktirajte nas danas kako biste razgovarali o tome kako naše specijalizirane pravne usluge mogu podržati vašu farmaceutsku ili zdravstvenu organizaciju."
+        },
+        "whyChooseUs": {
+          "title": "Zašto odabrati nas",
+          "reasons": [
+            "Duboko razumijevanje zdravstvenih propisa",
+            "Iskustvo s javnom nabavom u zdravstvu",
+            "Dokazani uspjeh u slučajevima medicinske odgovornosti",
+            "Specijalizirani za usklađenost s radnim pravom u zdravstvu"
+          ]
+        }
+      },
+      "bottomCta": {
+        "title": "Surađujte s nama za vaše zdravstvene pravne potrebe",
+        "description": "Kontaktirajte nas danas kako bismo razgovarali o tome kako možemo podržati vašu farmaceutsku ili zdravstvenu organizaciju specijaliziranim pravnim rješenjima.",
+        "buttonText": "Zakažite konzultacije"
+      }
+    },
+    "real-estate": {
+      "breadcrumb": "Industrijska stručnost",
+      "title": "Industrija nekretnina",
+      "description": "Sveobuhvatna pravna rješenja za investitore u nekretnine, vlasnike nekretnina i građevinske tvrtke",
+      "intro": {
+        "title": "Pravna stručnost za sektor nekretnina",
+        "paragraph1": "Industrija nekretnina djeluje unutar složenog pravnog okvira imovinskih zakona, transakcija, propisa o zoniranju i potencijalnih sporova. Donosimo specijalizirano znanje i iskustvo kako bismo pomogli tvrtkama iz područja nekretnina u navigaciji kroz ove izazove, istovremeno maksimizirajući vrijednost i minimizirajući rizike.",
+        "paragraph2": "Surađujemo s investitorima u nekretnine, tvrtkama za upravljanje nekretninama, institucionalnim investitorima i individualnim vlasnicima nekretnina kako bismo pružili sveobuhvatnu pravnu podršku kroz sve faze projekata nekretnina, od početnog stjecanja kroz razvoj, najam, upravljanje i eventualnu prodaju."
+      },
+      "approach": {
+        "title": "Naš pristup",
+        "paragraph1": "Razumijemo da transakcije i razvoj nekretnina uključuju značajna ulaganja i složena pravna pitanja. Naša pravna rješenja osmišljena su da budu praktična, učinkovita i da odgovaraju jedinstvenim zahtjevima industrije nekretnina.",
+        "paragraph2": "Kombiniranjem znanja specifičnog za industriju s pravnom stručnošću, pomažemo klijentima predvidjeti potencijalne probleme prije nego što nastanu, učinkovito riješiti sporove kada se pojave i uspostaviti robusne pravne okvire koji podržavaju uspješne ishode projekata i štite ulaganja."
+      },
+      "services": {
+        "title": "Naše usluge za industriju nekretnina",
+        "items": [
+          {
+            "title": "Transakcije nekretninama",
+            "description": "Pravna podrška za kupnju i prodaju nekretnina, ugovore o zakupu i projekte razvoja nekretnina sa sveobuhvatnim sastavljanjem i pregledom ugovora."
+          },
+          {
+            "title": "Sporovi vezani uz nekretnine",
+            "description": "Zastupanje u sporovima oko vlasništva nekretnina, konflikata oko korištenja zemljišta, građevinskih sporova i ovršnih postupaka vezanih uz nekretnine."
+          },
+          {
+            "title": "Regulatorna usklađenost",
+            "description": "Savjetovanje o propisima zoniranja, građevinskim dozvolama, ekološkoj usklađenosti i drugim regulatornim pitanjima koja utječu na projekte nekretnina."
+          },
+          {
+            "title": "Investicijsko savjetovanje",
+            "description": "Pravno savjetovanje za investitore u nekretnine, uključujući dubinsku analizu, strukturiranje financiranja, zajedničke pothvate i procjenu rizika za ulaganja u nekretnine."
+          }
+        ]
+      },
+      "sidebar": {
+        "cta": {
+          "title": "Trebate pravnu podršku za nekretnine?",
+          "description": "Kontaktirajte nas danas kako biste razgovarali o tome kako naše specijalizirane pravne usluge mogu podržati vaše poslovanje ili ulaganja u nekretnine."
+        },
+        "whyChooseUs": {
+          "title": "Zašto odabrati nas",
+          "reasons": [
+            "Duboko razumijevanje propisa i zakona o nekretninama",
+            "Iskustvo sa složenim transakcijama nekretnina",
+            "Dokazani uspjeh u rješavanju sporova vezanih uz nekretnine",
+            "Prilagođeni savjeti za specifične potrebe vaših nekretnina"
+          ]
+        }
+      },
+      "bottomCta": {
+        "title": "Surađujte s nama za vaše pravne potrebe u području nekretnina",
+        "description": "Kontaktirajte nas danas kako bismo razgovarali o tome kako možemo podržati vaše poslovanje ili ulaganja u nekretnine specijaliziranim pravnim rješenjima.",
+        "buttonText": "Zakažite konzultacije"
+      }
+    }
+  }
+}

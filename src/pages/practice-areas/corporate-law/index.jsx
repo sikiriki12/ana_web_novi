@@ -1,11 +1,10 @@
-import { useContext } from 'react'
 import { Link } from 'react-router-dom'
 import { FaBuilding, FaArrowRight } from 'react-icons/fa'
-import { LanguageContext } from '../../../App'
 import PracticeAreasList from '../../../components/ui/PracticeAreasList'
+import { useTranslations } from '../../../hooks/use-translations'
 
 export default function CorporateLaw() {
-  const { language } = useContext(LanguageContext);
+  const { t } = useTranslations();
 
   return (
     <div>
@@ -23,20 +22,18 @@ export default function CorporateLaw() {
           <div className="max-w-4xl mx-auto text-center">
             <div className="inline-flex items-center mb-6 text-primary-300">
               <Link to="/practice-areas" className="hover:text-white transition-colors">
-                {language === 'en' ? 'Practice Areas' : 'Područja prakse'}
+                {t('corporateLaw.breadcrumb')}
               </Link>
               <span className="mx-3">/</span>
-              <span>{language === 'en' ? 'Corporate Law' : 'Pravo trgovačkih društava'}</span>
+              <span>{t('corporateLaw.title')}</span>
             </div>
             
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-white mb-6 animate-fade-in">
-              {language === 'en' ? 'Corporate Law' : 'Pravo trgovačkih društava'}
+              {t('corporateLaw.title')}
             </h1>
             
             <p className="text-xl text-primary-100 mb-8 animate-fade-in animate-delay-200 max-w-3xl mx-auto">
-              {language === 'en'
-                ? 'Expert legal support for company formation, governance, and corporate transactions'
-                : 'Stručna pravna podrška za osnivanje tvrtki, upravljanje i korporativne transakcije'}
+              {t('corporateLaw.description')}
             </p>
           </div>
         </div>
@@ -54,94 +51,56 @@ export default function CorporateLaw() {
                     <FaBuilding size={24} />
                   </div>
                   <h2 className="text-3xl font-serif font-bold text-primary-800 m-0">
-                    {language === 'en' ? 'Our Corporate Law Services' : 'Naše usluge prava trgovačkih društava'}
+                    {t('corporateLaw.ourServices')}
                   </h2>
                 </div>
                 
                 <p>
-                  {language === 'en'
-                    ? 'We provide comprehensive legal services related to the establishment of companies, management issues, and status changes, offering expert guidance through every phase of corporate development.'
-                    : 'Pružamo sveobuhvatne pravne usluge u vezi s osnivanjem trgovačkih društava, pitanjima upravljanja i statusnim promjenama, nudeći stručno vodstvo kroz svaku fazu korporativnog razvoja.'}
+                  {t('corporateLaw.introText')}
                 </p>
                 
                 <h3 className="text-2xl font-serif font-bold text-primary-800 mt-8 mb-4">
-                  {language === 'en' ? 'Company Formation & Structuring' : 'Osnivanje i strukturiranje društava'}
+                  {t('corporateLaw.companyFormation.title')}
                 </h3>
                 
                 <p>
-                  {language === 'en'
-                    ? 'We assist in the establishment of various business entities, advising on the most appropriate corporate structure based on your business goals, liability concerns, tax implications, and operational requirements. Our services include:'
-                    : 'Pomažemo u osnivanju različitih poslovnih subjekata, savjetujući o najprikladnijoj korporativnoj strukturi na temelju vaših poslovnih ciljeva, pitanja odgovornosti, poreznih implikacija i operativnih zahtjeva. Naše usluge uključuju:'}
+                  {t('corporateLaw.companyFormation.description')}
                 </p>
                 
                 <ul>
-                  {language === 'en' ? (
-                    <>
-                      <li>Incorporation of limited liability companies (d.o.o.)</li>
-                      <li>Establishment of joint stock companies (d.d.)</li>
-                      <li>Formation of branches and representative offices</li>
-                      <li>Drafting of articles of association and other founding documents</li>
-                      <li>Handling all regulatory filings and registrations</li>
-                    </>
-                  ) : (
-                    <>
-                      <li>Osnivanje društava s ograničenom odgovornošću (d.o.o.)</li>
-                      <li>Osnivanje dioničkih društava (d.d.)</li>
-                      <li>Osnivanje podružnica i predstavništava</li>
-                      <li>Izrada društvenih ugovora i drugih osnivačkih dokumenata</li>
-                      <li>Upravljanje svim regulatornim podnescima i registracijama</li>
-                    </>
-                  )}
+                  {t('corporateLaw.companyFormation.items').map((item, index) => (
+                    <li key={index}>{item}</li>
+                  ))}
                 </ul>
                 
                 <h3 className="text-2xl font-serif font-bold text-primary-800 mt-8 mb-4">
-                  {language === 'en' ? 'Mergers & Acquisitions' : 'Spajanja i preuzimanja'}
+                  {t('corporateLaw.mergersAcquisitions.title')}
                 </h3>
                 
                 <p>
-                  {language === 'en'
-                    ? 'We provide complete legal support during the merger and acquisition of companies. We guide clients through the entire M&A process, from initial due diligence to the final transaction closing.'
-                    : 'Pružamo kompletnu pravnu podršku tijekom postupka pripajanja i preuzimanja društava. Vodimo klijente kroz cijeli proces M&A, od početne dubinske analize do konačnog zatvaranja transakcije.'}
+                  {t('corporateLaw.mergersAcquisitions.description')}
                 </p>
                 
                 <h3 className="text-2xl font-serif font-bold text-primary-800 mt-8 mb-4">
-                  {language === 'en' ? 'Shareholder & Investor Agreements' : 'Dioničarski i investitorski ugovori'}
+                  {t('corporateLaw.shareholderAgreements.title')}
                 </h3>
                 
                 <p>
-                  {language === 'en'
-                    ? 'We draft and negotiate agreements between company members, investors, and other stakeholders, including:'
-                    : 'Sastavljamo i pregovaramo ugovore između članova društva, investitora i drugih dionika, uključujući:'}
+                  {t('corporateLaw.shareholderAgreements.description')}
                 </p>
                 
                 <ul>
-                  {language === 'en' ? (
-                    <>
-                      <li>Shareholders agreements</li>
-                      <li>Convertible loan agreements</li>
-                      <li>Intellectual property transfer agreements</li>
-                      <li>Option agreements between companies and employees</li>
-                      <li>Investment and financing agreements</li>
-                    </>
-                  ) : (
-                    <>
-                      <li>Ugovore između članova društva o upisu dionica/poslovnih udjela (Shareholders agreements)</li>
-                      <li>Ugovore o konvertibilnim zajmovima (Convertible Loan Agreements)</li>
-                      <li>Ugovore o prijenosu prava intelektualnog vlasništva</li>
-                      <li>Opcijske ugovore između društva i radnika</li>
-                      <li>Investicijske i financijske ugovore</li>
-                    </>
-                  )}
+                  {t('corporateLaw.shareholderAgreements.items').map((item, index) => (
+                    <li key={index}>{item}</li>
+                  ))}
                 </ul>
                 
                 <h3 className="text-2xl font-serif font-bold text-primary-800 mt-8 mb-4">
-                  {language === 'en' ? 'Startup & IT Industry Expertise' : 'Startup i IT industrija stručnost'}
+                  {t('corporateLaw.startupExpertise.title')}
                 </h3>
                 
                 <p>
-                  {language === 'en'
-                    ? 'We have extensive experience in the IT industry and financing companies in early stages of development. We provide specialized legal advice on funding strategies, including increase of share capital and subscription of shares/interests, as well as convertible loans structured according to agreements between investors and company founders.'
-                    : 'Imamo bogato iskustvo na području IT industrije i financiranja društava u ranim fazama razvoja. Pružamo specijalizirane pravne savjete o strategijama financiranja, uključujući povećanje temeljnog kapitala i upis dionica/udjela, kao i konvertibilnih zajmova strukturiranih prema dogovoru između investitora i osnivača društva.'}
+                  {t('corporateLaw.startupExpertise.description')}
                 </p>
               </div>
             </div>
@@ -152,17 +111,15 @@ export default function CorporateLaw() {
               
               <div className="bg-primary-800 text-white rounded-xl p-8">
                 <h3 className="text-xl font-serif font-bold mb-4">
-                  {language === 'en' ? 'Need Corporate Law Advice?' : 'Trebate savjet iz prava trgovačkih društava?'}
+                  {t('corporateLaw.sidebar.title')}
                 </h3>
                 
                 <p className="mb-6 text-primary-100">
-                  {language === 'en'
-                    ? 'Contact us today to schedule a consultation for corporate law matters.'
-                    : 'Kontaktirajte nas danas za dogovor konzultacija za pitanja prava trgovačkih društava.'}
+                  {t('corporateLaw.sidebar.description')}
                 </p>
                 
                 <Link to="/contact" className="btn bg-white text-primary-800 hover:bg-white/90 transition-all duration-300 w-full flex justify-center items-center">
-                  {language === 'en' ? 'Contact Us' : 'Kontaktirajte nas'}
+                  {t('common.contactUs')}
                   <FaArrowRight className="ml-2" size={16} />
                 </Link>
               </div>

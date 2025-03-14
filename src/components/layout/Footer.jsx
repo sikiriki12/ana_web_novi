@@ -1,8 +1,10 @@
 import { FaMapMarkerAlt, FaPhone, FaMobile, FaEnvelope, FaClock, FaBalanceScale, FaGavel, FaUserTie, FaBuilding, FaHandshake, FaFileContract, FaLaptopCode, FaPrescriptionBottleAlt, FaIndustry, FaHome, FaNewspaper } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
+import { useTranslations } from '../../hooks/use-translations'
 
 export default function Footer({ language }) {
-  const currentYear = new Date().getFullYear()
+  const { t } = useTranslations();
+  const currentYear = new Date().getFullYear();
   
   return (
     <footer className="relative overflow-hidden">
@@ -26,7 +28,7 @@ export default function Footer({ language }) {
               <div className="flex items-center mb-6">
                 <FaBalanceScale className="text-primary-300 text-2xl mr-3" />
                 <h3 className="text-xl font-serif font-bold text-white">
-                  {language === 'en' ? 'Law Office Ana Bandalo' : 'Odvjetnički ured Ana Bandalo'}
+                  {t('footer.lawOffice')}
                 </h3>
               </div>
               
@@ -37,12 +39,12 @@ export default function Footer({ language }) {
                   </div>
                   <div>
                     <p className="font-medium mb-1 text-primary-200">
-                      {language === 'en' ? 'Address:' : 'Adresa:'}
+                      {t('footer.address')}
                     </p>
                     <p className="text-gray-300 mb-0">
                       Većeslava Holjevca 40,<br />
-                      10000 Zagreb, {language === 'en' ? 'Croatia' : 'Hrvatska'}<br />
-                      ({language === 'en' ? 'Business center' : 'Poslovni centar'} RECRO, 3. {language === 'en' ? 'floor' : 'kat'})
+                      10000 Zagreb, {t('footer.croatia')}<br />
+                      ({t('footer.businessCenter')} RECRO, 3. {t('footer.floor')})
                     </p>
                   </div>
                 </li>
@@ -53,7 +55,7 @@ export default function Footer({ language }) {
                   </div>
                   <div>
                     <p className="font-medium mb-1 text-primary-200">
-                      {language === 'en' ? 'Phone:' : 'Telefon:'}
+                      {t('footer.phone')}
                     </p>
                     <a href="tel:+38514668833" className="text-gray-300 hover:text-white transition-colors duration-300">
                       +385 1 4668 833
@@ -67,7 +69,7 @@ export default function Footer({ language }) {
                   </div>
                   <div>
                     <p className="font-medium mb-1 text-primary-200">
-                      {language === 'en' ? 'Mobile:' : 'Mobitel:'}
+                      {t('footer.mobile')}
                     </p>
                     <a href="tel:+385915187473" className="text-gray-300 hover:text-white transition-colors duration-300">
                       +385 91 518 74 73
@@ -96,12 +98,10 @@ export default function Footer({ language }) {
                   </div>
                   <div>
                     <p className="font-medium mb-1 text-primary-200">
-                      {language === 'en' ? 'Working Hours:' : 'Radno vrijeme:'}
+                      {t('footer.workingHours')}
                     </p>
                     <p className="text-gray-300 mb-0">
-                      {language === 'en' 
-                        ? 'Mon – Fri: 09:00 - 17:00 (by appointment only)'
-                        : 'Pon – Pet: 09:00 - 17:00 (isključivo uz prethodnu najavu)'}
+                      {t('footer.workingHoursValue')}
                     </p>
                   </div>
                 </li>
@@ -112,7 +112,7 @@ export default function Footer({ language }) {
             <div className="lg:col-span-3">
               <h3 className="text-lg font-serif font-bold text-white mb-5 flex items-center">
                 <span className="h-1 w-6 bg-primary-400 rounded-full mr-2"></span>
-                {language === 'en' ? 'Practice Areas' : 'Područja prakse'}
+                {t('footer.practiceAreas')}
               </h3>
               <ul className="space-y-3">
                 <li>
@@ -120,7 +120,7 @@ export default function Footer({ language }) {
                     <span className="mr-2 w-5 flex justify-center">
                       <FaGavel className="text-primary-400 group-hover:text-primary-300 transition-colors" size={14} />
                     </span>
-                    {language === 'en' ? 'Commercial Law' : 'Trgovačko pravo'}
+                    {t('practiceAreas.areas.commercialLaw.title')}
                   </Link>
                 </li>
                 <li>
@@ -128,7 +128,7 @@ export default function Footer({ language }) {
                     <span className="mr-2 w-5 flex justify-center">
                       <FaUserTie className="text-primary-400 group-hover:text-primary-300 transition-colors" size={14} />
                     </span>
-                    {language === 'en' ? 'Labor Law' : 'Radno pravo'}
+                    {t('practiceAreas.areas.laborLaw.title')}
                   </Link>
                 </li>
                 <li>
@@ -136,7 +136,7 @@ export default function Footer({ language }) {
                     <span className="mr-2 w-5 flex justify-center">
                       <FaBuilding className="text-primary-400 group-hover:text-primary-300 transition-colors" size={14} />
                     </span>
-                    {language === 'en' ? 'Corporate Law' : 'Pravo trgovačkih društava'}
+                    {t('practiceAreas.areas.corporateLaw.title')}
                   </Link>
                 </li>
                 <li>
@@ -144,7 +144,7 @@ export default function Footer({ language }) {
                     <span className="mr-2 w-5 flex justify-center">
                       <FaBalanceScale className="text-primary-400 group-hover:text-primary-300 transition-colors" size={14} />
                     </span>
-                    {language === 'en' ? 'Real Estate & Civil Law' : 'Nekretnine i Građansko pravo'}
+                    {t('practiceAreas.areas.realEstate.title')}
                   </Link>
                 </li>
                 <li>
@@ -152,7 +152,7 @@ export default function Footer({ language }) {
                     <span className="mr-2 w-5 flex justify-center">
                       <FaFileContract className="text-primary-400 group-hover:text-primary-300 transition-colors" size={14} />
                     </span>
-                    {language === 'en' ? 'Contract Law' : 'Ugovorno pravo'}
+                    {t('practiceAreas.areas.contractLaw.title')}
                   </Link>
                 </li>
                 <li>
@@ -160,14 +160,14 @@ export default function Footer({ language }) {
                     <span className="mr-2 w-5 flex justify-center">
                       <FaHandshake className="text-primary-400 group-hover:text-primary-300 transition-colors" size={14} />
                     </span>
-                    {language === 'en' ? 'Dispute Resolution' : 'Rješavanje sporova'}
+                    {t('practiceAreas.areas.disputeResolution.title')}
                   </Link>
                 </li>
               </ul>
               
               <h3 className="text-lg font-serif font-bold text-white mt-8 mb-5 flex items-center">
                 <span className="h-1 w-6 bg-primary-400 rounded-full mr-2"></span>
-                {language === 'en' ? 'Industry Expertise' : 'Industrijska stručnost'}
+                {t('footer.industryExpertise')}
               </h3>
               <ul className="space-y-3">
                 <li>
@@ -175,7 +175,7 @@ export default function Footer({ language }) {
                     <span className="mr-2 w-5 flex justify-center">
                       <FaBuilding className="text-primary-400 group-hover:text-primary-300 transition-colors" size={14} />
                     </span>
-                    {language === 'en' ? 'Construction Industry' : 'Građevinska industrija'}
+                    {t('home.industry.industries.construction.title')}
                   </Link>
                 </li>
                 <li>
@@ -183,7 +183,7 @@ export default function Footer({ language }) {
                     <span className="mr-2 w-5 flex justify-center">
                       <FaLaptopCode className="text-primary-400 group-hover:text-primary-300 transition-colors" size={14} />
                     </span>
-                    {language === 'en' ? 'IT Industry' : 'IT Industrija'}
+                    {t('home.industry.industries.it.title')}
                   </Link>
                 </li>
                 <li>
@@ -191,7 +191,7 @@ export default function Footer({ language }) {
                     <span className="mr-2 w-5 flex justify-center">
                       <FaPrescriptionBottleAlt className="text-primary-400 group-hover:text-primary-300 transition-colors" size={14} />
                     </span>
-                    {language === 'en' ? 'Pharma & Healthcare' : 'Pharma i zdravstvo'}
+                    {t('home.industry.industries.pharma.title')}
                   </Link>
                 </li>
                 <li>
@@ -199,7 +199,7 @@ export default function Footer({ language }) {
                     <span className="mr-2 w-5 flex justify-center">
                       <FaIndustry className="text-primary-400 group-hover:text-primary-300 transition-colors" size={14} />
                     </span>
-                    {language === 'en' ? 'Manufacturing & Services' : 'Proizvodnja i usluge'}
+                    {t('home.industry.industries.manufacturing.title')}
                   </Link>
                 </li>
                 <li>
@@ -225,7 +225,7 @@ export default function Footer({ language }) {
             <div className="lg:col-span-5">
               <h3 className="text-lg font-serif font-bold text-white mb-5 flex items-center">
                 <span className="h-1 w-6 bg-primary-400 rounded-full mr-2"></span>
-                {language === 'en' ? 'Location' : 'Lokacija'}
+                {t('footer.location')}
               </h3>
               <div className="rounded-xl overflow-hidden shadow-lg border-2 border-primary-800">
                 <iframe
@@ -244,8 +244,8 @@ export default function Footer({ language }) {
           <div className="container-custom">
             <div className="flex flex-col md:flex-row justify-between items-center">
               <p className="text-gray-400 mb-4 md:mb-0">
-                © {currentYear} {language === 'en' ? 'Attorney at Law Ana Bandalo' : 'Odvjetnica Ana Bandalo'} • 
-                <span className="text-gray-500"> {language === 'en' ? 'All Rights Reserved' : 'Sva prava pridržana'}</span>
+                © {currentYear} {t('footer.attorneyAtLaw')} • 
+                <span className="text-gray-500"> {t('footer.allRightsReserved')}</span>
               </p>
               {/* Footer navigation links removed */}
             </div>

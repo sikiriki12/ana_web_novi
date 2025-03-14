@@ -2,15 +2,17 @@ import { useState, useEffect } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import { Disclosure, Transition } from '@headlessui/react'
 import { FaBars, FaTimes, FaBalanceScale, FaPhone } from 'react-icons/fa'
+import { useTranslations } from '../../hooks/use-translations'
 
 const navigation = [
-  { name: 'About us', href: '/about', nameCro: 'O nama' },
-  { name: 'Practice areas', href: '/practice-areas', nameCro: 'Područja prakse' },
-  { name: 'Industry', href: '/industry', nameCro: 'Industrija' },
-  { name: 'Contact', href: '/contact', nameCro: 'Kontakt' },
+  { key: 'navigation.about', href: '/about' },
+  { key: 'navigation.practiceAreas', href: '/practice-areas' },
+  { key: 'navigation.industry', href: '/industry' },
+  { key: 'navigation.contact', href: '/contact' },
 ]
 
 export default function Header({ language, setLanguage }) {
+  const { t } = useTranslations();
   const [scrolled, setScrolled] = useState(false)
   const location = useLocation()
   
@@ -60,7 +62,7 @@ export default function Header({ language, setLanguage }) {
                     onClick={() => setLanguage(language === 'en' ? 'hr' : 'en')}
                     className="text-primary-200 hover:text-white transition-colors font-medium text-xs"
                   >
-                    {language === 'en' ? 'Hrvatski' : 'English'}
+                    {language === 'en' ? t('navigation.switchToHr') : t('navigation.switchToEn')}
                   </button>
                 </div>
               </div>
@@ -90,7 +92,7 @@ export default function Header({ language, setLanguage }) {
                         Ana Bandalo
                       </h1>
                       <p className="text-[10px] uppercase tracking-wide text-secondary-500 font-medium leading-tight">
-                        {language === 'en' ? 'LAW FIRM' : 'ODVJETNIČKI URED'}
+                        {t('navigation.lawFirm')}
                       </p>
                     </div>
                   </Link>
@@ -112,7 +114,7 @@ export default function Header({ language, setLanguage }) {
                           : 'border-transparent text-secondary-800 hover:border-secondary-300 hover:text-primary-700'
                       } inline-flex items-center px-1 border-b text-base font-medium transition-all duration-300 hover:scale-105 h-full`}
                     >
-                      {language === 'en' ? item.name : item.nameCro}
+                      {t(item.key)}
                     </Link>
                   ))}
                 </div>
@@ -158,7 +160,7 @@ export default function Header({ language, setLanguage }) {
                         : 'text-secondary-800 hover:bg-secondary-50 hover:text-primary-700 pl-4'
                     } block py-3 rounded-md text-base font-medium transition-all duration-300`}
                   >
-                    {language === 'en' ? item.name : item.nameCro}
+                    {t(item.key)}
                   </Disclosure.Button>
                 ))}
                 
@@ -168,7 +170,7 @@ export default function Header({ language, setLanguage }) {
                     className="flex justify-center w-full bg-primary-700 text-white py-3 rounded-md text-base font-medium hover:bg-primary-800 transition-colors"
                   >
                     <FaPhone className="mr-2" />
-                    {language === 'en' ? 'Contact Us' : 'Kontaktirajte nas'}
+                    {t('common.contactUs')}
                   </Link>
                 </div>
               </div>

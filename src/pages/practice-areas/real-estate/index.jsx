@@ -1,11 +1,10 @@
-import { useContext } from 'react'
 import { Link } from 'react-router-dom'
 import { FaBalanceScale, FaArrowRight, FaHome } from 'react-icons/fa'
-import { LanguageContext } from '../../../App'
 import PracticeAreasList from '../../../components/ui/PracticeAreasList'
+import { useTranslations } from '../../../hooks/use-translations'
 
 export default function RealEstate() {
-  const { language } = useContext(LanguageContext);
+  const { t } = useTranslations();
 
   return (
     <div>
@@ -23,20 +22,18 @@ export default function RealEstate() {
           <div className="max-w-4xl mx-auto text-center">
             <div className="inline-flex items-center mb-6 text-primary-300">
               <Link to="/practice-areas" className="hover:text-white transition-colors">
-                {language === 'en' ? 'Practice Areas' : 'Područja prakse'}
+                {t('realEstate.breadcrumb')}
               </Link>
               <span className="mx-3">/</span>
-              <span>{language === 'en' ? 'Real Estate & Civil Law' : 'Nekretnine i Građansko pravo'}</span>
+              <span>{t('realEstate.title')}</span>
             </div>
             
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-white mb-6 animate-fade-in">
-              {language === 'en' ? 'Real Estate & Civil Law' : 'Nekretnine i Građansko pravo'}
+              {t('realEstate.title')}
             </h1>
             
             <p className="text-xl text-primary-100 mb-8 animate-fade-in animate-delay-200 max-w-3xl mx-auto">
-              {language === 'en'
-                ? 'Comprehensive legal support for real estate transactions and civil matters'
-                : 'Sveobuhvatna pravna podrška za transakcije nekretnina i građanska pitanja'}
+              {t('realEstate.description')}
             </p>
           </div>
         </div>
@@ -54,126 +51,70 @@ export default function RealEstate() {
                     <FaHome size={24} />
                   </div>
                   <h2 className="text-3xl font-serif font-bold text-primary-800 m-0">
-                    {language === 'en' ? 'Our Real Estate & Civil Law Services' : 'Naše usluge Nekretnina i Građanskog prava'}
+                    {t('realEstate.ourServices')}
                   </h2>
                 </div>
                 
                 <p>
-                  {language === 'en'
-                    ? 'We provide complete legal support during real estate investments and represent clients in civil proceedings, bringing clarity to complex property transactions and civil matters.'
-                    : 'Pružamo kompletnu pravnu potporu prilikom nekretninskih investicija i zastupamo klijente u građanskim postupcima, donoseći jasnoću u složene transakcije nekretnina i građanska pitanja.'}
+                  {t('realEstate.introText')}
                 </p>
                 
                 <h3 className="text-2xl font-serif font-bold text-primary-800 mt-8 mb-4">
-                  {language === 'en' ? 'Real Estate Transactions' : 'Transakcije nekretninama'}
+                  {t('realEstate.transactions.title')}
                 </h3>
                 
                 <p>
-                  {language === 'en'
-                    ? 'Our real estate practice offers comprehensive legal services for all aspects of property transactions, including:'
-                    : 'Naša praksa u području nekretnina nudi sveobuhvatne pravne usluge za sve aspekte transakcija nekretninama, uključujući:'}
+                  {t('realEstate.transactions.description')}
                 </p>
                 
                 <ul>
-                  {language === 'en' ? (
-                    <>
-                      <li>Property acquisitions and sales</li>
-                      <li>Lease agreements</li>
-                      <li>Development projects</li>
-                      <li>Land use and zoning matters</li>
-                      <li>Property title disputes</li>
-                      <li>Construction contracts</li>
-                    </>
-                  ) : (
-                    <>
-                      <li>Kupnja i prodaja nekretnina</li>
-                      <li>Ugovori o zakupu</li>
-                      <li>Razvojni projekti</li>
-                      <li>Pitanja korištenja zemljišta i zoniranja</li>
-                      <li>Sporovi oko vlasništva nekretnina</li>
-                      <li>Građevinski ugovori</li>
-                    </>
-                  )}
+                  {t('realEstate.transactions.items').map((item, index) => (
+                    <li key={index}>{item}</li>
+                  ))}
                 </ul>
                 
                 <h3 className="text-2xl font-serif font-bold text-primary-800 mt-8 mb-4">
-                  {language === 'en' ? 'Civil Litigation' : 'Građanske parnice'}
+                  {t('realEstate.civilLitigation.title')}
                 </h3>
                 
                 <p>
-                  {language === 'en'
-                    ? 'We represent clients in a wide range of civil proceedings related to:'
-                    : 'Zastupamo klijente u širokom rasponu građanskih postupaka vezanih za:'}
+                  {t('realEstate.civilLitigation.description')}
                 </p>
                 
                 <ul>
-                  {language === 'en' ? (
-                    <>
-                      <li>Property rights disputes</li>
-                      <li>Contract disputes</li>
-                      <li>Enforcement proceedings</li>
-                      <li>Debt collection</li>
-                      <li>Lease relationships</li>
-                      <li>Damage compensation claims</li>
-                    </>
-                  ) : (
-                    <>
-                      <li>Sporovi o vlasničkim pravima</li>
-                      <li>Ugovorni sporovi</li>
-                      <li>Ovršni postupci</li>
-                      <li>Naplata potraživanja</li>
-                      <li>Zakupni odnosi</li>
-                      <li>Zahtjevi za naknadu štete</li>
-                    </>
-                  )}
+                  {t('realEstate.civilLitigation.items').map((item, index) => (
+                    <li key={index}>{item}</li>
+                  ))}
                 </ul>
                 
                 <h3 className="text-2xl font-serif font-bold text-primary-800 mt-8 mb-4">
-                  {language === 'en' ? 'Specialized Damage Claims' : 'Specijalizirani zahtjevi za naknadu štete'}
+                  {t('realEstate.damageClaims.title')}
                 </h3>
                 
                 <p>
-                  {language === 'en'
-                    ? 'We have specific expertise in handling complex damage compensation claims, including:'
-                    : 'Imamo specifičnu stručnost u rješavanju složenih zahtjeva za naknadu štete, uključujući:'}
+                  {t('realEstate.damageClaims.description')}
                 </p>
                 
                 <ul>
-                  {language === 'en' ? (
-                    <>
-                      <li>Medical malpractice claims</li>
-                      <li>Damages caused by information published in media</li>
-                      <li>Personal injury compensation</li>
-                      <li>Professional liability claims</li>
-                    </>
-                  ) : (
-                    <>
-                      <li>Liječničke greške</li>
-                      <li>Štete prouzročene informacijama objavljenim u medijima</li>
-                      <li>Naknade za osobne ozljede</li>
-                      <li>Zahtjevi za profesionalnu odgovornost</li>
-                    </>
-                  )}
+                  {t('realEstate.damageClaims.items').map((item, index) => (
+                    <li key={index}>{item}</li>
+                  ))}
                 </ul>
                 
                 <h3 className="text-2xl font-serif font-bold text-primary-800 mt-8 mb-4">
-                  {language === 'en' ? 'Administrative Disputes' : 'Upravni sporovi'}
+                  {t('realEstate.administrativeDisputes.title')}
                 </h3>
                 
                 <p>
-                  {language === 'en'
-                    ? 'We represent clients in proceedings related to illegal actions of state bodies and bodies with public authority. Our expertise extends to all areas of administrative law, helping clients navigate complex regulatory environments.'
-                    : 'Zastupamo klijente u postupcima vezanim uz nezakonita postupanja državnih tijela i tijela s javnim ovlastima. Naša stručnost proteže se na sva područja upravnog prava, pomažući klijentima u navigaciji složenim regulatornim okruženjima.'}
+                  {t('realEstate.administrativeDisputes.description')}
                 </p>
                 
                 <h3 className="text-2xl font-serif font-bold text-primary-800 mt-8 mb-4">
-                  {language === 'en' ? 'Human Rights Protection' : 'Zaštita ljudskih prava'}
+                  {t('realEstate.humanRights.title')}
                 </h3>
                 
                 <p>
-                  {language === 'en'
-                    ? 'We have extensive experience in representing clients before the European Court of Human Rights and domestic courts in human rights cases. We are committed to protecting fundamental rights and ensuring fair treatment under the law.'
-                    : 'Imamo bogato iskustvo u zastupanju klijenata pred Europskim sudom za ljudska prava i domaćim sudovima u slučajevima zaštite ljudskih prava. Predani smo zaštiti temeljnih prava i osiguravanju pravednog tretmana prema zakonu.'}
+                  {t('realEstate.humanRights.description')}
                 </p>
               </div>
             </div>
@@ -184,17 +125,15 @@ export default function RealEstate() {
               
               <div className="bg-primary-800 text-white rounded-xl p-8">
                 <h3 className="text-xl font-serif font-bold mb-4">
-                  {language === 'en' ? 'Need Real Estate or Civil Law Advice?' : 'Trebate savjet iz područja nekretnina ili građanskog prava?'}
+                  {t('realEstate.sidebar.title')}
                 </h3>
                 
                 <p className="mb-6 text-primary-100">
-                  {language === 'en'
-                    ? 'Contact us today to schedule a consultation regarding real estate and civil law matters.'
-                    : 'Kontaktirajte nas danas za dogovor konzultacija za pitanja nekretnina i građanskog prava.'}
+                  {t('realEstate.sidebar.description')}
                 </p>
                 
                 <Link to="/contact" className="btn bg-white text-primary-800 hover:bg-white/90 transition-all duration-300 w-full flex justify-center items-center">
-                  {language === 'en' ? 'Contact Us' : 'Kontaktirajte nas'}
+                  {t('common.contactUs')}
                   <FaArrowRight className="ml-2" size={16} />
                 </Link>
               </div>

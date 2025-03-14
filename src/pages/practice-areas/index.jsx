@@ -1,36 +1,40 @@
-import { useContext, useEffect } from 'react'
+import { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { FaGavel, FaUserTie, FaBalanceScale, FaBuilding, FaHandshake, FaFileContract } from 'react-icons/fa'
-import { LanguageContext } from '../../App'
+import { useTranslations } from '../../hooks/use-translations'
 
-const PracticeArea = ({ icon, title, description, index, link, language }) => (
-  <Link to={link} className="fade-in-section hover-lift">
-    <div className="bg-white rounded-xl shadow-elegant hover:shadow-elegant-lg p-8 h-full border-t-4 border-transparent hover:border-primary-600 transition-all duration-300 flex flex-col">
-      <div className="mb-6 flex items-center justify-between">
-        <div className="bg-primary-50 text-primary-700 p-4 rounded-lg">
-          {icon}
+const PracticeArea = ({ icon, title, description, index, link }) => {
+  const { t } = useTranslations();
+  
+  return (
+    <Link to={link} className="fade-in-section hover-lift">
+      <div className="bg-white rounded-xl shadow-elegant hover:shadow-elegant-lg p-8 h-full border-t-4 border-transparent hover:border-primary-600 transition-all duration-300 flex flex-col">
+        <div className="mb-6 flex items-center justify-between">
+          <div className="bg-primary-50 text-primary-700 p-4 rounded-lg">
+            {icon}
+          </div>
+          <span className="text-4xl font-serif text-primary-200 font-bold">#{String(index).padStart(2, '0')}</span>
         </div>
-        <span className="text-4xl font-serif text-primary-200 font-bold">#{String(index).padStart(2, '0')}</span>
+        
+        <h3 className="text-2xl font-serif font-bold text-primary-800 mb-4">{title}</h3>
+        <p className="text-secondary-700 flex-grow">{description}</p>
+        
+        {/* Learn more link */}
+        <div className="mt-4 pt-4 border-t border-gray-100">
+          <span className="text-primary-600 font-medium underline inline-flex items-center">
+            {t('common.learnMore')}
+            <svg className="ml-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"></path>
+            </svg>
+          </span>
+        </div>
       </div>
-      
-      <h3 className="text-2xl font-serif font-bold text-primary-800 mb-4">{title}</h3>
-      <p className="text-secondary-700 flex-grow">{description}</p>
-      
-      {/* Learn more link */}
-      <div className="mt-4 pt-4 border-t border-gray-100">
-        <span className="text-primary-600 font-medium underline inline-flex items-center">
-          {language === 'en' ? 'Learn more' : 'Saznajte više'}
-          <svg className="ml-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"></path>
-          </svg>
-        </span>
-      </div>
-    </div>
-  </Link>
-);
+    </Link>
+  );
+};
 
 export default function PracticeAreas() {
-  const { language } = useContext(LanguageContext);
+  const { t } = useTranslations();
   
   // Animation for sections on scroll
   useEffect(() => {
@@ -54,79 +58,42 @@ export default function PracticeAreas() {
     };
   }, []);
   
-  // Practice areas data based on language
-  const practiceAreas = language === 'en' ? [
+  // Practice areas data
+  const practiceAreas = [
     {
       icon: <FaGavel size={28} />,
-      title: 'Commercial Law',
-      description: 'We provide legal assistance in business operations, offering specialized advice in contract law, drafting commercial contracts, and representation in commercial disputes. Our commercial law services help businesses navigate complex legal environments while minimizing risk.',
+      title: t('practiceAreas.areas.commercialLaw.title'),
+      description: t('practiceAreas.areas.commercialLaw.description'),
       link: '/practice-areas/commercial-law'
     },
     {
       icon: <FaUserTie size={28} />,
-      title: 'Labor Law',
-      description: 'Our labor law services include consulting and representation regarding employment contracts, defining rights and obligations of workers and employers, and resolution of disputes. We help both businesses and employees navigate the complexities of labor regulations and relationships.',
+      title: t('practiceAreas.areas.laborLaw.title'),
+      description: t('practiceAreas.areas.laborLaw.description'),
       link: '/practice-areas/labor-law'
     },
     {
       icon: <FaBuilding size={28} />,
-      title: 'Corporate Law',
-      description: 'We provide comprehensive legal services related to company establishment, management issues, and status changes, including complete legal support during mergers and acquisitions. Our corporate law team brings expertise to governance, compliance, and restructuring matters.',
+      title: t('practiceAreas.areas.corporateLaw.title'),
+      description: t('practiceAreas.areas.corporateLaw.description'),
       link: '/practice-areas/corporate-law'
     },
     {
       icon: <FaBalanceScale size={28} />,
-      title: 'Real Estate & Civil Law',
-      description: 'We offer complete legal support during real estate investments and represent clients in civil proceedings related to property rights, disputes from obligatory relationships, and damage compensation claims. We bring clarity to complex real estate transactions and civil matters.',
+      title: t('practiceAreas.areas.realEstate.title'),
+      description: t('practiceAreas.areas.realEstate.description'),
       link: '/practice-areas/real-estate'
     },
     {
       icon: <FaFileContract size={28} />,
-      title: 'Contract Law',
-      description: 'We excel in drafting, reviewing, and negotiating various types of contracts and agreements. Our expertise ensures that your contracts are legally sound, protect your interests, and effectively manage risks in business relationships.',
+      title: t('practiceAreas.areas.contractLaw.title'),
+      description: t('practiceAreas.areas.contractLaw.description'),
       link: '/practice-areas/contract-law'
     },
     {
       icon: <FaHandshake size={28} />,
-      title: 'Dispute Resolution',
-      description: 'We represent clients in a wide range of dispute resolution procedures, including litigation, arbitration, and mediation. Our approach focuses on finding the most efficient and cost-effective solutions to complex legal disputes.',
-      link: '/practice-areas/dispute-resolution'
-    }
-  ] : [
-    {
-      icon: <FaGavel size={28} />,
-      title: 'Trgovačko pravo',
-      description: 'Pružamo pravnu pomoć u poslovanju, pravne savjete iz područja ugovornog prava, sastavljamo trgovačke ugovore i zastupamo u trgovačkim sporovima. Naše usluge trgovačkog prava pomažu tvrtkama navigirati kroz složena pravna okruženja uz minimiziranje rizika.',
-      link: '/practice-areas/commercial-law'
-    },
-    {
-      icon: <FaUserTie size={28} />,
-      title: 'Radno pravo',
-      description: 'Naše usluge radnog prava uključuju savjetovanje i zastupanje u vezi s ugovorima o radu, definiranje prava i obveza radnika i poslodavaca, kao i rješavanje sporova. Pomažemo tvrtkama i zaposlenicima razumjeti složenosti radnih propisa i odnosa.',
-      link: '/practice-areas/labor-law'
-    },
-    {
-      icon: <FaBuilding size={28} />,
-      title: 'Pravo trgovačkih društava',
-      description: 'Pružamo sveobuhvatne pravne usluge u vezi s osnivanjem trgovačkih društava, pitanjima upravljanja i statusnim promjenama, uključujući i kompletnu pravnu podršku tijekom pripajanja i preuzimanja društava. Naš tim donosi stručnost u pitanjima upravljanja, usklađenosti i restrukturiranja.',
-      link: '/practice-areas/corporate-law'
-    },
-    {
-      icon: <FaBalanceScale size={28} />,
-      title: 'Nekretnine i Građansko pravo',
-      description: 'Pružamo kompletnu pravnu potporu prilikom nekretninskih investicija i zastupamo klijente u građanskim postupcima vezanim za vlasnička prava, sporove iz obveznih odnosa i zahtjeve za naknadu štete. Donosimo jasnoću u složene transakcije nekretnina i građanska pitanja.',
-      link: '/practice-areas/real-estate'
-    },
-    {
-      icon: <FaFileContract size={28} />,
-      title: 'Ugovorno pravo',
-      description: 'Specijalizirani smo za izradu, pregled i pregovore o različitim vrstama ugovora i sporazuma. Naša stručnost osigurava da su vaši ugovori pravno valjani, štite vaše interese i učinkovito upravljaju rizicima u poslovnim odnosima.',
-      link: '/practice-areas/contract-law'
-    },
-    {
-      icon: <FaHandshake size={28} />,
-      title: 'Rješavanje sporova',
-      description: 'Zastupamo klijente u širokom rasponu postupaka rješavanja sporova, uključujući parnične postupke, arbitražu i medijaciju. Naš pristup je usmjeren na pronalaženje najučinkovitijih i ekonomičnih rješenja za složene pravne sporove.',
+      title: t('practiceAreas.areas.disputeResolution.title'),
+      description: t('practiceAreas.areas.disputeResolution.description'),
       link: '/practice-areas/dispute-resolution'
     }
   ];
@@ -142,13 +109,11 @@ export default function PracticeAreas() {
         <div className="container-custom relative z-10 my-auto pt-36 sm:pt-32">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-white mb-6 animate-fade-in">
-              {language === 'en' ? 'Practice Areas' : 'Područja prakse'}
+              {t('practiceAreas.title')}
             </h1>
             
             <p className="text-xl text-primary-100 mb-8 max-w-3xl mx-auto animate-fade-in animate-delay-200">
-              {language === 'en'
-                ? 'Comprehensive legal services tailored to your specific needs across various practice areas'
-                : 'Sveobuhvatne pravne usluge prilagođene vašim specifičnim potrebama u različitim područjima prakse'}
+              {t('practiceAreas.description')}
             </p>
           </div>
         </div>
@@ -166,7 +131,6 @@ export default function PracticeAreas() {
                 description={area.description}
                 index={index + 1}
                 link={area.link}
-                language={language}
               />
             ))}
           </div>
@@ -185,20 +149,16 @@ export default function PracticeAreas() {
               <div className="inline-flex items-center mb-4">
                 <span className="h-px w-6 bg-primary-600"></span>
                 <span className="mx-2 text-primary-600 font-medium uppercase tracking-wider text-sm">
-                  {language === 'en' ? 'Our Methodology' : 'Naša Metodologija'}
+                  {t('practiceAreas.methodology.title')}
                 </span>
               </div>
               
               <h2 className="text-3xl md:text-4xl font-serif font-bold text-primary-800 mb-6">
-                {language === 'en' 
-                  ? 'Our Legal Approach'
-                  : 'Naš pravni pristup'}
+                {t('practiceAreas.methodology.legalApproach')}
               </h2>
               
               <p className="text-lg text-secondary-700 mb-6">
-                {language === 'en'
-                  ? 'Regardless of the practice area, we approach each case with the same core principles: thoroughness, strategic thinking, and client-focused solutions.'
-                  : 'Bez obzira na područje prakse, pristupamo svakom slučaju s istim temeljnim načelima: temeljitost, strateško razmišljanje i rješenja usmjerena na klijenta.'}
+                {t('practiceAreas.methodology.description')}
               </p>
               
               <div className="space-y-6 mt-8">
@@ -207,12 +167,10 @@ export default function PracticeAreas() {
                   <div className="min-w-12 h-12 rounded-full bg-primary-100 text-primary-700 flex items-center justify-center font-serif font-bold text-lg">1</div>
                   <div>
                     <h3 className="text-xl font-serif font-bold text-primary-800 mb-2">
-                      {language === 'en' ? 'Initial Consultation & Assessment' : 'Početne konzultacije i procjena'}
+                      {t('practiceAreas.methodology.steps.consultation.title')}
                     </h3>
                     <p className="text-secondary-700">
-                      {language === 'en'
-                        ? 'We begin with a comprehensive assessment of your legal situation, understanding your goals and concerns.'
-                        : 'Započinjemo s sveobuhvatnom procjenom vaše pravne situacije, razumijevanjem vaših ciljeva i briga.'}
+                      {t('practiceAreas.methodology.steps.consultation.description')}
                     </p>
                   </div>
                 </div>
@@ -222,12 +180,10 @@ export default function PracticeAreas() {
                   <div className="min-w-12 h-12 rounded-full bg-primary-100 text-primary-700 flex items-center justify-center font-serif font-bold text-lg">2</div>
                   <div>
                     <h3 className="text-xl font-serif font-bold text-primary-800 mb-2">
-                      {language === 'en' ? 'Strategic Planning' : 'Strateško planiranje'}
+                      {t('practiceAreas.methodology.steps.planning.title')}
                     </h3>
                     <p className="text-secondary-700">
-                      {language === 'en'
-                        ? 'We develop a tailored strategy based on your specific situation, objectives, and the legal context.'
-                        : 'Razvijamo prilagođenu strategiju temeljenu na vašoj specifičnoj situaciji, ciljevima i pravnom kontekstu.'}
+                      {t('practiceAreas.methodology.steps.planning.description')}
                     </p>
                   </div>
                 </div>
@@ -237,12 +193,10 @@ export default function PracticeAreas() {
                   <div className="min-w-12 h-12 rounded-full bg-primary-100 text-primary-700 flex items-center justify-center font-serif font-bold text-lg">3</div>
                   <div>
                     <h3 className="text-xl font-serif font-bold text-primary-800 mb-2">
-                      {language === 'en' ? 'Implementation & Execution' : 'Implementacija i izvršenje'}
+                      {t('practiceAreas.methodology.steps.execution.title')}
                     </h3>
                     <p className="text-secondary-700">
-                      {language === 'en'
-                        ? 'We execute the strategy with precision, leveraging our expertise and experience to achieve the best possible outcome.'
-                        : 'Izvršavamo strategiju s preciznošću, koristeći našu stručnost i iskustvo za postizanje najboljih mogućih rezultata.'}
+                      {t('practiceAreas.methodology.steps.execution.description')}
                     </p>
                   </div>
                 </div>
@@ -252,12 +206,10 @@ export default function PracticeAreas() {
                   <div className="min-w-12 h-12 rounded-full bg-primary-100 text-primary-700 flex items-center justify-center font-serif font-bold text-lg">4</div>
                   <div>
                     <h3 className="text-xl font-serif font-bold text-primary-800 mb-2">
-                      {language === 'en' ? 'Ongoing Support & Adaptation' : 'Kontinuirana podrška i prilagodba'}
+                      {t('practiceAreas.methodology.steps.support.title')}
                     </h3>
                     <p className="text-secondary-700">
-                      {language === 'en'
-                        ? 'We provide continuous support and adapt our approach as needed, keeping you informed throughout the process.'
-                        : 'Pružamo kontinuiranu podršku i prilagođavamo naš pristup prema potrebi, informirajući vas tijekom cijelog procesa.'}
+                      {t('practiceAreas.methodology.steps.support.description')}
                     </p>
                   </div>
                 </div>
@@ -272,19 +224,15 @@ export default function PracticeAreas() {
                 {/* Content */}
                 <div className="relative p-10 z-20 text-white">
                   <h3 className="text-2xl font-serif font-bold text-white mb-6">
-                    {language === 'en' ? 'Client-Centered Philosophy' : 'Filozofija usmjerena na klijenta'}
+                    {t('practiceAreas.methodology.philosophy.title')}
                   </h3>
                   
                   <p className="mb-6">
-                    {language === 'en'
-                      ? 'Our approach places your needs at the center of everything we do. We believe that effective legal representation requires not just expertise in the law, but a deep understanding of our clients\' objectives and concerns.'
-                      : 'Naš pristup stavlja vaše potrebe u središte svega što radimo. Vjerujemo da učinkovito pravno zastupanje zahtijeva ne samo stručnost u pravu, već i duboko razumijevanje ciljeva i briga naših klijenata.'}
+                    {t('practiceAreas.methodology.philosophy.description1')}
                   </p>
                   
                   <p>
-                    {language === 'en'
-                      ? 'This philosophy guides our work across all practice areas, ensuring that the legal strategies we develop are always aligned with your best interests.'
-                      : 'Ova filozofija vodi naš rad u svim područjima prakse, osiguravajući da su pravne strategije koje razvijamo uvijek usklađene s vašim najboljim interesima.'}
+                    {t('practiceAreas.methodology.philosophy.description2')}
                   </p>
                   
                   <div className="mt-8 flex justify-center">
@@ -313,24 +261,20 @@ export default function PracticeAreas() {
         <div className="container-custom relative z-10">
           <div className="max-w-4xl mx-auto text-center text-white">
             <h2 className="text-3xl md:text-4xl font-serif font-bold text-white mb-6">
-              {language === 'en' 
-                ? 'Need Help with a Legal Matter?' 
-                : 'Trebate pomoć s pravnim pitanjem?'}
+              {t('practiceAreas.cta.title')}
             </h2>
             
             <p className="text-xl text-primary-100 mb-8">
-              {language === 'en'
-                ? 'Contact us today to schedule a consultation with our experienced legal team and discover how we can assist you.'
-                : 'Kontaktirajte nas danas kako biste dogovorili konzultacije s našim iskusnim pravnim timom i otkrili kako vam možemo pomoći.'}
+              {t('practiceAreas.cta.description')}
             </p>
             
             <div className="flex flex-wrap justify-center gap-6">
               <Link to="/contact" className="btn bg-white text-primary-800 hover:bg-white/90 transition-all duration-300 shadow-elegant hover:shadow-elegant-lg hover:-translate-y-1">
-                {language === 'en' ? 'Schedule a Consultation' : 'Dogovorite konzultacije'}
+                {t('common.scheduleConsultation')}
               </Link>
               
               <Link to="/about" className="btn bg-transparent border border-white text-white hover:bg-white/10 transition-all duration-300 hover:-translate-y-1">
-                {language === 'en' ? 'Learn About Our Firm' : 'Saznajte o našoj tvrtki'}
+                {t('common.learnAboutOurFirm')}
               </Link>
             </div>
           </div>

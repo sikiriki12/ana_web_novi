@@ -1,11 +1,11 @@
-import { useContext, useEffect, useRef } from 'react'
+import { useEffect, useRef } from 'react'
 import { Link } from 'react-router-dom'
 import { FaGavel, FaUserTie, FaBalanceScale, FaBuilding, FaChevronDown, FaArrowRight } from 'react-icons/fa'
-import { LanguageContext } from '../App'
+import { useTranslations } from '../hooks/use-translations'
 
 
 export default function Home() {
-  const { language } = useContext(LanguageContext)
+  const { t } = useTranslations();
   const heroRef = useRef(null);
   
   // Animation for sections on scroll
@@ -56,23 +56,19 @@ export default function Home() {
               {/* Hero content starts directly with the first paragraph */}
               
               <p className="text-2xl md:text-3xl lg:text-4xl font-serif text-primary-800 font-bold max-w-2xl animate-fade-in animate-delay-300">
-                {language === 'en' 
-                  ? 'With over 20 years of legal experience, delivering exceptional results for clients.' 
-                  : 'S više od 20 godina pravnog iskustva, ostvarujemo iznimne rezultate za klijente.'}
+                {t('home.hero.mainText')}
               </p>
               
               <p className="text-lg md:text-xl text-secondary-600 max-w-2xl animate-fade-in animate-delay-400">
-                {language === 'en'
-                  ? 'Providing excellent legal representation in corporate and civil law matters throughout Croatia.'
-                  : 'Pružamo izvrsno pravno zastupanje u poslovima korporativnog i građanskog prava diljem Hrvatske, s individualnim pristupom svakom klijentu.'}
+                {t('home.hero.subText')}
               </p>
               
               <div className="flex flex-wrap gap-6 pt-4 animate-fade-in animate-delay-500">
                 <Link to="/contact" className="btn btn-primary hover:-translate-y-1 shadow-lg text-base">
-                  {language === 'en' ? 'Contact us' : 'Kontaktirajte nas'}
+                  {t('common.contactUs')}
                 </Link>
                 <Link to="/about" className="btn btn-secondary hover:-translate-y-1 text-base">
-                  {language === 'en' ? 'Learn more' : 'Saznajte više'}
+                  {t('common.learnMore')}
                 </Link>
               </div>
             </div>
@@ -117,17 +113,15 @@ export default function Home() {
             <div className="inline-flex items-center justify-center mb-3">
               <span className="h-px w-6 bg-primary-600"></span>
               <span className="mx-2 text-primary-600 font-medium uppercase tracking-wider text-sm">
-                {language === 'en' ? 'Legal Expertise' : 'Pravna Stručnost'}
+                {t('home.practiceAreas.sectionTitle')}
               </span>
               <span className="h-px w-6 bg-primary-600"></span>
             </div>
             <h2 className="text-3xl md:text-4xl font-serif font-bold text-primary-800 mb-6">
-              {language === 'en' ? 'Practice Areas' : 'Područja prakse'}
+              {t('home.practiceAreas.title')}
             </h2>
             <p className="text-lg text-secondary-600 max-w-3xl mx-auto">
-              {language === 'en'
-                ? 'We provide comprehensive legal services across a range of practice areas to meet your needs for legal advice and representation.'
-                : 'Pružamo sveobuhvatne pravne usluge u različitim područjima prakse kako bismo zadovoljili vaše potrebe za pravnim savjetovanjem i zastupanjem.'}
+              {t('home.practiceAreas.description')}
             </p>
           </div>
           
@@ -140,19 +134,17 @@ export default function Home() {
                 <div className="relative z-10">
                   <h3 className="text-xl md:text-2xl font-serif font-bold text-primary-800 mb-4 flex items-center">
                     <span className="mr-4 text-primary-600 opacity-70">#01</span>
-                    {language === 'en' ? 'Commercial Law' : 'Trgovačko pravo'}
+                    {t('home.practiceAreas.areas.commercialLaw.title')}
                   </h3>
                   
                   <p className="text-secondary-600">
-                    {language === 'en'
-                      ? 'We provide legal assistance in business operations, offering legal advice in the field of contract law, drafting commercial contracts, and representation in commercial disputes.'
-                      : 'Pružamo pravnu pomoć u poslovanju, pravne savjete iz područja ugovornog prava, sastavljamo trgovačke ugovore i zastupamo u trgovačkim sporovima.'}
+                    {t('home.practiceAreas.areas.commercialLaw.description')}
                   </p>
                   
                   {/* Learn more link */}
                   <div className="mt-4 pt-4 border-t border-gray-100">
                     <span className="text-primary-600 font-medium underline inline-flex items-center">
-                      {language === 'en' ? 'Learn more' : 'Saznajte više'}
+                      {t('common.learnMore')}
                       <svg className="ml-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"></path>
                       </svg>
@@ -170,19 +162,17 @@ export default function Home() {
                 <div className="relative z-10">
                   <h3 className="text-xl md:text-2xl font-serif font-bold text-primary-800 mb-4 flex items-center">
                     <span className="mr-4 text-primary-600 opacity-70">#02</span>
-                    {language === 'en' ? 'Labor Law' : 'Radno pravo'}
+                    {t('home.practiceAreas.areas.laborLaw.title')}
                   </h3>
                   
                   <p className="text-secondary-600">
-                    {language === 'en'
-                      ? 'We provide consulting and representation services regarding employment contracts, rights and obligations of workers and employers, and resolution of disputes in the field of labor relations.'
-                      : 'Pružamo usluge savjetovanja i zastupanja u vezi s ugovorima o radu, pravima i obvezama radnika i poslodavaca, kao i u rješavanju sporova u području radnih odnosa.'}
+                    {t('home.practiceAreas.areas.laborLaw.description')}
                   </p>
                   
                   {/* Learn more link */}
                   <div className="mt-4 pt-4 border-t border-gray-100">
                     <span className="text-primary-600 font-medium underline inline-flex items-center">
-                      {language === 'en' ? 'Learn more' : 'Saznajte više'}
+                      {t('common.learnMore')}
                       <svg className="ml-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"></path>
                       </svg>
@@ -200,19 +190,17 @@ export default function Home() {
                 <div className="relative z-10">
                   <h3 className="text-xl md:text-2xl font-serif font-bold text-primary-800 mb-4 flex items-center">
                     <span className="mr-4 text-primary-600 opacity-70">#03</span>
-                    {language === 'en' ? 'Corporate Law' : 'Pravo trgovačkih društava'}
+                    {t('home.practiceAreas.areas.corporateLaw.title')}
                   </h3>
                   
                   <p className="text-secondary-600">
-                    {language === 'en'
-                      ? 'We provide legal services related to the establishment of companies, management issues, and status changes, including complete legal support during mergers and acquisitions.'
-                      : 'Pružamo pravne usluge u vezi s osnivanjem trgovačkih društava, pitanjima upravljanja i statusnim promjenama, uključujući i kompletnu pravnu podršku tijekom pripajanja i preuzimanja društava.'}
+                    {t('home.practiceAreas.areas.corporateLaw.description')}
                   </p>
                   
                   {/* Learn more link */}
                   <div className="mt-4 pt-4 border-t border-gray-100">
                     <span className="text-primary-600 font-medium underline inline-flex items-center">
-                      {language === 'en' ? 'Learn more' : 'Saznajte više'}
+                      {t('common.learnMore')}
                       <svg className="ml-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"></path>
                       </svg>
@@ -230,19 +218,17 @@ export default function Home() {
                 <div className="relative z-10">
                   <h3 className="text-xl md:text-2xl font-serif font-bold text-primary-800 mb-4 flex items-center">
                     <span className="mr-4 text-primary-600 opacity-70">#04</span>
-                    {language === 'en' ? 'Real Estate & Civil Law' : 'Nekretnine i Građansko pravo'}
+                    {t('home.practiceAreas.areas.realEstate.title')}
                   </h3>
                   
                   <p className="text-secondary-600">
-                    {language === 'en'
-                      ? 'We provide complete legal support during real estate investments and represent clients in civil proceedings related to property rights, contract disputes, and damage compensation claims.'
-                      : 'Pružamo kompletnu pravnu potporu prilikom nekretninskih investicija i zastupamo klijente u građanskim postupcima vezanim za vlasnička prava, ugovorne sporove i zahtjeve za naknadu štete.'}
+                    {t('home.practiceAreas.areas.realEstate.description')}
                   </p>
                   
                   {/* Learn more link */}
                   <div className="mt-4 pt-4 border-t border-gray-100">
                     <span className="text-primary-600 font-medium underline inline-flex items-center">
-                      {language === 'en' ? 'Learn more' : 'Saznajte više'}
+                      {t('common.learnMore')}
                       <svg className="ml-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"></path>
                       </svg>
@@ -255,7 +241,7 @@ export default function Home() {
           
           <div className="text-center mt-12">
             <Link to="/practice-areas" className="btn btn-primary inline-flex items-center">
-              {language === 'en' ? 'View All Practice Areas' : 'Pregledajte sva područja prakse'}
+              {t('home.practiceAreas.viewAll')}
               <svg className="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
               </svg>
@@ -276,17 +262,15 @@ export default function Home() {
             <div className="inline-flex items-center justify-center mb-3">
               <span className="h-px w-6 bg-primary-600"></span>
               <span className="mx-2 text-primary-600 font-medium uppercase tracking-wider text-sm">
-                {language === 'en' ? 'Specialized Knowledge' : 'Specijalizirano Znanje'}
+                {t('home.industry.sectionTitle')}
               </span>
               <span className="h-px w-6 bg-primary-600"></span>
             </div>
             <h2 className="text-3xl md:text-4xl font-serif font-bold text-primary-800 mb-6">
-              {language === 'en' ? 'Industry Expertise' : 'Industrijska stručnost'}
+              {t('home.industry.title')}
             </h2>
             <p className="text-lg text-secondary-600 max-w-3xl mx-auto">
-              {language === 'en'
-                ? 'We have extensive experience across various industries, allowing us to provide specialized legal solutions tailored to your specific sector.'
-                : 'Imamo veliko iskustvo u različitim industrijama, što nam omogućuje pružanje specijaliziranih pravnih rješenja prilagođenih vašem specifičnom sektoru.'}
+              {t('home.industry.description')}
             </p>
           </div>
           
@@ -302,16 +286,14 @@ export default function Home() {
                     </div>
                   </div>
                   <h3 className="text-lg font-serif font-bold text-primary-800 mb-3">
-                    {language === 'en' ? 'Construction Industry' : 'Građevinska industrija'}
+                    {t('home.industry.industries.construction.title')}
                   </h3>
                   <p className="text-secondary-600 text-sm h-20">
-                    {language === 'en' 
-                      ? 'Legal expertise in construction contracts, regulations, and dispute resolution.' 
-                      : 'Pravna stručnost u građevinskim ugovorima, propisima i rješavanju sporova.'}
+                    {t('home.industry.industries.construction.description')}
                   </p>
                   <div className="mt-4 pt-4 border-t border-gray-100">
                     <span className="text-primary-600 font-medium inline-flex items-center underline">
-                      {language === 'en' ? 'Learn more' : 'Saznajte više'}
+                      {t('common.learnMore')}
                       <FaArrowRight className="ml-1 w-3 h-3" />
                     </span>
                   </div>
@@ -330,16 +312,14 @@ export default function Home() {
                     </div>
                   </div>
                   <h3 className="text-lg font-serif font-bold text-primary-800 mb-3">
-                    {language === 'en' ? 'IT Industry' : 'IT Industrija'}
+                    {t('home.industry.industries.it.title')}
                   </h3>
                   <p className="text-secondary-600 text-sm h-20">
-                    {language === 'en' 
-                      ? 'Specialized in intellectual property, data protection, and technology contracts.' 
-                      : 'Specijalizirani za intelektualno vlasništvo, zaštitu podataka i tehnološke ugovore.'}
+                    {t('home.industry.industries.it.description')}
                   </p>
                   <div className="mt-4 pt-4 border-t border-gray-100">
                     <span className="text-primary-600 font-medium inline-flex items-center underline">
-                      {language === 'en' ? 'Learn more' : 'Saznajte više'}
+                      {t('common.learnMore')}
                       <FaArrowRight className="ml-1 w-3 h-3" />
                     </span>
                   </div>
@@ -358,16 +338,14 @@ export default function Home() {
                     </div>
                   </div>
                   <h3 className="text-lg font-serif font-bold text-primary-800 mb-3">
-                    {language === 'en' ? 'Pharma & Healthcare' : 'Pharma i zdravstvo'}
+                    {t('home.industry.industries.pharma.title')}
                   </h3>
                   <p className="text-secondary-600 text-sm h-20">
-                    {language === 'en' 
-                      ? 'Legal expertise in pharmaceutical regulations, compliance, and healthcare law.' 
-                      : 'Pravna stručnost u farmaceutskim propisima, usklađenosti i zdravstvenom pravu.'}
+                    {t('home.industry.industries.pharma.description')}
                   </p>
                   <div className="mt-4 pt-4 border-t border-gray-100">
                     <span className="text-primary-600 font-medium inline-flex items-center underline">
-                      {language === 'en' ? 'Learn more' : 'Saznajte više'}
+                      {t('common.learnMore')}
                       <FaArrowRight className="ml-1 w-3 h-3" />
                     </span>
                   </div>
@@ -386,16 +364,14 @@ export default function Home() {
                     </div>
                   </div>
                   <h3 className="text-lg font-serif font-bold text-primary-800 mb-3">
-                    {language === 'en' ? 'Manufacturing & Services' : 'Proizvodnja i usluge'}
+                    {t('home.industry.industries.manufacturing.title')}
                   </h3>
                   <p className="text-secondary-600 text-sm h-20">
-                    {language === 'en' 
-                      ? 'Expert in production regulations, service contracts and business operations.' 
-                      : 'Stručnjak za propise o proizvodnji, ugovore o uslugama i poslovne operacije.'}
+                    {t('home.industry.industries.manufacturing.description')}
                   </p>
                   <div className="mt-4 pt-4 border-t border-gray-100">
                     <span className="text-primary-600 font-medium inline-flex items-center underline">
-                      {language === 'en' ? 'Learn more' : 'Saznajte više'}
+                      {t('common.learnMore')}
                       <FaArrowRight className="ml-1 w-3 h-3" />
                     </span>
                   </div>
@@ -406,7 +382,7 @@ export default function Home() {
           
           <div className="text-center mt-12">
             <Link to="/industry" className="btn btn-primary inline-flex items-center">
-              {language === 'en' ? 'Explore All Industry Expertise' : 'Istražite sva industrijska znanja'}
+              {t('home.industry.viewAll')}
               <svg className="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
               </svg>
@@ -434,13 +410,11 @@ export default function Home() {
             </div>
             
             <h2 className="text-3xl md:text-4xl font-serif font-bold text-white mb-6">
-              {language === 'en' ? 'Need Legal Assistance?' : 'Trebate pravnu pomoć?'}
+              {t('home.cta.title')}
             </h2>
             
             <p className="text-lg text-primary-100 max-w-3xl mx-auto mb-8">
-              {language === 'en'
-                ? 'Contact us today to schedule a consultation and discover how we can help you with your legal needs.'
-                : 'Kontaktirajte nas danas kako biste dogovorili konzultacije i otkrili kako vam možemo pomoći s vašim pravnim potrebama.'}
+              {t('home.cta.description')}
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -448,7 +422,7 @@ export default function Home() {
                 <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
                 </svg>
-                {language === 'en' ? 'Contact us' : 'Kontaktirajte nas'}
+                {t('common.contactUs')}
               </Link>
               <a href="tel:+38514668833" className="btn bg-white/20 hover:bg-white/30 text-white transform hover:-translate-y-1 hover:shadow-lg transition-all">
                 <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">

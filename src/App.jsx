@@ -6,6 +6,8 @@ import About from './pages/about'
 import PracticeAreas from './pages/practice-areas'
 import Industry from './pages/industry'
 import Contact from './pages/contact'
+import { useTranslations } from './hooks/use-translations'
+import NotFoundPage from './components/ui/NotFoundPage'
 
 // Practice Area detail pages
 import CommercialLaw from './pages/practice-areas/commercial-law/index.jsx'
@@ -18,8 +20,8 @@ import DisputeResolution from './pages/practice-areas/dispute-resolution/index.j
 // Industry detail pages
 import ConstructionIndustry from './pages/industry/construction/index.jsx'
 import ITIndustry from './pages/industry/it/index.jsx'
-import PharmaIndustry from './pages/experience/pharma/index.jsx'
-import ManufacturingIndustry from './pages/experience/manufacturing/index.jsx'
+import PharmaIndustry from './pages/industry/pharma/index.jsx'
+import ManufacturingIndustry from './pages/industry/manufacturing/index.jsx'
 import RealEstateIndustry from './pages/industry/real-estate/index.jsx'
 import MediaIndustry from './pages/industry/media/index.jsx'
 
@@ -33,16 +35,18 @@ function App() {
   const [language, setLanguage] = useState('hr')
   
   // Placeholder component for detail pages we haven't created yet
-  const PlaceholderPage = ({ title }) => (
-    <div className="container-custom py-20">
-      <h1 className="text-3xl font-bold mb-4">{title}</h1>
-      <p className="text-lg text-gray-700">
-        {language === 'en' 
-          ? "This page is under construction and will be available soon."
-          : "Ova stranica je u izradi i bit će dostupna uskoro."}
-      </p>
-    </div>
-  )
+  const PlaceholderPage = ({ title }) => {
+    const { t } = useTranslations();
+    
+    return (
+      <div className="container-custom py-20">
+        <h1 className="text-3xl font-bold mb-4">{title}</h1>
+        <p className="text-lg text-gray-700">
+          {t('common.underConstruction')}
+        </p>
+      </div>
+    );
+  };
 
   return (
     <LanguageContext.Provider value={{ language, setLanguage }}>
@@ -120,18 +124,7 @@ function App() {
         <Route 
           path="*" 
           element={
-            <div className="container-custom py-20 text-center">
-              <h1 className="text-4xl font-bold mb-4">404</h1>
-              <p className="text-xl mb-8">
-                {language === 'en' ? 'Page not found' : 'Stranica nije pronađena'}
-              </p>
-              <a 
-                href="/" 
-                className="btn btn-primary"
-              >
-                {language === 'en' ? 'Go back to homepage' : 'Povratak na naslovnicu'}
-              </a>
-            </div>
+            <NotFoundPage />
           } 
         />
       </Routes>

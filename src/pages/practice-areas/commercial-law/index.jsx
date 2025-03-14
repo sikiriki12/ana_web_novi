@@ -1,11 +1,10 @@
-import { useContext } from 'react'
 import { Link } from 'react-router-dom'
 import { FaGavel, FaArrowRight } from 'react-icons/fa'
-import { LanguageContext } from '../../../App'
 import PracticeAreasList from '../../../components/ui/PracticeAreasList'
+import { useTranslations } from '../../../hooks/use-translations'
 
 export default function CommercialLaw() {
-  const { language } = useContext(LanguageContext);
+  const { t } = useTranslations();
 
   return (
     <div>
@@ -23,20 +22,18 @@ export default function CommercialLaw() {
           <div className="max-w-4xl mx-auto text-center">
             <div className="inline-flex items-center mb-6 text-primary-300">
               <Link to="/practice-areas" className="hover:text-white transition-colors">
-                {language === 'en' ? 'Practice Areas' : 'Područja prakse'}
+                {t('commercialLaw.breadcrumb')}
               </Link>
               <span className="mx-3">/</span>
-              <span>{language === 'en' ? 'Commercial Law' : 'Trgovačko pravo'}</span>
+              <span>{t('commercialLaw.title')}</span>
             </div>
             
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-white mb-6 animate-fade-in">
-              {language === 'en' ? 'Commercial Law' : 'Trgovačko pravo'}
+              {t('commercialLaw.title')}
             </h1>
             
             <p className="text-xl text-primary-100 mb-8 animate-fade-in animate-delay-200 max-w-3xl mx-auto">
-              {language === 'en'
-                ? 'Expert legal representation for businesses across all types of commercial matters and disputes'
-                : 'Stručno pravno zastupanje tvrtki u svim vrstama trgovačkih pitanja i sporova'}
+              {t('commercialLaw.description')}
             </p>
           </div>
         </div>
@@ -54,78 +51,50 @@ export default function CommercialLaw() {
                     <FaGavel size={24} />
                   </div>
                   <h2 className="text-3xl font-serif font-bold text-primary-800 m-0">
-                    {language === 'en' ? 'Our Commercial Law Services' : 'Naše usluge trgovačkog prava'}
+                    {t('commercialLaw.ourServices')}
                   </h2>
                 </div>
                 
                 <p>
-                  {language === 'en'
-                    ? 'We provide comprehensive legal assistance to businesses, offering expert guidance in contract law, drafting commercial agreements, and representing clients in commercial disputes.'
-                    : 'Klijentima pružamo sveobuhvatnu pravnu pomoć u poslovanju pružajući stručne savjete iz područja ugovornog prava, sastavljamo trgovačke ugovore i zastupamo u trgovačkim sporovima.'}
+                  {t('commercialLaw.introText')}
                 </p>
                 
                 <h3 className="text-2xl font-serif font-bold text-primary-800 mt-8 mb-4">
-                  {language === 'en' ? 'Contract Drafting and Review' : 'Izrada i pregled ugovora'}
+                  {t('commercialLaw.contractDrafting.title')}
                 </h3>
                 
                 <p>
-                  {language === 'en'
-                    ? 'We draft, review, and negotiate various types of commercial contracts, including:'
-                    : 'Sastavljamo, pregledavamo i pregovaramo razne vrste trgovačkih ugovora, uključujući:'}
+                  {t('commercialLaw.contractDrafting.description')}
                 </p>
                 
                 <ul>
-                  {language === 'en' ? (
-                    <>
-                      <li>Distribution agreements</li>
-                      <li>Publishing contracts</li>
-                      <li>Licensing agreements</li>
-                      <li>Procurement contracts</li>
-                      <li>Construction contracts</li>
-                      <li>General terms and conditions of business</li>
-                      <li>All necessary documentation for business operations</li>
-                    </>
-                  ) : (
-                    <>
-                      <li>Ugovori o distribuciji</li>
-                      <li>Izdavački ugovori</li>
-                      <li>Ugovori o licenciji</li>
-                      <li>Ugovori o nabavi</li>
-                      <li>Ugovori o izvođenju radova</li>
-                      <li>Opći uvjeti poslovanja</li>
-                      <li>Sva potrebna dokumentacija za poslovanje</li>
-                    </>
-                  )}
+                  {t('commercialLaw.contractDrafting.items').map((item, index) => (
+                    <li key={index}>{item}</li>
+                  ))}
                 </ul>
                 
                 <h3 className="text-2xl font-serif font-bold text-primary-800 mt-8 mb-4">
-                  {language === 'en' ? 'Business Transactions' : 'Poslovne transakcije'}
+                  {t('commercialLaw.businessTransactions.title')}
                 </h3>
                 
                 <p>
-                  {language === 'en'
-                    ? 'We represent clients in negotiations during business transactions, prepare all necessary contracts (business transfer agreements, intellectual property transfer agreements, etc.), and provide legal assistance throughout the entire transaction process.'
-                    : 'Zastupamo u pregovorima pri sklapanju poslovnih transakcija, izrađujemo potrebne ugovore (ugovori o prijenosu gospodarske cjeline, ugovori o prijenosu prava intelektualnog vlasništva itd.) te pružamo pravnu pomoć tijekom cijelog postupka transakcije.'}
+                  {t('commercialLaw.businessTransactions.description')}
                 </p>
                 
                 <h3 className="text-2xl font-serif font-bold text-primary-800 mt-8 mb-4">
-                  {language === 'en' ? 'Dispute Resolution' : 'Rješavanje sporova'}
+                  {t('commercialLaw.disputeResolution.title')}
                 </h3>
                 
                 <p>
-                  {language === 'en'
-                    ? 'We represent clients in commercial disputes before courts, in debt collection proceedings, public procurement procedures, before administrative and regulatory bodies, as well as in pre-bankruptcy and bankruptcy proceedings. We also handle mediation and arbitration proceedings for our clients.'
-                    : 'Zastupamo stranke u trgovačkim sporovima pred sudovima, u postupcima naplate potraživanja, javne nabave, pred upravnim i regulatornim tijelima, kao i u predstečajnim i stečajnim postupcima. Zastupamo u postupcima mirenja i arbitražnim postupcima.'}
+                  {t('commercialLaw.disputeResolution.description')}
                 </p>
                 
                 <h3 className="text-2xl font-serif font-bold text-primary-800 mt-8 mb-4">
-                  {language === 'en' ? 'Regulatory Compliance' : 'Regulatorna usklađenost'}
+                  {t('commercialLaw.regulatoryCompliance.title')}
                 </h3>
                 
                 <p>
-                  {language === 'en'
-                    ? 'We provide legal assistance to clients in all aspects of business operations, ensuring that the client\'s business complies with regulations, and represent them in inspection supervision proceedings.'
-                    : 'Klijentima pružamo pravnu pomoć u svim aspektima poslovanja osiguravajući da poslovanje klijenta bude usklađeno s propisima, te zastupamo u postupcima inspekcijskih nadzora.'}
+                  {t('commercialLaw.regulatoryCompliance.description')}
                 </p>
               </div>
             </div>
@@ -136,17 +105,15 @@ export default function CommercialLaw() {
               
               <div className="bg-primary-800 text-white rounded-xl p-8">
                 <h3 className="text-xl font-serif font-bold mb-4">
-                  {language === 'en' ? 'Need Commercial Law Advice?' : 'Trebate savjet iz trgovačkog prava?'}
+                  {t('commercialLaw.sidebar.title')}
                 </h3>
                 
                 <p className="mb-6 text-primary-100">
-                  {language === 'en'
-                    ? 'Contact us today to schedule a consultation regarding commercial law matters.'
-                    : 'Kontaktirajte nas danas za dogovor konzultacija za pitanja trgovačkog prava.'}
+                  {t('commercialLaw.sidebar.description')}
                 </p>
                 
                 <Link to="/contact" className="btn bg-white text-primary-800 hover:bg-white/90 transition-all duration-300 w-full flex justify-center items-center">
-                  {language === 'en' ? 'Contact Us' : 'Kontaktirajte nas'}
+                  {t('common.contactUs')}
                   <FaArrowRight className="ml-2" size={16} />
                 </Link>
               </div>

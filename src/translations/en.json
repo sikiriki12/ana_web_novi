@@ -1,0 +1,951 @@
+{
+  "common": {
+    "learnMore": "Learn more",
+    "contactUs": "Contact us",
+    "pageNotFound": "Page not found",
+    "goBackToHomepage": "Go back to homepage",
+    "underConstruction": "This page is under construction and will be available soon.",
+    "scheduleConsultation": "Schedule a Consultation",
+    "learnAboutOurFirm": "Learn About Our Firm"
+  },
+  "navigation": {
+    "about": "About us",
+    "practiceAreas": "Practice areas",
+    "industry": "Industry",
+    "contact": "Contact",
+    "lawFirm": "LAW FIRM",
+    "switchToHr": "Hrvatski",
+    "switchToEn": "English"
+  },
+  "footer": {
+    "lawOffice": "Law Office Ana Bandalo",
+    "address": "Address:",
+    "croatia": "Croatia",
+    "businessCenter": "Business center",
+    "floor": "floor",
+    "phone": "Phone:",
+    "mobile": "Mobile:",
+    "workingHours": "Working Hours:",
+    "workingHoursValue": "Mon – Fri: 09:00 - 17:00 (by appointment only)",
+    "practiceAreas": "Practice Areas",
+    "industryExpertise": "Industry Expertise",
+    "location": "Location",
+    "attorneyAtLaw": "Attorney at Law Ana Bandalo",
+    "allRightsReserved": "All Rights Reserved"
+  },
+  "commercialLaw": {
+    "breadcrumb": "Practice Areas",
+    "title": "Commercial Law",
+    "description": "Expert legal representation for businesses across all types of commercial matters and disputes",
+    "ourServices": "Our Commercial Law Services",
+    "introText": "We provide comprehensive legal assistance to businesses, offering expert guidance in contract law, drafting commercial agreements, and representing clients in commercial disputes.",
+    "contractDrafting": {
+      "title": "Contract Drafting and Review",
+      "description": "We draft, review, and negotiate various types of commercial contracts, including:",
+      "items": [
+        "Distribution agreements",
+        "Publishing contracts",
+        "Licensing agreements",
+        "Procurement contracts",
+        "Construction contracts",
+        "General terms and conditions of business",
+        "All necessary documentation for business operations"
+      ]
+    },
+    "businessTransactions": {
+      "title": "Business Transactions",
+      "description": "We represent clients in negotiations during business transactions, prepare all necessary contracts (business transfer agreements, intellectual property transfer agreements, etc.), and provide legal assistance throughout the entire transaction process."
+    },
+    "disputeResolution": {
+      "title": "Dispute Resolution",
+      "description": "We represent clients in commercial disputes before courts, in debt collection proceedings, public procurement procedures, before administrative and regulatory bodies, as well as in pre-bankruptcy and bankruptcy proceedings. We also handle mediation and arbitration proceedings for our clients."
+    },
+    "regulatoryCompliance": {
+      "title": "Regulatory Compliance",
+      "description": "We provide legal assistance to clients in all aspects of business operations, ensuring that the client's business complies with regulations, and represent them in inspection supervision proceedings."
+    },
+    "sidebar": {
+      "title": "Need Commercial Law Advice?",
+      "description": "Contact us today to schedule a consultation regarding commercial law matters."
+    }
+  },
+  "laborLaw": {
+    "breadcrumb": "Practice Areas",
+    "title": "Labor Law",
+    "description": "Comprehensive employment law services for both employers and employees",
+    "ourServices": "Our Labor Law Services",
+    "introText": "We provide consulting and representation services regarding employment contracts, rights and obligations of workers and employers, as well as in resolving disputes in the field of labor relations.",
+    "contractManagement": {
+      "title": "Employment Contract Management",
+      "description": "We provide legal support throughout the entire process of employment contract management, including:",
+      "items": [
+        "Contract drafting and review",
+        "Negotiation and amendments",
+        "Employment termination procedures",
+        "Workplace policies and regulations",
+        "Employee reward plans",
+        "Education and professional development agreements"
+      ]
+    },
+    "internationalServices": {
+      "title": "International Employment Services",
+      "description": "We provide advice and complete services in the field of labor law to employers and temporary employment agencies, including obtaining residence and work permits for foreign workers, drafting specific employment contracts with international elements, and navigating cross-border employment regulations."
+    },
+    "collectiveRelations": {
+      "title": "Collective Labor Relations",
+      "description": "We represent clients in collective redundancy procedures and represent employers before trade unions. Our expertise extends to collective bargaining, labor disputes involving multiple employees, and compliance with collective agreements."
+    },
+    "disputeResolution": {
+      "title": "Labor Dispute Resolution",
+      "description": "We have extensive experience in representing clients before courts in labor disputes related to various issues, including:",
+      "items": [
+        "Permissibility of dismissals",
+        "Workplace discrimination",
+        "Right to compensation",
+        "Determination of employment relationship",
+        "Working hours and leave disputes",
+        "Workplace harassment claims"
+      ]
+    },
+    "sidebar": {
+      "title": "Need Labor Law Advice?",
+      "description": "Contact us today to schedule a consultation regarding labor law matters."
+    }
+  },
+  "corporateLaw": {
+    "breadcrumb": "Practice Areas",
+    "title": "Corporate Law",
+    "description": "Expert legal support for company formation, governance, and corporate transactions",
+    "ourServices": "Our Corporate Law Services",
+    "introText": "We provide comprehensive legal services related to the establishment of companies, management issues, and status changes, offering expert guidance through every phase of corporate development.",
+    "companyFormation": {
+      "title": "Company Formation & Structuring",
+      "description": "We assist in the establishment of various business entities, advising on the most appropriate corporate structure based on your business goals, liability concerns, tax implications, and operational requirements. Our services include:",
+      "items": [
+        "Incorporation of limited liability companies (d.o.o.)",
+        "Establishment of joint stock companies (d.d.)",
+        "Formation of branches and representative offices",
+        "Drafting of articles of association and other founding documents",
+        "Handling all regulatory filings and registrations"
+      ]
+    },
+    "mergersAcquisitions": {
+      "title": "Mergers & Acquisitions",
+      "description": "We provide complete legal support during the merger and acquisition of companies. We guide clients through the entire M&A process, from initial due diligence to the final transaction closing."
+    },
+    "shareholderAgreements": {
+      "title": "Shareholder & Investor Agreements",
+      "description": "We draft and negotiate agreements between company members, investors, and other stakeholders, including:",
+      "items": [
+        "Shareholders agreements",
+        "Convertible loan agreements",
+        "Intellectual property transfer agreements",
+        "Option agreements between companies and employees",
+        "Investment and financing agreements"
+      ]
+    },
+    "startupExpertise": {
+      "title": "Startup & IT Industry Expertise",
+      "description": "We have extensive experience in the IT industry and financing companies in early stages of development. We provide specialized legal advice on funding strategies, including increase of share capital and subscription of shares/interests, as well as convertible loans structured according to agreements between investors and company founders."
+    },
+    "sidebar": {
+      "title": "Need Corporate Law Advice?",
+      "description": "Contact us today to schedule a consultation for corporate law matters."
+    }
+  },
+  "disputeResolution": {
+    "breadcrumb": "Practice Areas",
+    "title": "Dispute Resolution",
+    "description": "Strategic and effective representation in litigation, arbitration, and mediation",
+    "ourServices": "Our Dispute Resolution Services",
+    "introText": "We represent clients in a wide range of dispute resolution procedures, including litigation, arbitration, and mediation. Our approach focuses on finding the most efficient and cost-effective solutions to complex legal disputes.",
+    "litigation": {
+      "title": "Litigation Services",
+      "description": "We represent clients in court proceedings across various areas of law, providing:",
+      "items": [
+        "Strategic case assessment and planning",
+        "Pre-litigation negotiations",
+        "Court representation at all levels",
+        "Expert witness coordination",
+        "Post-judgment enforcement",
+        "Appeals and review proceedings"
+      ]
+    },
+    "arbitration": {
+      "title": "Arbitration",
+      "description": "We have extensive experience in domestic and international arbitration proceedings. Our arbitration services include drafting arbitration clauses, representing clients throughout the arbitration process, and enforcing arbitral awards. We have successfully handled complex arbitrations across various sectors, including commercial, construction, and investment disputes."
+    },
+    "mediation": {
+      "title": "Mediation & Alternative Dispute Resolution",
+      "description": "We recognize that litigation is not always the most effective approach to resolving disputes. We are skilled in various forms of alternative dispute resolution (ADR), including:",
+      "items": [
+        "Mediation representation and advocacy",
+        "Negotiated settlements",
+        "Early neutral evaluation",
+        "Dispute review boards",
+        "Mini-trials and summary jury trials"
+      ]
+    },
+    "strategy": {
+      "title": "Strategic Dispute Resolution Approach",
+      "description": "We take a strategic approach to dispute resolution, carefully assessing each case to determine the most effective path forward. This includes:",
+      "items": [
+        "Early case assessment and risk analysis",
+        "Cost-benefit analysis of different resolution methods",
+        "Development of tailored dispute resolution strategies",
+        "Proactive management of legal costs",
+        "Creative solutions that address business objectives"
+      ],
+      "conclusion": "Our ultimate goal is to achieve the best possible outcome for our clients while minimizing costs, business disruption, and reputational damage. We work closely with clients to understand their objectives and develop dispute resolution strategies that align with their broader business goals."
+    },
+    "sidebar": {
+      "title": "Need Help With a Dispute?",
+      "description": "Contact us today to discuss your case and explore dispute resolution options."
+    }
+  },
+  "contractLaw": {
+    "breadcrumb": "Practice Areas",
+    "title": "Contract Law",
+    "description": "Expert contract drafting, review, and negotiation that protects your interests",
+    "ourServices": "Our Contract Law Services",
+    "introText": "We excel in drafting, reviewing, and negotiating various types of contracts and agreements. Our expertise ensures that your contracts are legally sound, protect your interests, and effectively manage risks in business relationships.",
+    "drafting": {
+      "title": "Contract Drafting & Review",
+      "description": "We provide comprehensive contract drafting and review services, including:",
+      "items": [
+        "Commercial contracts and agreements",
+        "Real estate and property contracts",
+        "Supply and distribution agreements",
+        "Employment contracts and policies",
+        "Licensing and intellectual property agreements",
+        "Confidentiality and non-disclosure agreements",
+        "Partnership and joint venture agreements"
+      ]
+    },
+    "negotiation": {
+      "title": "Contract Negotiation",
+      "description": "Our experienced attorneys represent clients in contract negotiations to ensure favorable terms and conditions. We carefully analyze each clause, identify potential risks, propose amendments, and negotiate to achieve the best possible outcome for our clients. Our approach is both strategic and practical, focusing on protecting your interests while facilitating successful business relationships."
+    },
+    "disputes": {
+      "title": "Contract Dispute Resolution",
+      "description": "When contractual disputes arise, we provide comprehensive legal representation to protect your interests. Our services include:",
+      "items": [
+        "Contract breach assessment and claims",
+        "Dispute negotiation and settlement",
+        "Mediation and arbitration",
+        "Litigation representation",
+        "Post-dispute contract restructuring"
+      ]
+    },
+    "management": {
+      "title": "Contract Management & Compliance",
+      "description": "We assist clients in developing effective contract management systems and ensuring compliance with regulatory requirements. We provide guidance on contract implementation, performance monitoring, and periodic review to ensure ongoing compliance and risk mitigation. We help businesses maintain clear records of their contractual obligations and deadlines, reducing the risk of unintentional breaches and legal exposure."
+    },
+    "sidebar": {
+      "title": "Need Contract Assistance?",
+      "description": "Contact us today to discuss your contract needs and legal requirements."
+    }
+  },
+  "realEstate": {
+    "breadcrumb": "Practice Areas",
+    "title": "Real Estate & Civil Law",
+    "description": "Comprehensive legal support for real estate transactions and civil matters",
+    "ourServices": "Our Real Estate & Civil Law Services",
+    "introText": "We provide complete legal support during real estate investments and represent clients in civil proceedings, bringing clarity to complex property transactions and civil matters.",
+    "transactions": {
+      "title": "Real Estate Transactions",
+      "description": "Our real estate practice offers comprehensive legal services for all aspects of property transactions, including:",
+      "items": [
+        "Property acquisitions and sales",
+        "Lease agreements",
+        "Development projects",
+        "Land use and zoning matters",
+        "Property title disputes",
+        "Construction contracts"
+      ]
+    },
+    "civilLitigation": {
+      "title": "Civil Litigation",
+      "description": "We represent clients in a wide range of civil proceedings related to:",
+      "items": [
+        "Property rights disputes",
+        "Contract disputes",
+        "Enforcement proceedings",
+        "Debt collection",
+        "Lease relationships",
+        "Damage compensation claims"
+      ]
+    },
+    "damageClaims": {
+      "title": "Specialized Damage Claims",
+      "description": "We have specific expertise in handling complex damage compensation claims, including:",
+      "items": [
+        "Medical malpractice claims",
+        "Damages caused by information published in media",
+        "Personal injury compensation",
+        "Professional liability claims"
+      ]
+    },
+    "administrativeDisputes": {
+      "title": "Administrative Disputes",
+      "description": "We represent clients in proceedings related to illegal actions of state bodies and bodies with public authority. Our expertise extends to all areas of administrative law, helping clients navigate complex regulatory environments."
+    },
+    "humanRights": {
+      "title": "Human Rights Protection",
+      "description": "We have extensive experience in representing clients before the European Court of Human Rights and domestic courts in human rights cases. We are committed to protecting fundamental rights and ensuring fair treatment under the law."
+    },
+    "sidebar": {
+      "title": "Need Real Estate or Civil Law Advice?",
+      "description": "Contact us today to schedule a consultation regarding real estate and civil law matters."
+    }
+  },
+  "practiceAreas": {
+    "title": "Practice Areas",
+    "description": "Comprehensive legal services tailored to your specific needs across various practice areas",
+    "areas": {
+      "commercialLaw": {
+        "title": "Commercial Law",
+        "description": "We provide legal assistance in business operations, offering specialized advice in contract law, drafting commercial contracts, and representation in commercial disputes. Our commercial law services help businesses navigate complex legal environments while minimizing risk."
+      },
+      "laborLaw": {
+        "title": "Labor Law",
+        "description": "Our labor law services include consulting and representation regarding employment contracts, defining rights and obligations of workers and employers, and resolution of disputes. We help both businesses and employees navigate the complexities of labor regulations and relationships."
+      },
+      "corporateLaw": {
+        "title": "Corporate Law",
+        "description": "We provide comprehensive legal services related to company establishment, management issues, and status changes, including complete legal support during mergers and acquisitions. Our corporate law team brings expertise to governance, compliance, and restructuring matters."
+      },
+      "realEstate": {
+        "title": "Real Estate & Civil Law",
+        "description": "We offer complete legal support during real estate investments and represent clients in civil proceedings related to property rights, disputes from obligatory relationships, and damage compensation claims. We bring clarity to complex real estate transactions and civil matters."
+      },
+      "contractLaw": {
+        "title": "Contract Law",
+        "description": "We excel in drafting, reviewing, and negotiating various types of contracts and agreements. Our expertise ensures that your contracts are legally sound, protect your interests, and effectively manage risks in business relationships."
+      },
+      "disputeResolution": {
+        "title": "Dispute Resolution",
+        "description": "We represent clients in a wide range of dispute resolution procedures, including litigation, arbitration, and mediation. Our approach focuses on finding the most efficient and cost-effective solutions to complex legal disputes."
+      }
+    },
+    "methodology": {
+      "title": "Our Methodology",
+      "legalApproach": "Our Legal Approach",
+      "description": "Regardless of the practice area, we approach each case with the same core principles: thoroughness, strategic thinking, and client-focused solutions.",
+      "steps": {
+        "consultation": {
+          "title": "Initial Consultation & Assessment",
+          "description": "We begin with a comprehensive assessment of your legal situation, understanding your goals and concerns."
+        },
+        "planning": {
+          "title": "Strategic Planning",
+          "description": "We develop a tailored strategy based on your specific situation, objectives, and the legal context."
+        },
+        "execution": {
+          "title": "Implementation & Execution",
+          "description": "We execute the strategy with precision, leveraging our expertise and experience to achieve the best possible outcome."
+        },
+        "support": {
+          "title": "Ongoing Support & Adaptation",
+          "description": "We provide continuous support and adapt our approach as needed, keeping you informed throughout the process."
+        }
+      },
+      "philosophy": {
+        "title": "Client-Centered Philosophy",
+        "description1": "Our approach places your needs at the center of everything we do. We believe that effective legal representation requires not just expertise in the law, but a deep understanding of our clients' objectives and concerns.",
+        "description2": "This philosophy guides our work across all practice areas, ensuring that the legal strategies we develop are always aligned with your best interests."
+      }
+    },
+    "cta": {
+      "title": "Need Help with a Legal Matter?",
+      "description": "Contact us today to schedule a consultation with our experienced legal team and discover how we can assist you."
+    }
+  },
+  "home": {
+    "hero": {
+      "mainText": "With over 20 years of legal experience, delivering exceptional results for clients.",
+      "subText": "Providing excellent legal representation in corporate and civil law matters throughout Croatia."
+    },
+    "practiceAreas": {
+      "sectionTitle": "Legal Expertise",
+      "title": "Practice Areas",
+      "description": "We provide comprehensive legal services across a range of practice areas to meet your needs for legal advice and representation.",
+      "viewAll": "View All Practice Areas",
+      "areas": {
+        "commercialLaw": {
+          "title": "Commercial Law",
+          "description": "We provide legal assistance in business operations, offering legal advice in the field of contract law, drafting commercial contracts, and representation in commercial disputes."
+        },
+        "laborLaw": {
+          "title": "Labor Law",
+          "description": "We provide consulting and representation services regarding employment contracts, rights and obligations of workers and employers, and resolution of disputes in the field of labor relations."
+        },
+        "corporateLaw": {
+          "title": "Corporate Law",
+          "description": "We provide legal services related to the establishment of companies, management issues, and status changes, including complete legal support during mergers and acquisitions."
+        },
+        "realEstate": {
+          "title": "Real Estate & Civil Law",
+          "description": "We provide complete legal support during real estate investments and represent clients in civil proceedings related to property rights, contract disputes, and damage compensation claims."
+        }
+      }
+    },
+    "industry": {
+      "sectionTitle": "Specialized Knowledge",
+      "title": "Industry Expertise",
+      "description": "We have extensive experience across various industries, allowing us to provide specialized legal solutions tailored to your specific sector.",
+      "viewAll": "Explore All Industry Expertise",
+      "industries": {
+        "construction": {
+          "title": "Construction Industry",
+          "description": "Legal expertise in construction contracts, regulations, and dispute resolution."
+        },
+        "it": {
+          "title": "IT Industry",
+          "description": "Specialized in intellectual property, data protection, and technology contracts."
+        },
+        "pharma": {
+          "title": "Pharma & Healthcare",
+          "description": "Legal expertise in pharmaceutical regulations, compliance, and healthcare law."
+        },
+        "manufacturing": {
+          "title": "Manufacturing & Services",
+          "description": "Expert in production regulations, service contracts and business operations."
+        }
+      }
+    },
+    "cta": {
+      "title": "Need Legal Assistance?",
+      "description": "Contact us today to schedule a consultation and discover how we can help you with your legal needs."
+    }
+  },
+  "industryMain": {
+    "hero": {
+      "title": "Industry Expertise",
+      "description": "Leveraging our extensive knowledge across various industries to provide specialized legal solutions"
+    },
+    "stats": [
+      { "count": "15+", "label": "Years of Experience" },
+      { "count": "200+", "label": "Clients" },
+      { "count": "6+", "label": "Industry Sectors" },
+      { "count": "95%", "label": "Client Satisfaction" }
+    ],
+    "industrySection": {
+      "sectionTitle": "Our Expertise",
+      "title": "Industries We Serve",
+      "description": "We have developed specialized legal expertise across a wide range of industries, allowing us to provide tailored solutions to each sector's unique challenges.",
+      "learnMore": "Learn more",
+      "industries": [
+        {
+          "title": "Construction Industry",
+          "description": "We provide comprehensive legal support for construction companies, contractors, and developers on matters including contracts, regulations, permits, and dispute resolution.",
+          "count": "01",
+          "link": "/industry/construction"
+        },
+        {
+          "title": "IT Industry",
+          "description": "Our expertise in technology law covers software licensing, data protection, intellectual property, and technology contracts, helping IT businesses navigate complex legal challenges.",
+          "count": "02",
+          "link": "/industry/it"
+        },
+        {
+          "title": "Pharmaceutical & Healthcare",
+          "description": "We assist pharmaceutical companies and healthcare providers with regulatory compliance, licensing, intellectual property protection, and liability issues.",
+          "count": "03",
+          "link": "/industry/pharma"
+        },
+        {
+          "title": "Manufacturing & Services",
+          "description": "Our firm provides tailored legal solutions for manufacturing companies and service providers on matters including contracts, labor law, and regulatory compliance.",
+          "count": "04",
+          "link": "/industry/manufacturing"
+        },
+        {
+          "title": "Real Estate",
+          "description": "We provide comprehensive legal support for real estate transactions, property development, land use regulations, and real estate litigation for investors and property owners.",
+          "count": "05",
+          "link": "/industry/real-estate"
+        },
+        {
+          "title": "Media",
+          "description": "Our expertise covers media law, intellectual property rights, defamation cases, privacy concerns, and contractual matters for media companies and professionals.",
+          "count": "06",
+          "link": "/industry/media"
+        }
+      ]
+    },
+    "approach": {
+      "valueLabel": "Our Value",
+      "title": "Industry Knowledge That Makes a Difference",
+      "description": "Our industry expertise allows us to anticipate challenges, identify opportunities, and develop solutions that are not just legally sound but also commercially practical.",
+      "industryApproach": {
+        "title": "Industry-Specific Approach",
+        "paragraph1": "Every industry operates within its own unique legal framework. We understand that effective legal representation requires not just expertise in the law, but deep knowledge of industry-specific regulations, practices, and challenges.",
+        "paragraph2": "We have direct experience in each industry we serve, ensuring we can provide practical advice that aligns with business realities."
+      },
+      "features": [
+        {
+          "title": "Specialized Knowledge",
+          "description": "We have industry-specific backgrounds and understand the nuances of different business sectors."
+        },
+        {
+          "title": "Comprehensive Support",
+          "description": "We provide end-to-end legal services tailored to each industry's specific needs, from regulatory compliance to dispute resolution."
+        },
+        {
+          "title": "Strategic Advantage",
+          "description": "Our industry expertise gives our clients a competitive edge through more efficient and effective legal solutions."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Let Our Industry Expertise Work For You",
+      "description": "Contact us today to learn how our specialized industry knowledge can help address your legal challenges.",
+      "contactButton": "Contact Us Today",
+      "exploreButton": "Explore Practice Areas"
+    }
+  },
+  "about": {
+    "title": "About Us",
+    "subtitle": "Committed to excellence and personalized legal solutions since 2010",
+    "mission": {
+      "label": "Our Mission",
+      "title": "Legal Excellence with a Personal Touch",
+      "paragraph1": "Ana Bandalo Law Firm, established in 2010, specializes in providing high-quality legal services in the fields of corporate, commercial, and civil law throughout Croatia.",
+      "paragraph2": "What distinguishes us is our approach - we combine professional excellence with a personal, client-centered approach to legal problem solving.",
+      "paragraph3": "Our goal is to provide effective and comprehensive legal support that meets the unique needs of each client."
+    },
+    "values": {
+      "label": "Our Philosophy",
+      "title": "Our Core Values",
+      "description": "Building long-lasting client relationships since 2010 through our commitment to excellence and personalized service.",
+      "personal": {
+        "title": "Personal Approach",
+        "description": "We focus on building relationships and providing individualized attention to each client's unique needs and goals."
+      },
+      "professionalism": {
+        "title": "Professionalism",
+        "description": "We adhere to the highest standards of legal ethics and provide conscientious service based on years of experience."
+      },
+      "excellence": {
+        "title": "Excellence",
+        "description": "We constantly improve our knowledge and stay current with legal trends to provide innovative and effective solutions."
+      }
+    },
+    "cta": {
+      "title": "Ready to Work Together?",
+      "description": "Contact us today to schedule a consultation and discover how we can help with your legal needs."
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "We're here to help with your legal needs. Reach out to schedule a consultation.",
+    "contactInfo": {
+      "title": "Our Contact Information",
+      "description": "Feel free to reach out through any of the following channels. We look forward to hearing from you.",
+      "address": {
+        "title": "Office Address",
+        "line1": "Ana Bandalo Law Office",
+        "line2": "Većeslava Holjevca 40, 10000 Zagreb, Croatia",
+        "line3": "(Business center RECRO, 3rd floor)"
+      },
+      "phone": {
+        "title": "Phone Number",
+        "line1": "+385 1 4668 833",
+        "line2": "+385 91 518 74 73"
+      },
+      "email": {
+        "title": "Email Address",
+        "line1": "info@bandalo.law"
+      },
+      "hours": {
+        "title": "Office Hours",
+        "line1": "Monday to Friday: 9:00 - 17:00 (by appointment only)",
+        "line2": "Saturday & Sunday: Closed"
+      }
+    },
+    "form": {
+      "title": "Send Us a Message",
+      "description": "Have a question or need legal assistance? Fill out the form below and we'll get back to you as soon as possible.",
+      "nameLabel": "Your Name",
+      "namePlaceholder": "Enter your full name",
+      "emailLabel": "Email Address",
+      "emailPlaceholder": "Enter your email",
+      "phoneLabel": "Phone Number",
+      "phonePlaceholder": "Enter your phone number",
+      "subjectLabel": "Subject",
+      "subjectPlaceholder": "Enter subject",
+      "messageLabel": "Your Message",
+      "messagePlaceholder": "Enter your message here...",
+      "submitButton": "Send Message",
+      "success": {
+        "title": "Thank You!",
+        "message": "Your message has been sent successfully. We'll get back to you shortly."
+      }
+    },
+    "location": {
+      "title": "Find Us",
+      "description": "Our office is conveniently located in the heart of Zagreb. We welcome you to visit us for a consultation."
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Find answers to common questions about our services and how we can assist you with your legal needs.",
+      "questions": [
+        {
+          "question": "How do I schedule a consultation?",
+          "answer": "You can schedule a consultation by calling our office, sending an email, or filling out the contact form on this page. We will get back to you promptly to arrange a meeting at a convenient time."
+        },
+        {
+          "question": "What should I bring to my first meeting?",
+          "answer": "Please bring any documents relevant to your legal matter, including contracts, correspondence, and any court papers you have received. This will help us better understand your situation and provide appropriate advice."
+        },
+        {
+          "question": "What are your fees?",
+          "answer": "Our fees vary depending on the nature and complexity of your legal matter. We offer transparent pricing and will discuss fee arrangements during your initial consultation. We strive to provide cost-effective solutions for all our clients."
+        },
+        {
+          "question": "How long will my legal matter take?",
+          "answer": "The timeframe for resolving legal matters varies widely depending on the specifics of your case. During our consultation, we will provide an estimate based on our experience with similar matters and keep you informed throughout the process."
+        }
+      ]
+    }
+  },
+  "industry": {
+    "construction": {
+      "breadcrumb": "Industry Expertise",
+      "title": "Construction Industry",
+      "description": "Comprehensive legal solutions for construction companies, contractors, and real estate developers",
+      "intro": {
+        "title": "Legal Expertise for the Construction Sector",
+        "paragraph1": "The construction industry operates within a complex legal framework of contracts, regulations, and potential disputes. We bring specialized knowledge and experience to help construction businesses navigate these challenges while focusing on their core operations.",
+        "paragraph2": "We work with construction companies of all sizes, property developers, contractors, and subcontractors to provide comprehensive legal support throughout all phases of construction projects, from initial land acquisition through project completion and beyond."
+      },
+      "approach": {
+        "title": "Our Approach",
+        "paragraph1": "We understand that construction projects involve significant investments and tight timelines. Our legal solutions are designed to be practical, efficient, and responsive to the unique demands of the construction industry.",
+        "paragraph2": "By combining industry-specific knowledge with legal expertise, we help clients anticipate potential issues before they arise, resolve disputes efficiently when they occur, and establish robust legal frameworks that support successful project outcomes."
+      },
+      "services": {
+        "title": "Our Construction Industry Services",
+        "items": [
+          {
+            "title": "Real Estate Investment Support",
+            "description": "Legal support during real estate investments, including property acquisitions, development projects, and construction contracts."
+          },
+          {
+            "title": "Construction Dispute Resolution",
+            "description": "Legal counseling and representation related to construction disputes, including contract disputes, permit issues, and liability claims."
+          },
+          {
+            "title": "Commercial Contract Drafting",
+            "description": "Legal counseling and drafting of commercial contracts tailored to the construction industry's specific needs and regulations."
+          },
+          {
+            "title": "Commercial & Labor Dispute Representation",
+            "description": "Representation in commercial and labor disputes, ensuring your business interests are protected throughout the legal process."
+          }
+        ]
+      },
+      "sidebar": {
+        "cta": {
+          "title": "Need Construction Legal Support?",
+          "description": "Contact us today to discuss how our specialized legal services can support your construction business."
+        },
+        "whyChooseUs": {
+          "title": "Why Choose Us",
+          "reasons": [
+            "Deep understanding of construction industry regulations",
+            "Experience with complex construction contracts",
+            "Proven track record in construction dispute resolution",
+            "Tailored advice for your specific project needs"
+          ]
+        }
+      },
+      "bottomCta": {
+        "title": "Let's Build Your Construction Legal Strategy Together",
+        "description": "Contact us today to discuss how we can support your construction business with specialized legal solutions.",
+        "buttonText": "Schedule a Consultation"
+      }
+    },
+    "it": {
+      "breadcrumb": "Industry Expertise",
+      "title": "IT Industry",
+      "description": "Specialized legal solutions for technology companies, startups, and digital enterprises",
+      "intro": {
+        "title": "Legal Expertise for the Technology Sector",
+        "paragraph1": "The IT industry operates in a rapidly evolving ecosystem with unique legal challenges related to intellectual property, data protection, and digital transactions. We specialize in providing legal solutions tailored to the distinctive needs of technology companies.",
+        "paragraph2": "We work with businesses of all sizes in the technology sector, from innovative startups to established software companies, supporting them through growth, corporate changes, and the complexities of operating in a digital marketplace."
+      },
+      "approach": {
+        "title": "Our Approach",
+        "paragraph1": "We understand that technology companies need agile, practical legal solutions that can keep pace with innovation. Our approach combines deep technical understanding with legal expertise to provide advice that is both legally sound and aligned with business objectives.",
+        "paragraph2": "Whether you're navigating complex M&A transactions, protecting intellectual property, managing employment relationships, or structuring commercial agreements, we provide responsive, technology-focused legal guidance."
+      },
+      "services": {
+        "title": "Our IT Industry Services",
+        "items": [
+          {
+            "title": "Corporate Mergers & Acquisitions",
+            "description": "Legal support during corporate mergers, acquisitions, and other status changes in the technology sector."
+          },
+          {
+            "title": "Commercial Dispute Resolution",
+            "description": "Representation in commercial disputes specific to technology companies, including intellectual property and contract disputes."
+          },
+          {
+            "title": "Labor Law Support",
+            "description": "Legal counseling and representation in labor law matters, including employment contracts, labor disputes, and IP ownership issues."
+          },
+          {
+            "title": "Business Operations Advisory",
+            "description": "Legal consulting for business operations including drafting and reviewing commercial contracts tailored to IT industry needs."
+          }
+        ]
+      },
+      "sidebar": {
+        "cta": {
+          "title": "Need IT Legal Support?",
+          "description": "Contact us today to discuss how our specialized legal services can support your technology business."
+        },
+        "whyChooseUs": {
+          "title": "Why Choose Us",
+          "reasons": [
+            "Specialized knowledge of IT industry legal frameworks",
+            "Experience with technology M&A transactions",
+            "Understanding of intellectual property issues in tech",
+            "Support for startups and growing tech companies"
+          ]
+        }
+      },
+      "bottomCta": {
+        "title": "Partner with Us for Your Technology Legal Needs",
+        "description": "Contact us today to discuss how we can support your technology business with specialized legal solutions.",
+        "buttonText": "Schedule a Consultation"
+      }
+    },
+    "manufacturing": {
+      "breadcrumb": "Industry Expertise",
+      "title": "Manufacturing & Services",
+      "description": "Tailored legal solutions for manufacturing companies and service providers",
+      "intro": {
+        "title": "Legal Expertise for Manufacturing & Services",
+        "paragraph1": "The manufacturing and service sectors face diverse legal challenges ranging from complex contracts and labor matters to regulatory compliance and dispute resolution. Our firm provides comprehensive legal solutions tailored to these industries' specific needs.",
+        "paragraph2": "We work with companies across the manufacturing and service spectrum, helping them navigate legal complexities while maintaining operational efficiency and protecting their business interests."
+      },
+      "approach": {
+        "title": "Our Approach",
+        "paragraph1": "We understand that manufacturing and service businesses operate in competitive environments where legal issues must be resolved efficiently and cost-effectively. Our approach is practical and business-focused, combining legal expertise with industry knowledge.",
+        "paragraph2": "From contract negotiation to dispute resolution and labor matters, we provide strategic legal guidance that aligns with your business objectives and mitigates risk while supporting growth and operational excellence."
+      },
+      "services": {
+        "title": "Our Manufacturing & Services Expertise",
+        "items": [
+          {
+            "title": "Commercial Contract Advisory",
+            "description": "Legal counseling and drafting of commercial contracts tailored to the manufacturing and service industries."
+          },
+          {
+            "title": "Commercial & Labor Dispute Resolution",
+            "description": "Representation in commercial and labor disputes to ensure your business interests are protected."
+          },
+          {
+            "title": "Collective Redundancy Procedures",
+            "description": "Legal representation and counseling during collective redundancy procedures to ensure compliance with labor regulations."
+          },
+          {
+            "title": "Legal Proceedings Representation",
+            "description": "Representation in public procurement, bankruptcy and pre-bankruptcy proceedings, and enforcement proceedings."
+          }
+        ]
+      },
+      "sidebar": {
+        "cta": {
+          "title": "Need Manufacturing & Services Legal Support?",
+          "description": "Contact us today to discuss how our specialized legal services can support your manufacturing or service business."
+        },
+        "whyChooseUs": {
+          "title": "Why Choose Us",
+          "reasons": [
+            "Industry-specific contract expertise",
+            "Experience with complex labor matters",
+            "Proven success in commercial disputes",
+            "Comprehensive regulatory compliance support"
+          ]
+        }
+      },
+      "bottomCta": {
+        "title": "Partner with Us for Your Manufacturing & Services Legal Needs",
+        "description": "Contact us today to discuss how we can support your manufacturing or service business with specialized legal solutions.",
+        "buttonText": "Schedule a Consultation"
+      }
+    },
+    "media": {
+      "breadcrumb": "Industry Expertise",
+      "title": "Media Industry",
+      "description": "Specialized legal solutions for publishers, broadcasters, digital media, and content creators",
+      "intro": {
+        "title": "Legal Expertise for the Media Sector",
+        "paragraph1": "The media industry faces unique legal challenges at the intersection of intellectual property, free speech, privacy, and rapidly evolving digital technologies. We bring specialized knowledge to help media companies navigate this complex landscape while protecting their interests and creative assets.",
+        "paragraph2": "We work with traditional publishers, broadcasters, digital media platforms, content creators, and advertising agencies to provide comprehensive legal support across all aspects of media operations, from content creation and distribution to regulatory compliance and dispute resolution."
+      },
+      "approach": {
+        "title": "Our Approach",
+        "paragraph1": "We understand that media law requires a delicate balance between legal protection and creative freedom. Our approach combines deep industry knowledge with legal expertise to provide practical solutions that safeguard your rights while enabling innovative content development and distribution.",
+        "paragraph2": "In the rapidly evolving media landscape, we stay at the forefront of emerging legal issues related to digital rights, social media, user-generated content, and cross-border distribution, providing forward-thinking advice that anticipates challenges before they arise."
+      },
+      "services": {
+        "title": "Our Media Industry Services",
+        "items": [
+          {
+            "title": "Intellectual Property",
+            "description": "Protection and management of intellectual property rights for media content, including copyright registration, licensing agreements, and IP portfolio management."
+          },
+          {
+            "title": "Media Litigation",
+            "description": "Representation in defamation cases, copyright infringement claims, privacy violations, and other disputes specific to the media and publishing industries."
+          },
+          {
+            "title": "Regulatory Compliance",
+            "description": "Guidance on media regulations, advertising standards, data protection requirements, and industry-specific compliance issues."
+          },
+          {
+            "title": "Content and Distribution",
+            "description": "Legal support for content creation, publishing agreements, distribution contracts, digital rights management, and talent agreements."
+          }
+        ]
+      },
+      "sidebar": {
+        "cta": {
+          "title": "Need Media Legal Support?",
+          "description": "Contact us today to discuss how our specialized legal services can support your media business and protect your content."
+        },
+        "whyChooseUs": {
+          "title": "Why Choose Us",
+          "reasons": [
+            "Specialized knowledge of media and entertainment law",
+            "Experience with complex intellectual property matters",
+            "Proven track record in defamation and privacy cases",
+            "Understanding of digital media and emerging platforms"
+          ]
+        }
+      },
+      "bottomCta": {
+        "title": "Partner with Us for Your Media Legal Needs",
+        "description": "Contact us today to discuss how we can support your media business with specialized legal solutions for content creation, distribution, and protection.",
+        "buttonText": "Schedule a Consultation"
+      }
+    },
+    "pharma": {
+      "breadcrumb": "Industry Expertise",
+      "title": "Pharmaceutical & Healthcare",
+      "description": "Specialized legal solutions for pharmaceutical companies and healthcare providers",
+      "intro": {
+        "title": "Legal Expertise for the Healthcare Sector",
+        "paragraph1": "The pharmaceutical and healthcare industries operate within a highly regulated environment with complex legal challenges. We offer specialized legal expertise to navigate these challenges while ensuring compliance with industry-specific regulations.",
+        "paragraph2": "We assist pharmaceutical companies, healthcare providers, and related businesses with regulatory compliance, labor issues, public procurement, commercial transactions, and liability concerns unique to the healthcare sector."
+      },
+      "approach": {
+        "title": "Our Approach",
+        "paragraph1": "We understand that healthcare and pharmaceutical organizations face unique legal challenges that require both legal expertise and industry knowledge. Our approach combines deep understanding of healthcare regulations with practical business solutions.",
+        "paragraph2": "We work closely with our clients to develop legal strategies that not only ensure compliance but also support their business objectives and protect their interests in this highly specialized sector."
+      },
+      "services": {
+        "title": "Our Pharmaceutical & Healthcare Services",
+        "items": [
+          {
+            "title": "Labor Law Expertise",
+            "description": "Legal counseling and representation in employment law, including compliance with healthcare labor regulations and dispute resolution."
+          },
+          {
+            "title": "Public Procurement Support",
+            "description": "Legal counseling and representation in public procurement procedures, ensuring compliance with healthcare procurement regulations."
+          },
+          {
+            "title": "Business Transaction Support",
+            "description": "Legal support in business transactions, including drafting and reviewing commercial contracts tailored to pharmaceutical industry needs."
+          },
+          {
+            "title": "Medical Liability & Media Claims",
+            "description": "Representation in litigation proceedings for medical malpractice claims and damages caused by information published in media."
+          }
+        ]
+      },
+      "sidebar": {
+        "cta": {
+          "title": "Need Healthcare Legal Support?",
+          "description": "Contact us today to discuss how our specialized legal services can support your pharmaceutical or healthcare organization."
+        },
+        "whyChooseUs": {
+          "title": "Why Choose Us",
+          "reasons": [
+            "Deep understanding of healthcare regulations",
+            "Experience with public procurement in healthcare",
+            "Proven track record in medical liability cases",
+            "Specialized in healthcare labor compliance"
+          ]
+        }
+      },
+      "bottomCta": {
+        "title": "Partner with Us for Your Healthcare Legal Needs",
+        "description": "Contact us today to discuss how we can support your pharmaceutical or healthcare organization with specialized legal solutions.",
+        "buttonText": "Schedule a Consultation"
+      }
+    },
+    "real-estate": {
+      "breadcrumb": "Industry Expertise",
+      "title": "Real Estate Industry",
+      "description": "Comprehensive legal solutions for real estate developers, investors, and property owners",
+      "intro": {
+        "title": "Legal Expertise for the Real Estate Sector",
+        "paragraph1": "The real estate industry operates within a complex legal framework of property laws, transactions, zoning regulations, and potential disputes. We bring specialized knowledge and experience to help real estate businesses navigate these challenges while maximizing value and minimizing risks.",
+        "paragraph2": "We work with real estate developers, property management firms, institutional investors, and individual property owners to provide comprehensive legal support throughout all phases of real estate projects, from initial acquisition through development, leasing, management, and eventual disposition."
+      },
+      "approach": {
+        "title": "Our Approach",
+        "paragraph1": "We understand that real estate transactions and developments involve significant investments and complex legal considerations. Our legal solutions are designed to be practical, efficient, and responsive to the unique demands of the real estate industry.",
+        "paragraph2": "By combining industry-specific knowledge with legal expertise, we help clients anticipate potential issues before they arise, resolve disputes efficiently when they occur, and establish robust legal frameworks that support successful project outcomes and protect investments."
+      },
+      "services": {
+        "title": "Our Real Estate Industry Services",
+        "items": [
+          {
+            "title": "Property Transactions",
+            "description": "Legal support for property acquisitions, sales, lease agreements, and real estate development projects with comprehensive contract drafting and review."
+          },
+          {
+            "title": "Real Estate Litigation",
+            "description": "Representation in property title disputes, land use conflicts, construction disputes, and enforcement proceedings related to real estate."
+          },
+          {
+            "title": "Regulatory Compliance",
+            "description": "Guidance on zoning regulations, construction permits, environmental compliance, and other regulatory matters affecting real estate projects."
+          },
+          {
+            "title": "Investment Advisory",
+            "description": "Legal counseling for real estate investors, including due diligence, financing structures, joint ventures, and risk assessment for property investments."
+          }
+        ]
+      },
+      "sidebar": {
+        "cta": {
+          "title": "Need Real Estate Legal Support?",
+          "description": "Contact us today to discuss how our specialized legal services can support your real estate business or investments."
+        },
+        "whyChooseUs": {
+          "title": "Why Choose Us",
+          "reasons": [
+            "Deep understanding of real estate regulations and laws",
+            "Experience with complex real estate transactions",
+            "Proven track record in real estate dispute resolution",
+            "Tailored advice for your specific property needs"
+          ]
+        }
+      },
+      "bottomCta": {
+        "title": "Partner with Us for Your Real Estate Legal Needs",
+        "description": "Contact us today to discuss how we can support your real estate business or investments with specialized legal solutions.",
+        "buttonText": "Schedule a Consultation"
+      }
+    }
+  }
+}
