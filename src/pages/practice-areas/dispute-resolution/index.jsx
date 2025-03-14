@@ -70,8 +70,8 @@ export default function DisputeResolution() {
                 
                 <p>
                   {language === 'en'
-                    ? 'Our experienced litigation team represents clients in court proceedings across various areas of law, providing:'
-                    : 'Naš iskusni tim za parnice zastupa klijente u sudskim postupcima u različitim područjima prava, pružajući:'}
+                    ? 'We represent clients in court proceedings across various areas of law, providing:'
+                    : 'Zastupamo klijente u sudskim postupcima u različitim područjima prava, pružajući:'}
                 </p>
                 
                 <ul>
@@ -102,8 +102,8 @@ export default function DisputeResolution() {
                 
                 <p>
                   {language === 'en'
-                    ? 'We have extensive experience in domestic and international arbitration proceedings. Our arbitration services include drafting arbitration clauses, representing clients throughout the arbitration process, and enforcing arbitral awards. Our team has successfully handled complex arbitrations across various sectors, including commercial, construction, and investment disputes.'
-                    : 'Imamo veliko iskustvo u domaćim i međunarodnim arbitražnim postupcima. Naše usluge arbitraže uključuju sastavljanje arbitražnih klauzula, zastupanje klijenata tijekom arbitražnog postupka i izvršenje arbitražnih odluka. Naš tim je uspješno vodio složene arbitraže u različitim sektorima, uključujući trgovačke, građevinske i investicijske sporove.'}
+                    ? 'We have extensive experience in domestic and international arbitration proceedings. Our arbitration services include drafting arbitration clauses, representing clients throughout the arbitration process, and enforcing arbitral awards. We have successfully handled complex arbitrations across various sectors, including commercial, construction, and investment disputes.'
+                    : 'Imamo veliko iskustvo u domaćim i međunarodnim arbitražnim postupcima. Naše usluge arbitraže uključuju sastavljanje arbitražnih klauzula, zastupanje klijenata tijekom arbitražnog postupka i izvršenje arbitražnih odluka. Uspješno smo vodili složene arbitraže u različitim sektorima, uključujući trgovačke, građevinske i investicijske sporove.'}
                 </p>
                 
                 <h3 className="text-2xl font-serif font-bold text-primary-800 mt-8 mb-4">
@@ -112,8 +112,8 @@ export default function DisputeResolution() {
                 
                 <p>
                   {language === 'en'
-                    ? 'We recognize that litigation is not always the most effective approach to resolving disputes. Our team is skilled in various forms of alternative dispute resolution (ADR), including:'
-                    : 'Prepoznajemo da parnica nije uvijek najučinkovitiji pristup rješavanju sporova. Naš tim je vješt u različitim oblicima alternativnog rješavanja sporova (ARS), uključujući:'}
+                    ? 'We recognize that litigation is not always the most effective approach to resolving disputes. We are skilled in various forms of alternative dispute resolution (ADR), including:'
+                    : 'Prepoznajemo da parnica nije uvijek najučinkovitiji pristup rješavanju sporova. Vješti smo u različitim oblicima alternativnog rješavanja sporova (ARS), uključujući:'}
                 </p>
                 
                 <ul>
@@ -185,8 +185,8 @@ export default function DisputeResolution() {
                 
                 <p className="mb-6 text-primary-100">
                   {language === 'en'
-                    ? 'Contact us today to discuss your case with our experienced dispute resolution team.'
-                    : 'Kontaktirajte nas danas za razgovor o vašem slučaju s našim iskusnim timom za rješavanje sporova.'}
+                    ? 'Contact us today to discuss your case and explore dispute resolution options.'
+                    : 'Kontaktirajte nas danas za razgovor o vašem slučaju i istraživanje opcija rješavanja sporova.'}
                 </p>
                 
                 <Link to="/contact" className="btn bg-white text-primary-800 hover:bg-white/90 transition-all duration-300 w-full flex justify-center items-center">

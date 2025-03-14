@@ -144,8 +144,8 @@ export default function ContractLaw() {
                 
                 <p>
                   {language === 'en'
-                    ? 'We assist clients in developing effective contract management systems and ensuring compliance with regulatory requirements. Our team provides guidance on contract implementation, performance monitoring, and periodic review to ensure ongoing compliance and risk mitigation. We help businesses maintain clear records of their contractual obligations and deadlines, reducing the risk of unintentional breaches and legal exposure.'
-                    : 'Pomažemo klijentima u razvoju učinkovitih sustava upravljanja ugovorima i osiguravanju usklađenosti s regulatornim zahtjevima. Naš tim pruža smjernice o implementaciji ugovora, praćenju izvršenja i periodičnom pregledu kako bi se osigurala kontinuirana usklađenost i smanjenje rizika. Pomažemo tvrtkama održavati jasne evidencije o njihovim ugovornim obvezama i rokovima, smanjujući rizik od nenamjernih kršenja i pravne izloženosti.'}
+                    ? 'We assist clients in developing effective contract management systems and ensuring compliance with regulatory requirements. We provide guidance on contract implementation, performance monitoring, and periodic review to ensure ongoing compliance and risk mitigation. We help businesses maintain clear records of their contractual obligations and deadlines, reducing the risk of unintentional breaches and legal exposure.'
+                    : 'Pomažemo klijentima u razvoju učinkovitih sustava upravljanja ugovorima i osiguravanju usklađenosti s regulatornim zahtjevima. Pružamo smjernice o implementaciji ugovora, praćenju izvršenja i periodičnom pregledu kako bi se osigurala kontinuirana usklađenost i smanjenje rizika. Pomažemo tvrtkama održavati jasne evidencije o njihovim ugovornim obvezama i rokovima, smanjujući rizik od nenamjernih kršenja i pravne izloženosti.'}
                 </p>
               </div>
             </div>
@@ -161,8 +161,8 @@ export default function ContractLaw() {
                 
                 <p className="mb-6 text-primary-100">
                   {language === 'en'
-                    ? 'Contact us today to discuss your contract needs with our experienced legal team.'
-                    : 'Kontaktirajte nas danas za razgovor o vašim ugovornim potrebama s našim iskusnim pravnim timom.'}
+                    ? 'Contact us today to discuss your contract needs and legal requirements.'
+                    : 'Kontaktirajte nas danas za razgovor o vašim ugovornim potrebama i pravnim zahtjevima.'}
                 </p>
                 
                 <Link to="/contact" className="btn bg-white text-primary-800 hover:bg-white/90 transition-all duration-300 w-full flex justify-center items-center">

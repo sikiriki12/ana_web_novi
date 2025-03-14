@@ -107,8 +107,8 @@ export default function RealEstateIndustry() {
                     
                     <p>
                       {language === 'en'
-                        ? 'The real estate industry operates within a complex legal framework of property laws, transactions, zoning regulations, and potential disputes. Our team brings specialized knowledge and experience to help real estate businesses navigate these challenges while maximizing value and minimizing risks.'
-                        : 'Industrija nekretnina djeluje unutar složenog pravnog okvira imovinskih zakona, transakcija, propisa o zoniranju i potencijalnih sporova. Naš tim donosi specijalizirano znanje i iskustvo kako bi pomogao tvrtkama iz područja nekretnina u navigaciji kroz ove izazove, istovremeno maksimizirajući vrijednost i minimizirajući rizike.'}
+                        ? 'The real estate industry operates within a complex legal framework of property laws, transactions, zoning regulations, and potential disputes. We bring specialized knowledge and experience to help real estate businesses navigate these challenges while maximizing value and minimizing risks.'
+                        : 'Industrija nekretnina djeluje unutar složenog pravnog okvira imovinskih zakona, transakcija, propisa o zoniranju i potencijalnih sporova. Donosimo specijalizirano znanje i iskustvo kako bismo pomogli tvrtkama iz područja nekretnina u navigaciji kroz ove izazove, istovremeno maksimizirajući vrijednost i minimizirajući rizike.'}
                     </p>
                     
                     <p>
@@ -245,8 +245,8 @@ export default function RealEstateIndustry() {
             
             <p className="text-lg text-secondary-700 mb-8 max-w-3xl mx-auto">
               {language === 'en'
-                ? 'Contact our team today to discuss how we can support your real estate business or investments with specialized legal solutions.'
-                : 'Kontaktirajte naš tim danas kako bismo razgovarali o tome kako možemo podržati vaše poslovanje ili ulaganja u nekretnine specijaliziranim pravnim rješenjima.'}
+                ? 'Contact us today to discuss how we can support your real estate business or investments with specialized legal solutions.'
+                : 'Kontaktirajte nas danas kako bismo razgovarali o tome kako možemo podržati vaše poslovanje ili ulaganja u nekretnine specijaliziranim pravnim rješenjima.'}
             </p>
             
             <Link to="/contact" className="btn btn-primary">

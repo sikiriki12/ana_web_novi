@@ -107,8 +107,8 @@ export default function ITIndustry() {
                     
                     <p>
                       {language === 'en'
-                        ? 'The IT industry operates in a rapidly evolving ecosystem with unique legal challenges related to intellectual property, data protection, and digital transactions. Our team specializes in providing legal solutions tailored to the distinctive needs of technology companies.'
-                        : 'IT industrija djeluje u brzo razvijajućem ekosustavu s jedinstvenim pravnim izazovima vezanim uz intelektualno vlasništvo, zaštitu podataka i digitalne transakcije. Naš tim je specijaliziran za pružanje pravnih rješenja prilagođenih specifičnim potrebama tehnoloških tvrtki.'}
+                        ? 'The IT industry operates in a rapidly evolving ecosystem with unique legal challenges related to intellectual property, data protection, and digital transactions. We specialize in providing legal solutions tailored to the distinctive needs of technology companies.'
+                        : 'IT industrija djeluje u brzo razvijajućem ekosustavu s jedinstvenim pravnim izazovima vezanim uz intelektualno vlasništvo, zaštitu podataka i digitalne transakcije. Specijalizirani smo za pružanje pravnih rješenja prilagođenih specifičnim potrebama tehnoloških tvrtki.'}
                     </p>
                     
                     <p>
@@ -133,8 +133,8 @@ export default function ITIndustry() {
                   
                   <p className="mb-0">
                     {language === 'en'
-                      ? 'Whether you\'re navigating complex M&A transactions, protecting intellectual property, managing employment relationships, or structuring commercial agreements, our team provides responsive, technology-focused legal guidance.'
-                      : 'Bez obzira navigirate li složenim M&A transakcijama, štitite intelektualno vlasništvo, upravljate radnim odnosima ili strukturirate trgovačke sporazume, naš tim pruža responzivno, tehnološki fokusirano pravno vodstvo.'}
+                      ? 'Whether you\'re navigating complex M&A transactions, protecting intellectual property, managing employment relationships, or structuring commercial agreements, we provide responsive, technology-focused legal guidance.'
+                      : 'Bez obzira navigirate li složenim M&A transakcijama, štitite intelektualno vlasništvo, upravljate radnim odnosima ili strukturirate trgovačke sporazume, pružamo responzivno, tehnološki fokusirano pravno vodstvo.'}
                   </p>
                 </div>
               </div>
@@ -245,8 +245,8 @@ export default function ITIndustry() {
             
             <p className="text-lg text-secondary-700 mb-8 max-w-3xl mx-auto">
               {language === 'en'
-                ? 'Contact our team today to discuss how we can support your technology business with specialized legal solutions.'
-                : 'Kontaktirajte naš tim danas kako bismo razgovarali o tome kako možemo podržati vaše tehnološko poslovanje specijaliziranim pravnim rješenjima.'}
+                ? 'Contact us today to discuss how we can support your technology business with specialized legal solutions.'
+                : 'Kontaktirajte nas danas kako bismo razgovarali o tome kako možemo podržati vaše tehnološko poslovanje specijaliziranim pravnim rješenjima.'}
             </p>
             
             <Link to="/contact" className="btn btn-primary">

@@ -77,7 +77,7 @@ export default function PracticeAreas() {
     {
       icon: <FaBalanceScale size={28} />,
       title: 'Real Estate & Civil Law',
-      description: 'Our team offers complete legal support during real estate investments and represents clients in civil proceedings related to property rights, contract disputes, and damage compensation claims. We bring clarity to complex real estate transactions and civil matters.',
+      description: 'We offer complete legal support during real estate investments and represent clients in civil proceedings related to property rights, disputes from obligatory relationships, and damage compensation claims. We bring clarity to complex real estate transactions and civil matters.',
       link: '/practice-areas/real-estate'
     },
     {
@@ -114,7 +114,7 @@ export default function PracticeAreas() {
     {
       icon: <FaBalanceScale size={28} />,
       title: 'Nekretnine i Građansko pravo',
-      description: 'Naš tim pruža kompletnu pravnu potporu prilikom nekretninskih investicija i zastupa klijente u građanskim postupcima vezanim za vlasnička prava, ugovorne sporove i zahtjeve za naknadu štete. Donosimo jasnoću u složene transakcije nekretnina i građanska pitanja.',
+      description: 'Pružamo kompletnu pravnu potporu prilikom nekretninskih investicija i zastupamo klijente u građanskim postupcima vezanim za vlasnička prava, sporove iz obveznih odnosa i zahtjeve za naknadu štete. Donosimo jasnoću u složene transakcije nekretnina i građanska pitanja.',
       link: '/practice-areas/real-estate'
     },
     {

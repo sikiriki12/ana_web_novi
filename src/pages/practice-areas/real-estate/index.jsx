@@ -172,8 +172,8 @@ export default function RealEstate() {
                 
                 <p>
                   {language === 'en'
-                    ? 'We have extensive experience in representing clients before the European Court of Human Rights and domestic courts in human rights cases. Our team is committed to protecting fundamental rights and ensuring fair treatment under the law.'
-                    : 'Imamo bogato iskustvo u zastupanju klijenata pred Europskim sudom za ljudska prava i domaćim sudovima u slučajevima zaštite ljudskih prava. Naš tim je predan zaštiti temeljnih prava i osiguravanju pravednog tretmana prema zakonu.'}
+                    ? 'We have extensive experience in representing clients before the European Court of Human Rights and domestic courts in human rights cases. We are committed to protecting fundamental rights and ensuring fair treatment under the law.'
+                    : 'Imamo bogato iskustvo u zastupanju klijenata pred Europskim sudom za ljudska prava i domaćim sudovima u slučajevima zaštite ljudskih prava. Predani smo zaštiti temeljnih prava i osiguravanju pravednog tretmana prema zakonu.'}
                 </p>
               </div>
             </div>
@@ -189,8 +189,8 @@ export default function RealEstate() {
                 
                 <p className="mb-6 text-primary-100">
                   {language === 'en'
-                    ? 'Contact us today to schedule a consultation with our experienced team of legal experts.'
-                    : 'Kontaktirajte nas danas za dogovor konzultacija s našim iskusnim timom pravnih stručnjaka.'}
+                    ? 'Contact us today to schedule a consultation regarding real estate and civil law matters.'
+                    : 'Kontaktirajte nas danas za dogovor konzultacija za pitanja nekretnina i građanskog prava.'}
                 </p>
                 
                 <Link to="/contact" className="btn bg-white text-primary-800 hover:bg-white/90 transition-all duration-300 w-full flex justify-center items-center">

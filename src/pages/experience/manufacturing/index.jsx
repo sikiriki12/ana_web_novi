@@ -245,8 +245,8 @@ export default function ManufacturingIndustry() {
             
             <p className="text-lg text-secondary-700 mb-8 max-w-3xl mx-auto">
               {language === 'en'
-                ? 'Contact our team today to discuss how we can support your manufacturing or service business with specialized legal solutions.'
-                : 'Kontaktirajte naš tim danas kako bismo razgovarali o tome kako možemo podržati vaše proizvodno ili uslužno poslovanje specijaliziranim pravnim rješenjima.'}
+                ? 'Contact us today to discuss how we can support your manufacturing or service business with specialized legal solutions.'
+                : 'Kontaktirajte nas danas kako bismo razgovarali o tome kako možemo podržati vaše proizvodno ili uslužno poslovanje specijaliziranim pravnim rješenjima.'}
             </p>
             
             <Link to="/contact" className="btn btn-primary">

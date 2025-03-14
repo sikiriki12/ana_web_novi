@@ -100,8 +100,8 @@ export default function CorporateLaw() {
                 
                 <p>
                   {language === 'en'
-                    ? 'We provide complete legal support during the merger and acquisition of companies. Our team guides clients through the entire M&A process, from initial due diligence to the final transaction closing.'
-                    : 'Pružamo kompletnu pravnu podršku tijekom postupka pripajanja i preuzimanja društava. Naš tim vodi klijente kroz cijeli proces M&A, od početne dubinske analize do konačnog zatvaranja transakcije.'}
+                    ? 'We provide complete legal support during the merger and acquisition of companies. We guide clients through the entire M&A process, from initial due diligence to the final transaction closing.'
+                    : 'Pružamo kompletnu pravnu podršku tijekom postupka pripajanja i preuzimanja društava. Vodimo klijente kroz cijeli proces M&A, od početne dubinske analize do konačnog zatvaranja transakcije.'}
                 </p>
                 
                 <h3 className="text-2xl font-serif font-bold text-primary-800 mt-8 mb-4">
@@ -157,8 +157,8 @@ export default function CorporateLaw() {
                 
                 <p className="mb-6 text-primary-100">
                   {language === 'en'
-                    ? 'Contact us today to schedule a consultation with our experienced corporate law team.'
-                    : 'Kontaktirajte nas danas za dogovor konzultacija s našim iskusnim timom za pravo trgovačkih društava.'}
+                    ? 'Contact us today to schedule a consultation for corporate law matters.'
+                    : 'Kontaktirajte nas danas za dogovor konzultacija za pitanja prava trgovačkih društava.'}
                 </p>
                 
                 <Link to="/contact" className="btn bg-white text-primary-800 hover:bg-white/90 transition-all duration-300 w-full flex justify-center items-center">

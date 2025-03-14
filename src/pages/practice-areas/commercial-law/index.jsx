@@ -141,8 +141,8 @@ export default function CommercialLaw() {
                 
                 <p className="mb-6 text-primary-100">
                   {language === 'en'
-                    ? 'Contact us today to schedule a consultation with our experienced commercial law team.'
-                    : 'Kontaktirajte nas danas za dogovor konzultacija s našim iskusnim timom za trgovačko pravo.'}
+                    ? 'Contact us today to schedule a consultation regarding commercial law matters.'
+                    : 'Kontaktirajte nas danas za dogovor konzultacija za pitanja trgovačkog prava.'}
                 </p>
                 
                 <Link to="/contact" className="btn bg-white text-primary-800 hover:bg-white/90 transition-all duration-300 w-full flex justify-center items-center">

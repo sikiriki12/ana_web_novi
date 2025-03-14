@@ -99,7 +99,7 @@ export default function Experience() {
     {
       icon: <FaPiggyBank size={28} />,
       title: 'Financial Services',
-      description: 'Our team provides legal counsel to banks, investment firms, and insurance companies on regulatory compliance, transactions, and dispute resolution in the financial sector.',
+      description: 'We provide legal counsel to banks, investment firms, and insurance companies on regulatory compliance, transactions, and dispute resolution in the financial sector.',
       count: '06',
       link: '/experience/financial'
     }
@@ -142,7 +142,7 @@ export default function Experience() {
     {
       icon: <FaPiggyBank size={28} />,
       title: 'Financijske usluge',
-      description: 'Naš tim pruža pravne savjete bankama, investicijskim tvrtkama i osiguravajućim društvima o regulatornoj usklađenosti, transakcijama i rješavanju sporova u financijskom sektoru.',
+      description: 'Pružamo pravne savjete bankama, investicijskim tvrtkama i osiguravajućim društvima o regulatornoj usklađenosti, transakcijama i rješavanju sporova u financijskom sektoru.',
       count: '06',
       link: '/experience/financial'
     }
@@ -269,8 +269,8 @@ export default function Experience() {
                   
                   <p>
                     {language === 'en'
-                      ? 'Our team includes specialists with direct experience in each industry we serve, ensuring we can provide practical advice that aligns with business realities.'
-                      : 'Naš tim uključuje stručnjake s izravnim iskustvom u svakoj industriji kojoj služimo, osiguravajući da možemo pružiti praktične savjete koji su u skladu s poslovnom stvarnošću.'}
+                      ? 'We have direct experience in each industry we serve, ensuring we can provide practical advice that aligns with business realities.'
+                      : 'Imamo izravno iskustvo u svakoj industriji kojoj služimo, osiguravajući da možemo pružiti praktične savjete koji su u skladu s poslovnom stvarnošću.'}
                   </p>
                   
                   <div className="mt-8 flex justify-center">
@@ -311,8 +311,8 @@ export default function Experience() {
                   </h3>
                   <p className="text-secondary-700">
                     {language === 'en'
-                      ? 'Our team includes lawyers with industry-specific backgrounds who understand the nuances of different business sectors.'
-                      : 'Naš tim uključuje odvjetnike sa specifičnim industrijskim iskustvom koji razumiju nijanse različitih poslovnih sektora.'}
+                      ? 'We have industry-specific backgrounds and understand the nuances of different business sectors.'
+                      : 'Imamo specifično industrijsko iskustvo i razumijemo nijanse različitih poslovnih sektora.'}
                   </p>
                 </div>
                 

@@ -63,8 +63,8 @@ export default function Home() {
               
               <p className="text-lg md:text-xl text-secondary-600 max-w-2xl animate-fade-in animate-delay-400">
                 {language === 'en'
-                  ? 'Providing focused and passionate legal representation in corporate and civil law matters throughout Croatia.'
-                  : 'Pružamo fokusirano i strastveno pravno zastupanje u poslovima korporativnog i građanskog prava diljem Hrvatske, s individualnim pristupom svakom klijentu.'}
+                  ? 'Providing excellent legal representation in corporate and civil law matters throughout Croatia.'
+                  : 'Pružamo izvrsno pravno zastupanje u poslovima korporativnog i građanskog prava diljem Hrvatske, s individualnim pristupom svakom klijentu.'}
               </p>
               
               <div className="flex flex-wrap gap-6 pt-4 animate-fade-in animate-delay-500">
@@ -126,8 +126,8 @@ export default function Home() {
             </h2>
             <p className="text-lg text-secondary-600 max-w-3xl mx-auto">
               {language === 'en'
-                ? 'We provide comprehensive legal services across a range of practice areas to meet your diverse needs.'
-                : 'Pružamo sveobuhvatne pravne usluge u različitim područjima prakse kako bismo zadovoljili vaše raznolike potrebe.'}
+                ? 'We provide comprehensive legal services across a range of practice areas to meet your needs for legal advice and representation.'
+                : 'Pružamo sveobuhvatne pravne usluge u različitim područjima prakse kako bismo zadovoljili vaše potrebe za pravnim savjetovanjem i zastupanjem.'}
             </p>
           </div>
           

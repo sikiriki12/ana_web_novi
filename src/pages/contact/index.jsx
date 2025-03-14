@@ -97,8 +97,8 @@ export default function Contact() {
             
             <p className="text-xl text-white/90 mb-8 max-w-3xl mx-auto animate-fade-in animate-delay-200">
               {language === 'en'
-                ? 'We\'re here to help with your legal needs. Reach out to schedule a consultation with our team.'
-                : 'Ovdje smo da pomognemo s vašim pravnim potrebama. Javite nam se za dogovor konzultacija s našim timom.'}
+                ? 'We\'re here to help with your legal needs. Reach out to schedule a consultation.'
+                : 'Ovdje smo da pomognemo s vašim pravnim potrebama. Javite nam se za dogovor konzultacija.'}
             </p>
           </div>
         </div>

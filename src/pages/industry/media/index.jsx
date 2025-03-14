@@ -107,8 +107,8 @@ export default function MediaIndustry() {
                     
                     <p>
                       {language === 'en'
-                        ? 'The media industry faces unique legal challenges at the intersection of intellectual property, free speech, privacy, and rapidly evolving digital technologies. Our legal team brings specialized knowledge to help media companies navigate this complex landscape while protecting their interests and creative assets.'
-                        : 'Medijska industrija suočava se s jedinstvenim pravnim izazovima na sjecištu intelektualnog vlasništva, slobode govora, privatnosti i brzo razvijajućih digitalnih tehnologija. Naš pravni tim donosi specijalizirano znanje kako bi pomogao medijskim tvrtkama u navigaciji kroz ovaj složeni krajolik, istovremeno štiteći njihove interese i kreativnu imovinu.'}
+                        ? 'The media industry faces unique legal challenges at the intersection of intellectual property, free speech, privacy, and rapidly evolving digital technologies. We bring specialized knowledge to help media companies navigate this complex landscape while protecting their interests and creative assets.'
+                        : 'Medijska industrija suočava se s jedinstvenim pravnim izazovima na sjecištu intelektualnog vlasništva, slobode govora, privatnosti i brzo razvijajućih digitalnih tehnologija. Donosimo specijalizirano znanje kako bismo pomogli medijskim tvrtkama u navigaciji kroz ovaj složeni krajolik, istovremeno štiteći njihove interese i kreativnu imovinu.'}
                     </p>
                     
                     <p>
@@ -245,8 +245,8 @@ export default function MediaIndustry() {
             
             <p className="text-lg text-secondary-700 mb-8 max-w-3xl mx-auto">
               {language === 'en'
-                ? 'Contact our team today to discuss how we can support your media business with specialized legal solutions for content creation, distribution, and protection.'
-                : 'Kontaktirajte naš tim danas kako bismo razgovarali o tome kako možemo podržati vaše medijsko poslovanje specijaliziranim pravnim rješenjima za stvaranje, distribuciju i zaštitu sadržaja.'}
+                ? 'Contact us today to discuss how we can support your media business with specialized legal solutions for content creation, distribution, and protection.'
+                : 'Kontaktirajte nas danas kako bismo razgovarali o tome kako možemo podržati vaše medijsko poslovanje specijaliziranim pravnim rješenjima za stvaranje, distribuciju i zaštitu sadržaja.'}
             </p>
             
             <Link to="/contact" className="btn btn-primary">

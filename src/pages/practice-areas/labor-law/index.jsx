@@ -161,8 +161,8 @@ export default function LaborLaw() {
                 
                 <p className="mb-6 text-primary-100">
                   {language === 'en'
-                    ? 'Contact us today to schedule a consultation with our experienced labor law team.'
-                    : 'Kontaktirajte nas danas za dogovor konzultacija s našim iskusnim timom za radno pravo.'}
+                    ? 'Contact us today to schedule a consultation regarding labor law matters.'
+                    : 'Kontaktirajte nas danas za dogovor konzultacija za pitanja radnog prava.'}
                 </p>
                 
                 <Link to="/contact" className="btn bg-white text-primary-800 hover:bg-white/90 transition-all duration-300 w-full flex justify-center items-center">

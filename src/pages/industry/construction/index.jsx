@@ -107,8 +107,8 @@ export default function ConstructionIndustry() {
                     
                     <p>
                       {language === 'en'
-                        ? 'The construction industry operates within a complex legal framework of contracts, regulations, and potential disputes. Our team brings specialized knowledge and experience to help construction businesses navigate these challenges while focusing on their core operations.'
-                        : 'Građevinska industrija djeluje unutar složenog pravnog okvira ugovora, propisa i potencijalnih sporova. Naš tim donosi specijalizirano znanje i iskustvo kako bi pomogao građevinskim tvrtkama u navigaciji kroz ove izazove dok se fokusiraju na svoje osnovne djelatnosti.'}
+                        ? 'The construction industry operates within a complex legal framework of contracts, regulations, and potential disputes. We bring specialized knowledge and experience to help construction businesses navigate these challenges while focusing on their core operations.'
+                        : 'Građevinska industrija djeluje unutar složenog pravnog okvira ugovora, propisa i potencijalnih sporova. Donosimo specijalizirano znanje i iskustvo kako bi pomogli građevinskim tvrtkama u navigaciji kroz ove izazove dok se fokusiraju na svoje osnovne djelatnosti.'}
                     </p>
                     
                     <p>
@@ -245,8 +245,8 @@ export default function ConstructionIndustry() {
             
             <p className="text-lg text-secondary-700 mb-8 max-w-3xl mx-auto">
               {language === 'en'
-                ? 'Contact our team today to discuss how we can support your construction business with specialized legal solutions.'
-                : 'Kontaktirajte naš tim danas kako bismo razgovarali o tome kako možemo podržati vaše građevinsko poslovanje specijaliziranim pravnim rješenjima.'}
+                ? 'Contact us today to discuss how we can support your construction business with specialized legal solutions.'
+                : 'Kontaktirajte nas danas kako bismo razgovarali o tome kako možemo podržati vaše građevinsko poslovanje specijaliziranim pravnim rješenjima.'}
             </p>
             
             <Link to="/contact" className="btn btn-primary">

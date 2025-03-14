@@ -107,8 +107,8 @@ export default function PharmaIndustry() {
                     
                     <p>
                       {language === 'en'
-                        ? 'The pharmaceutical and healthcare industries operate within a highly regulated environment with complex legal challenges. Our team offers specialized legal expertise to navigate these challenges while ensuring compliance with industry-specific regulations.'
-                        : 'Farmaceutska industrija i zdravstvo djeluju unutar visoko reguliranog okruženja sa složenim pravnim izazovima. Naš tim nudi specijaliziranu pravnu stručnost za navigaciju kroz ove izazove, osiguravajući usklađenost s propisima specifičnim za industriju.'}
+                        ? 'The pharmaceutical and healthcare industries operate within a highly regulated environment with complex legal challenges. We offer specialized legal expertise to navigate these challenges while ensuring compliance with industry-specific regulations.'
+                        : 'Farmaceutska industrija i zdravstvo djeluju unutar visoko reguliranog okruženja sa složenim pravnim izazovima. Nudimo specijaliziranu pravnu stručnost za navigaciju kroz ove izazove, osiguravajući usklađenost s propisima specifičnim za industriju.'}
                     </p>
                     
                     <p>
@@ -245,8 +245,8 @@ export default function PharmaIndustry() {
             
             <p className="text-lg text-secondary-700 mb-8 max-w-3xl mx-auto">
               {language === 'en'
-                ? 'Contact our team today to discuss how we can support your pharmaceutical or healthcare organization with specialized legal solutions.'
-                : 'Kontaktirajte naš tim danas kako bismo razgovarali o tome kako možemo podržati vašu farmaceutsku ili zdravstvenu organizaciju specijaliziranim pravnim rješenjima.'}
+                ? 'Contact us today to discuss how we can support your pharmaceutical or healthcare organization with specialized legal solutions.'
+                : 'Kontaktirajte nas danas kako bismo razgovarali o tome kako možemo podržati vašu farmaceutsku ili zdravstvenu organizaciju specijaliziranim pravnim rješenjima.'}
             </p>
             
             <Link to="/contact" className="btn btn-primary">
