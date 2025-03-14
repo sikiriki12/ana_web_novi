@@ -1,6 +1,6 @@
 import { useEffect } from 'react'
 import { Link } from 'react-router-dom'
-import { FaBuilding, FaLaptopCode, FaPrescriptionBottleAlt, FaIndustry, FaHome, FaNewspaper } from 'react-icons/fa'
+import { FaBuilding, FaLaptopCode, FaPrescriptionBottleAlt, FaIndustry, FaHome, FaHospital } from 'react-icons/fa'
 import { useTranslations } from '../../hooks/use-translations'
 
 export default function Industry() {
@@ -71,7 +71,7 @@ export default function Industry() {
     <FaPrescriptionBottleAlt size={28} />,
     <FaIndustry size={28} />,
     <FaHome size={28} />,
-    <FaNewspaper size={28} />
+    <FaHospital size={28} />
   ];
 
   return (

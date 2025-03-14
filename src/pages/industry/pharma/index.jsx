@@ -35,9 +35,9 @@ export default function PharmaIndustry() {
               <span>{t('industry.pharma.title')}</span>
             </div>
             
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-white mb-6 animate-fade-in">
-              {t('industry.pharma.title')}
-            </h1>
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-white mb-6 animate-fade-in">
+                {t('industry.pharma.title')}
+              </h1>
             
             <p className="text-xl text-primary-100 mb-8 animate-fade-in animate-delay-200 max-w-3xl mx-auto">
               {t('industry.pharma.description')}

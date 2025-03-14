@@ -23,7 +23,7 @@ import ITIndustry from './pages/industry/it/index.jsx'
 import PharmaIndustry from './pages/industry/pharma/index.jsx'
 import ManufacturingIndustry from './pages/industry/manufacturing/index.jsx'
 import RealEstateIndustry from './pages/industry/real-estate/index.jsx'
-import MediaIndustry from './pages/industry/media/index.jsx'
+import HealthcareIndustry from './pages/industry/healthcare/index.jsx'
 
 // Create language context to avoid prop drilling
 export const LanguageContext = createContext({
@@ -107,8 +107,8 @@ function App() {
           element={<RealEstateIndustry />} 
         />
         <Route 
-          path="/industry/media" 
-          element={<MediaIndustry />} 
+          path="/industry/healthcare" 
+          element={<HealthcareIndustry />} 
         />
         
         {/* Legacy Experience Routes (redirects) */}
@@ -118,7 +118,7 @@ function App() {
         <Route path="/experience/pharma" element={<PharmaIndustry />} />
         <Route path="/experience/manufacturing" element={<ManufacturingIndustry />} />
         <Route path="/experience/real-estate" element={<RealEstateIndustry />} />
-        <Route path="/experience/media" element={<MediaIndustry />} />
+        <Route path="/experience/healthcare" element={<HealthcareIndustry />} />
         
         {/* 404 Page */}
         <Route 

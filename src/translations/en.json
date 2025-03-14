@@ -404,10 +404,10 @@
           "title": "IT Industry",
           "description": "Specialized in intellectual property, data protection, and technology contracts."
         },
-        "pharma": {
-          "title": "Pharma & Healthcare",
-          "description": "Legal expertise in pharmaceutical regulations, compliance, and healthcare law."
-        },
+      "pharma": {
+        "title": "Pharmaceutical Industry",
+        "description": "Legal expertise in pharmaceutical regulations, compliance, and specialized commercial transactions."
+      },
         "manufacturing": {
           "title": "Manufacturing & Services",
           "description": "Expert in production regulations, service contracts and business operations."
@@ -449,8 +449,8 @@
           "link": "/industry/it"
         },
         {
-          "title": "Pharmaceutical & Healthcare",
-          "description": "We assist pharmaceutical companies and healthcare providers with regulatory compliance, licensing, intellectual property protection, and liability issues.",
+          "title": "Pharmaceutical Industry",
+          "description": "We assist pharmaceutical companies with regulatory compliance, licensing, intellectual property protection, and specialized commercial transactions.",
           "count": "03",
           "link": "/industry/pharma"
         },
@@ -467,10 +467,10 @@
           "link": "/industry/real-estate"
         },
         {
-          "title": "Media",
-          "description": "Our expertise covers media law, intellectual property rights, defamation cases, privacy concerns, and contractual matters for media companies and professionals.",
+          "title": "Healthcare Industry",
+          "description": "We offer specialized legal expertise for healthcare providers, medical facilities, and health-related organizations on regulatory compliance and medical liability issues.",
           "count": "06",
-          "link": "/industry/media"
+          "link": "/industry/healthcare"
         }
       ]
     },
@@ -611,6 +611,62 @@
     }
   },
   "industry": {
+    "healthcare": {
+      "breadcrumb": "Industry Expertise",
+      "title": "Healthcare Industry",
+      "description": "Specialized legal solutions for healthcare providers, medical facilities, and health-related organizations",
+      "intro": {
+        "title": "Legal Expertise for the Healthcare Sector",
+        "paragraph1": "The healthcare industry operates in a highly regulated environment with complex legal challenges specific to patient care, medical facilities, and healthcare delivery. We provide specialized legal expertise to help healthcare organizations navigate these challenges effectively.",
+        "paragraph2": "We work with hospitals, medical practices, healthcare providers, and health-related organizations to address issues ranging from regulatory compliance and risk management to healthcare transactions and medical liability concerns."
+      },
+      "approach": {
+        "title": "Our Approach",
+        "paragraph1": "We understand that healthcare organizations face unique challenges requiring both legal expertise and deep industry knowledge. Our approach combines thorough understanding of healthcare regulations with practical solutions for medical businesses.",
+        "paragraph2": "We work collaboratively with healthcare clients to develop legal strategies that not only ensure compliance but also support their mission of delivering quality patient care while protecting the organization's interests."
+      },
+      "services": {
+        "title": "Our Healthcare Industry Services",
+        "items": [
+          {
+            "title": "Healthcare Regulatory Compliance",
+            "description": "Legal guidance on healthcare regulations, patient privacy laws, healthcare facility licensing, and accreditation requirements."
+          },
+          {
+            "title": "Medical Liability Protection",
+            "description": "Legal representation in medical malpractice claims, professional liability cases, and risk management strategies to prevent future liability."
+          },
+          {
+            "title": "Healthcare Contracts & Transactions",
+            "description": "Legal support for healthcare facility contracts, physician employment agreements, medical equipment purchases, and healthcare mergers and acquisitions."
+          },
+          {
+            "title": "Healthcare Institutions Support",
+            "description": "Legal assistance for hospitals, medical practices, and healthcare organizations with employment matters, facility operations, and regulatory investigations."
+          }
+        ]
+      },
+      "sidebar": {
+        "cta": {
+          "title": "Need Healthcare Legal Support?",
+          "description": "Contact us today to discuss how our specialized legal services can support your healthcare organization's compliance and operational needs."
+        },
+        "whyChooseUs": {
+          "title": "Why Choose Us",
+          "reasons": [
+            "Deep understanding of healthcare regulations",
+            "Experience with medical liability cases",
+            "Expertise in healthcare employment matters",
+            "Comprehensive approach to healthcare compliance"
+          ]
+        }
+      },
+      "bottomCta": {
+        "title": "Partner with Us for Your Healthcare Legal Needs",
+        "description": "Contact us today to discuss how we can support your healthcare organization with specialized legal solutions that protect your practice and patients.",
+        "buttonText": "Schedule a Consultation"
+      }
+    },
     "construction": {
       "breadcrumb": "Industry Expertise",
       "title": "Construction Industry",
@@ -837,57 +893,57 @@
     },
     "pharma": {
       "breadcrumb": "Industry Expertise",
-      "title": "Pharmaceutical & Healthcare",
-      "description": "Specialized legal solutions for pharmaceutical companies and healthcare providers",
+      "title": "Pharmaceutical Industry",
+      "description": "Specialized legal solutions for pharmaceutical companies navigating complex regulatory landscapes",
       "intro": {
-        "title": "Legal Expertise for the Healthcare Sector",
-        "paragraph1": "The pharmaceutical and healthcare industries operate within a highly regulated environment with complex legal challenges. We offer specialized legal expertise to navigate these challenges while ensuring compliance with industry-specific regulations.",
-        "paragraph2": "We assist pharmaceutical companies, healthcare providers, and related businesses with regulatory compliance, labor issues, public procurement, commercial transactions, and liability concerns unique to the healthcare sector."
+        "title": "Legal Expertise for the Pharmaceutical Sector",
+        "paragraph1": "The pharmaceutical industry operates within a stringent regulatory framework with unique legal challenges. We offer specialized legal expertise to navigate these complexities while ensuring compliance with industry-specific regulations and standards.",
+        "paragraph2": "We assist pharmaceutical companies with regulatory compliance, intellectual property protection, licensing agreements, public procurement, clinical trials oversight, and specialized commercial transactions essential to pharmaceutical operations."
       },
       "approach": {
         "title": "Our Approach",
-        "paragraph1": "We understand that healthcare and pharmaceutical organizations face unique legal challenges that require both legal expertise and industry knowledge. Our approach combines deep understanding of healthcare regulations with practical business solutions.",
-        "paragraph2": "We work closely with our clients to develop legal strategies that not only ensure compliance but also support their business objectives and protect their interests in this highly specialized sector."
+        "paragraph1": "We understand that pharmaceutical companies face distinct legal challenges requiring both specialized legal expertise and deep industry knowledge. Our approach combines thorough understanding of pharmaceutical-specific regulations with practical business solutions tailored to this unique sector.",
+        "paragraph2": "We work closely with pharmaceutical clients to develop legal strategies that ensure regulatory compliance while supporting business objectives and protecting commercial interests in this highly specialized market."
       },
       "services": {
-        "title": "Our Pharmaceutical & Healthcare Services",
+        "title": "Our Pharmaceutical Industry Services",
         "items": [
           {
-            "title": "Labor Law Expertise",
-            "description": "Legal counseling and representation in employment law, including compliance with healthcare labor regulations and dispute resolution."
+            "title": "Regulatory Compliance",
+            "description": "Legal guidance on pharmaceutical regulations, product approval processes, labeling requirements, and marketing authorization compliance."
           },
           {
             "title": "Public Procurement Support",
-            "description": "Legal counseling and representation in public procurement procedures, ensuring compliance with healthcare procurement regulations."
+            "description": "Legal counseling and representation in public procurement procedures specific to pharmaceutical tender processes and healthcare institution supply contracts."
           },
           {
-            "title": "Business Transaction Support",
-            "description": "Legal support in business transactions, including drafting and reviewing commercial contracts tailored to pharmaceutical industry needs."
+            "title": "Intellectual Property Protection",
+            "description": "Strategic advice on patent protection, trademark registration, and defense of pharmaceutical IP assets essential to market positioning."
           },
           {
-            "title": "Medical Liability & Media Claims",
-            "description": "Representation in litigation proceedings for medical malpractice claims and damages caused by information published in media."
+            "title": "Business Transactions & Licensing",
+            "description": "Comprehensive legal support for pharmaceutical commercial agreements, licensing partnerships, research collaborations, and distribution contracts."
           }
         ]
       },
       "sidebar": {
         "cta": {
-          "title": "Need Healthcare Legal Support?",
-          "description": "Contact us today to discuss how our specialized legal services can support your pharmaceutical or healthcare organization."
+          "title": "Need Pharmaceutical Legal Support?",
+          "description": "Contact us today to discuss how our specialized legal services can support your pharmaceutical company's compliance and business objectives."
         },
         "whyChooseUs": {
           "title": "Why Choose Us",
           "reasons": [
-            "Deep understanding of healthcare regulations",
-            "Experience with public procurement in healthcare",
-            "Proven track record in medical liability cases",
-            "Specialized in healthcare labor compliance"
+            "Deep understanding of pharmaceutical regulations",
+            "Experience with pharmaceutical IP protection",
+            "Expertise in pharmaceutical procurement processes",
+            "Specialized in pharmaceutical licensing agreements"
           ]
         }
       },
       "bottomCta": {
-        "title": "Partner with Us for Your Healthcare Legal Needs",
-        "description": "Contact us today to discuss how we can support your pharmaceutical or healthcare organization with specialized legal solutions.",
+        "title": "Partner with Us for Your Pharmaceutical Legal Needs",
+        "description": "Contact us today to discuss how we can support your pharmaceutical company with specialized legal solutions.",
         "buttonText": "Schedule a Consultation"
       }
     },

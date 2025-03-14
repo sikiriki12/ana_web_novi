@@ -34,10 +34,6 @@ export default function Header({ language, setLanguage }) {
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
 
-  // Determine if we're on a specific practice area page
-  const isSpecificPracticeArea = location.pathname.startsWith('/practice-areas/') && 
-                               location.pathname !== '/practice-areas/';
-
   return (
     <Disclosure as="nav" className={`fixed w-full z-50 transition-all duration-500 border-t-0 ${scrolled ? 'bg-white shadow-lg' : 'bg-white/95 backdrop-blur-sm'}`}>
       {({ open }) => (
@@ -105,11 +101,8 @@ export default function Header({ language, setLanguage }) {
                       key={item.href}
                       to={item.href}
                       className={`${
-                        (location.pathname === item.href || 
-                         (location.pathname.startsWith(item.href) && 
-                          item.href !== '/practice-areas')) &&
-                         // Don't highlight "Practice areas" when on a specific area page  
-                         !(item.href === '/practice-areas' && isSpecificPracticeArea)
+                        location.pathname === item.href || 
+                        location.pathname.startsWith(item.href)
                           ? 'border-primary-600 text-primary-800'
                           : 'border-transparent text-secondary-800 hover:border-secondary-300 hover:text-primary-700'
                       } inline-flex items-center px-1 border-b text-base font-medium transition-all duration-300 hover:scale-105 h-full`}
@@ -151,11 +144,8 @@ export default function Header({ language, setLanguage }) {
                     as={Link}
                     to={item.href}
                     className={`${
-                      (location.pathname === item.href || 
-                       (location.pathname.startsWith(item.href) && 
-                        item.href !== '/practice-areas')) &&
-                       // Don't highlight "Practice areas" when on a specific area page
-                       !(item.href === '/practice-areas' && isSpecificPracticeArea)
+                      location.pathname === item.href || 
+                      location.pathname.startsWith(item.href)
                         ? 'bg-primary-50 text-primary-800 border-l-4 border-primary-600 pl-3'
                         : 'text-secondary-800 hover:bg-secondary-50 hover:text-primary-700 pl-4'
                     } block py-3 rounded-md text-base font-medium transition-all duration-300`}

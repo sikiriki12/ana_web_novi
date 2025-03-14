@@ -404,10 +404,10 @@
           "title": "IT Industrija",
           "description": "Specijalizirani za intelektualno vlasništvo, zaštitu podataka i tehnološke ugovore."
         },
-        "pharma": {
-          "title": "Pharma i zdravstvo",
-          "description": "Pravna stručnost u farmaceutskim propisima, usklađenosti i zdravstvenom pravu."
-        },
+      "pharma": {
+        "title": "Farmaceutska industrija",
+        "description": "Pravna stručnost u farmaceutskim propisima, usklađenosti i specijaliziranim komercijalnim transakcijama."
+      },
         "manufacturing": {
           "title": "Proizvodnja i usluge",
           "description": "Stručnjak za propise o proizvodnji, ugovore o uslugama i poslovne operacije."
@@ -449,8 +449,8 @@
           "link": "/industry/it"
         },
         {
-          "title": "Farmaceutska industrija i zdravstvo",
-          "description": "Pomažemo farmaceutskim tvrtkama i pružateljima zdravstvenih usluga s regulatornom usklađenošću, licenciranjem, zaštitom intelektualnog vlasništva i pitanjima odgovornosti.",
+          "title": "Farmaceutska industrija",
+          "description": "Pomažemo farmaceutskim tvrtkama s regulatornom usklađenošću, licenciranjem, zaštitom intelektualnog vlasništva i specijaliziranim komercijalnim transakcijama.",
           "count": "03",
           "link": "/industry/pharma"
         },
@@ -467,10 +467,10 @@
           "link": "/industry/real-estate"
         },
         {
-          "title": "Mediji",
-          "description": "Naša stručnost obuhvaća medijsko pravo, prava intelektualnog vlasništva, slučajeve klevete, pitanja privatnosti i ugovorne odnose za medijske tvrtke i profesionalce.",
+          "title": "Zdravstvena industrija",
+          "description": "Nudimo specijaliziranu pravnu stručnost za pružatelje zdravstvenih usluga, medicinske ustanove i zdravstvene organizacije o regulatornoj usklađenosti i pitanjima medicinske odgovornosti.",
           "count": "06",
-          "link": "/industry/media"
+          "link": "/industry/healthcare"
         }
       ]
     },
@@ -611,6 +611,62 @@
     }
   },
   "industry": {
+    "healthcare": {
+      "breadcrumb": "Industrijska stručnost",
+      "title": "Zdravstvena industrija",
+      "description": "Specijalizirana pravna rješenja za pružatelje zdravstvenih usluga, medicinske ustanove i zdravstvene organizacije",
+      "intro": {
+        "title": "Pravna stručnost za zdravstveni sektor",
+        "paragraph1": "Zdravstvena industrija djeluje u visoko reguliranom okruženju sa složenim pravnim izazovima specifičnim za skrb o pacijentima, medicinske ustanove i pružanje zdravstvenih usluga. Pružamo specijaliziranu pravnu stručnost kako bismo pomogli zdravstvenim organizacijama u učinkovitoj navigaciji kroz ove izazove.",
+        "paragraph2": "Surađujemo s bolnicama, medicinskim praksama, pružateljima zdravstvenih usluga i zdravstvenim organizacijama kako bismo riješili pitanja od regulatorne usklađenosti i upravljanja rizicima do zdravstvenih transakcija i pitanja medicinske odgovornosti."
+      },
+      "approach": {
+        "title": "Naš pristup",
+        "paragraph1": "Razumijemo da zdravstvene organizacije suočavaju s jedinstvenim izazovima koji zahtijevaju i pravnu stručnost i duboko poznavanje industrije. Naš pristup kombinira temeljito razumijevanje zdravstvenih propisa s praktičnim rješenjima za medicinske tvrtke.",
+        "paragraph2": "Surađujemo sa zdravstvenim klijentima na razvoju pravnih strategija koje ne samo da osiguravaju usklađenost, već i podržavaju njihovu misiju pružanja kvalitetne skrbi pacijentima, istovremeno štiteći interese organizacije."
+      },
+      "services": {
+        "title": "Naše usluge za zdravstvenu industriju",
+        "items": [
+          {
+            "title": "Regulatorna usklađenost u zdravstvu",
+            "description": "Pravno savjetovanje o zdravstvenim propisima, zakonima o privatnosti pacijenata, licenciranju zdravstvenih ustanova i akreditacijskim zahtjevima."
+          },
+          {
+            "title": "Zaštita od medicinske odgovornosti",
+            "description": "Pravno zastupanje u slučajevima liječničke pogreške, slučajevima profesionalne odgovornosti i strategije upravljanja rizicima za sprječavanje buduće odgovornosti."
+          },
+          {
+            "title": "Zdravstveni ugovori i transakcije",
+            "description": "Pravna podrška za ugovore zdravstvenih ustanova, ugovore o zapošljavanju liječnika, nabavu medicinske opreme i spajanja i preuzimanja u zdravstvu."
+          },
+          {
+            "title": "Podrška zdravstvenim ustanovama",
+            "description": "Pravna pomoć bolnicama, medicinskim praksama i zdravstvenim organizacijama u pitanjima zapošljavanja, rada ustanova i regulatornih istraga."
+          }
+        ]
+      },
+      "sidebar": {
+        "cta": {
+          "title": "Trebate pravnu podršku u zdravstvu?",
+          "description": "Kontaktirajte nas danas kako biste razgovarali o tome kako naše specijalizirane pravne usluge mogu podržati usklađenost i operativne potrebe vaše zdravstvene organizacije."
+        },
+        "whyChooseUs": {
+          "title": "Zašto odabrati nas",
+          "reasons": [
+            "Duboko razumijevanje zdravstvenih propisa",
+            "Iskustvo sa slučajevima medicinske odgovornosti",
+            "Stručnost u zdravstvenim pitanjima zapošljavanja",
+            "Sveobuhvatan pristup zdravstvenoj usklađenosti"
+          ]
+        }
+      },
+      "bottomCta": {
+        "title": "Surađujte s nama za vaše zdravstvene pravne potrebe",
+        "description": "Kontaktirajte nas danas kako bismo razgovarali o tome kako možemo podržati vašu zdravstvenu organizaciju specijaliziranim pravnim rješenjima koja štite vašu praksu i pacijente.",
+        "buttonText": "Zakažite konzultacije"
+      }
+    },
     "construction": {
       "breadcrumb": "Industrijska stručnost",
       "title": "Građevinska industrija",
@@ -837,57 +893,57 @@
     },
     "pharma": {
       "breadcrumb": "Industrijska stručnost",
-      "title": "Farmaceutska industrija i zdravstvo",
-      "description": "Specijalizirana pravna rješenja za farmaceutske tvrtke i pružatelje zdravstvenih usluga",
+      "title": "Farmaceutska industrija",
+      "description": "Specijalizirana pravna rješenja za farmaceutske tvrtke koje posluju u složenom regulatornom okruženju",
       "intro": {
-        "title": "Pravna stručnost za zdravstveni sektor",
-        "paragraph1": "Farmaceutska industrija i zdravstvo djeluju unutar visoko reguliranog okruženja sa složenim pravnim izazovima. Nudimo specijaliziranu pravnu stručnost za navigaciju kroz ove izazove, osiguravajući usklađenost s propisima specifičnim za industriju.",
-        "paragraph2": "Pomažemo farmaceutskim tvrtkama, pružateljima zdravstvenih usluga i povezanim poduzećima s regulatornom usklađenošću, radnim pitanjima, javnom nabavom, komercijalnim transakcijama i pitanjima odgovornosti jedinstvenim za zdravstveni sektor."
+        "title": "Pravna stručnost za farmaceutski sektor",
+        "paragraph1": "Farmaceutska industrija djeluje unutar strogog regulatornog okvira s jedinstvenim pravnim izazovima. Nudimo specijaliziranu pravnu stručnost za navigaciju kroz ove složenosti, osiguravajući usklađenost s propisima i standardima specifičnim za ovu industriju.",
+        "paragraph2": "Pomažemo farmaceutskim tvrtkama s regulatornom usklađenošću, zaštitom intelektualnog vlasništva, licencnim ugovorima, javnom nabavom, nadzorom kliničkih ispitivanja i specijaliziranim komercijalnim transakcijama ključnim za farmaceutsko poslovanje."
       },
       "approach": {
         "title": "Naš pristup",
-        "paragraph1": "Razumijemo da zdravstvene i farmaceutske organizacije suočavaju se s jedinstvenim pravnim izazovima koji zahtijevaju i pravnu stručnost i poznavanje industrije. Naš pristup kombinira duboko razumijevanje zdravstvenih propisa s praktičnim poslovnim rješenjima.",
-        "paragraph2": "Blisko surađujemo s našim klijentima kako bismo razvili pravne strategije koje ne samo da osiguravaju usklađenost, već i podržavaju njihove poslovne ciljeve i štite njihove interese u ovom visoko specijaliziranom sektoru."
+        "paragraph1": "Razumijemo da farmaceutske tvrtke suočavaju se s jedinstvenim pravnim izazovima koji zahtijevaju i specijaliziranu pravnu stručnost i duboko poznavanje industrije. Naš pristup kombinira temeljito razumijevanje farmaceutskih propisa s praktičnim poslovnim rješenjima prilagođenim ovom jedinstvenom sektoru.",
+        "paragraph2": "Blisko surađujemo s našim klijentima kako bismo razvili pravne strategije koje ne samo da osiguravaju usklađenost, već i podržavaju njihove poslovne ciljeve i štite njihove interese u ovom visoko specijaliziranom tržištu."
       },
       "services": {
-        "title": "Naše usluge za farmaceutsku industriju i zdravstvo",
+        "title": "Naše usluge za farmaceutsku industriju",
         "items": [
           {
-            "title": "Pravno savjetovanje i zastupanje pred sudovima na području radnog prava",
-            "description": "Stručno pravno savjetovanje i zastupanje u području radnog prava, uključujući usklađenost sa zdravstvenim radnim propisima i rješavanje sporova."
+            "title": "Regulatorna usklađenost",
+            "description": "Pravno savjetovanje o farmaceutskim propisima, postupcima odobrenja proizvoda, zahtjevima označavanja i usklađenosti s odobrenjem za stavljanje lijekova u promet."
           },
           {
-            "title": "Pravno savjetovanje i zastupanje u postupcima javne nabave",
-            "description": "Pravno savjetovanje i zastupanje u postupcima javne nabave, osiguravajući usklađenost s propisima o nabavi u zdravstvu."
+            "title": "Podrška u postupcima javne nabave",
+            "description": "Pravno savjetovanje i zastupanje u postupcima javne nabave specifičnim za farmaceutske natječajne procese i ugovore o opskrbi zdravstvenih ustanova."
           },
           {
-            "title": "Pravna potpora u poslovnim transakcijama, izrada trgovačkih ugovora",
-            "description": "Pravna potpora u poslovnim transakcijama, uključujući izradu i pregled trgovačkih ugovora prilagođenih potrebama farmaceutske industrije."
+            "title": "Zaštita intelektualnog vlasništva",
+            "description": "Strateški savjeti o zaštiti patenata, registraciji žigova i obrani farmaceutske intelektualne imovine ključne za tržišno pozicioniranje."
           },
           {
-            "title": "Zastupanje u postupcima radi naknade štete",
-            "description": "Zastupanje u parničnim postupcima radi naknade štete zbog liječničke pogreške, kao i u postupcima radi naknade štete prouzročene informacijama objavljenim u medijima."
+            "title": "Poslovne transakcije i licenciranje",
+            "description": "Sveobuhvatna pravna podrška za farmaceutske komercijalne ugovore, licencna partnerstva, istraživačke suradnje i distribucijske ugovore."
           }
         ]
       },
       "sidebar": {
         "cta": {
-          "title": "Trebate pravnu podršku u zdravstvu?",
-          "description": "Kontaktirajte nas danas kako biste razgovarali o tome kako naše specijalizirane pravne usluge mogu podržati vašu farmaceutsku ili zdravstvenu organizaciju."
+          "title": "Trebate pravnu podršku za farmaceutsku industriju?",
+          "description": "Kontaktirajte nas danas kako biste razgovarali o tome kako naše specijalizirane pravne usluge mogu podržati usklađenost i poslovne ciljeve vaše farmaceutske tvrtke."
         },
         "whyChooseUs": {
           "title": "Zašto odabrati nas",
           "reasons": [
-            "Duboko razumijevanje zdravstvenih propisa",
-            "Iskustvo s javnom nabavom u zdravstvu",
-            "Dokazani uspjeh u slučajevima medicinske odgovornosti",
-            "Specijalizirani za usklađenost s radnim pravom u zdravstvu"
+            "Duboko razumijevanje farmaceutskih propisa",
+            "Iskustvo sa zaštitom farmaceutskog intelektualnog vlasništva",
+            "Stručnost u farmaceutskim postupcima javne nabave",
+            "Specijalizacija za farmaceutske licencne ugovore"
           ]
         }
       },
       "bottomCta": {
-        "title": "Surađujte s nama za vaše zdravstvene pravne potrebe",
-        "description": "Kontaktirajte nas danas kako bismo razgovarali o tome kako možemo podržati vašu farmaceutsku ili zdravstvenu organizaciju specijaliziranim pravnim rješenjima.",
+        "title": "Surađujte s nama za vaše farmaceutske pravne potrebe",
+        "description": "Kontaktirajte nas danas kako bismo razgovarali o tome kako možemo podržati vašu farmaceutsku tvrtku specijaliziranim pravnim rješenjima.",
         "buttonText": "Zakažite konzultacije"
       }
     },
