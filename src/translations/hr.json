@@ -37,11 +37,11 @@
     "breadcrumb": "Područja prakse",
     "title": "Trgovačko pravo",
     "description": "Stručno pravno zastupanje tvrtki u svim vrstama trgovačkih pitanja i sporova",
-    "ourServices": "Naše usluge trgovačkog prava",
+    "ourServices": "Naše usluge iz područja trgovačkog prava",
     "introText": "Klijentima pružamo sveobuhvatnu pravnu pomoć u poslovanju pružajući stručne savjete iz područja ugovornog prava, sastavljamo trgovačke ugovore i zastupamo u trgovačkim sporovima.",
     "contractDrafting": {
       "title": "Izrada i pregled ugovora",
-      "description": "Sastavljamo, pregledavamo i pregovaramo razne vrste trgovačkih ugovora, uključujući:",
+      "description": "Sastavljamo, pregledavamo i pružamo podršku u pregovorima o raznim vrstama trgovačkih ugovora, uključujući:",
       "items": [
         "Ugovori o distribuciji",
         "Izdavački ugovori",
@@ -49,7 +49,7 @@
         "Ugovori o nabavi",
         "Ugovori o izvođenju radova",
         "Opći uvjeti poslovanja",
-        "Sva potrebna dokumentacija za poslovanje"
+        "Ugovor o franšizingu"
       ]
     },
     "businessTransactions": {
@@ -62,22 +62,22 @@
     },
     "regulatoryCompliance": {
       "title": "Regulatorna usklađenost",
-      "description": "Klijentima pružamo pravnu pomoć u svim aspektima poslovanja osiguravajući da poslovanje klijenta bude usklađeno s propisima, te zastupamo u postupcima inspekcijskih nadzora."
+      "description": "Klijentima pružamo pravnu pomoć u svim aspektima poslovanja osiguravajući da poslovanje klijenta bude usklađeno s propisima. Zastupamo pred regulatornim i državnim tijelima vezano za pitanja usklađenosti, te zastupamo u postupcima inspekcijskih nadzora."
     },
     "sidebar": {
-      "title": "Trebate savjet iz trgovačkog prava?",
-      "description": "Kontaktirajte nas danas za dogovor konzultacija za pitanja trgovačkog prava."
+      "title": "Trebate li savjet iz trgovačkog prava?",
+      "description": "Kontaktirajte nas i dogovorite termin za pravno savjetovanje."
     }
   },
   "laborLaw": {
     "breadcrumb": "Područja prakse",
     "title": "Radno pravo",
-    "description": "Sveobuhvatne usluge radnog prava za poslodavce i zaposlenike",
-    "ourServices": "Naše usluge radnog prava",
-    "introText": "Pružamo usluge savjetovanja i zastupanja u vezi s ugovorima o radu, pravima i obvezama radnika i poslodavaca, kao i u rješavanju sporova u području radnih odnosa.",
+    "description": "Sveobuhvatne usluge iz područja radnog prava za poslodavce i zaposlenike",
+    "ourServices": "Naše usluge iz područja radnog prava",
+    "introText": "Pružamo usluge savjetovanja i zastupanja u vezi s ugovorima o radu, pravima i obvezama radnika i poslodavaca, kao i u rješavanju sporova iz područja radnih odnosa.",
     "contractManagement": {
-      "title": "Upravljanje ugovorima o radu",
-      "description": "Pružamo pravnu potporu tijekom cijelog postupka upravljanja ugovorima o radu, uključujući:",
+      "title": "Ugovori o radu",
+      "description": "Pružamo pravnu potporu tijekom cijelog postupka sastavljanja i sklapanja ugovora o radu, uključujući:",
       "items": [
         "Izrada i pregled ugovora o radu",
         "Pregovori i izmjene",
@@ -89,11 +89,11 @@
     },
     "internationalServices": {
       "title": "Međunarodne usluge zapošljavanja",
-      "description": "Pružamo savjete i kompletnu uslugu iz područja radnog prava poslodavcima i agencijama za privremeno zapošljavanje, uključujući pribavljanje dozvola za boravak i rad stranih radnika, sastavljanje specifičnih ugovora o radu s međunarodnim elementom i navigaciju propisa o prekograničnom zapošljavanju."
+      "description": "Pružamo savjete i kompletnu uslugu iz područja radnog prava poslodavcima i agencijama za privremeno zapošljavanje, uključujući pribavljanje dozvola za boravak i rad stranih radnika, sastavljanje specifičnih ugovora o radu s međunarodnim elementom i pravno savjetovanje vezano za prekogranično zapošljavanje (vize, dozvole za boravak i rad itd.)."
     },
     "collectiveRelations": {
-      "title": "Kolektivni radni odnosi",
-      "description": "Zastupamo u postupcima kolektivnog zbrinjavanja viška radnika, te zastupamo poslodavce pred sindikatima. Naša stručnost uključuje kolektivno pregovaranje, radne sporove koji uključuju više zaposlenika i usklađenost s kolektivnim ugovorima."
+      "title": "Kolektivno zbrinjavanje viška radnika",
+      "description": "Savjetujemo poslodavce vezano za kolektivno zbrinjavanje viška radnika, izrađujemo potrebne odluke o restrukturiranju, izmjenama sistematizacije radnih mjesta, pojedinačne odluke o otkazima. Zastupamo poslodavce pred sindikatima u postupcima savjetovanja."
     },
     "disputeResolution": {
       "title": "Rješavanje radnih sporova",
@@ -108,25 +108,25 @@
       ]
     },
     "sidebar": {
-      "title": "Trebate savjet iz radnog prava?",
-      "description": "Kontaktirajte nas danas za dogovor konzultacija za pitanja radnog prava."
+      "title": "Trebate li savjet iz radnog prava?",
+      "description": "Kontaktirajte nas radi dogovora termina za pravno savjetovanje."
     }
   },
   "corporateLaw": {
     "breadcrumb": "Područja prakse",
     "title": "Pravo trgovačkih društava",
-    "description": "Stručna pravna podrška za osnivanje tvrtki, upravljanje i korporativne transakcije",
-    "ourServices": "Naše usluge prava trgovačkih društava",
+    "description": "Stručna pravna podrška u postupku osnivanja trgovačkih društava, upravljanja i statusnih promjena",
+    "ourServices": "Naše usluge iz područja prava trgovačkih društava",
     "introText": "Pružamo sveobuhvatne pravne usluge u vezi s osnivanjem trgovačkih društava, pitanjima upravljanja i statusnim promjenama, nudeći stručno vodstvo kroz svaku fazu korporativnog razvoja.",
     "companyFormation": {
       "title": "Osnivanje i strukturiranje društava",
-      "description": "Pomažemo u osnivanju različitih poslovnih subjekata, savjetujući o najprikladnijoj korporativnoj strukturi na temelju vaših poslovnih ciljeva, pitanja odgovornosti, poreznih implikacija i operativnih zahtjeva. Naše usluge uključuju:",
+      "description": "Pomažemo u osnivanju različitih oblika poslovnih subjekata, savjetujemo o najprikladnijoj korporativnoj strukturi na temelju vaših poslovnih ciljeva, pitanja odgovornosti i poreznih implikacija. Naše usluge uključuju:",
       "items": [
         "Osnivanje društava s ograničenom odgovornošću (d.o.o.)",
         "Osnivanje dioničkih društava (d.d.)",
         "Osnivanje podružnica i predstavništava",
         "Izrada društvenih ugovora i drugih osnivačkih dokumenata",
-        "Upravljanje svim regulatornim podnescima i registracijama"
+        "Zastupanje pred registarskim tijelima te pred državnim i regulatornim tijelima."
       ]
     },
     "mergersAcquisitions": {
@@ -135,7 +135,7 @@
     },
     "shareholderAgreements": {
       "title": "Dioničarski i investitorski ugovori",
-      "description": "Sastavljamo i pregovaramo ugovore između članova društva, investitora i drugih dionika, uključujući:",
+      "description": "Sastavljamo i pregovaramo o ugovorima između članova društva, investitora i drugih dionika, uključujući:",
       "items": [
         "Ugovore između članova društva o upisu dionica/poslovnih udjela (Shareholders agreements)",
         "Ugovore o konvertibilnim zajmovima (Convertible Loan Agreements)",
@@ -145,39 +145,39 @@
       ]
     },
     "startupExpertise": {
-      "title": "Startup i IT industrija stručnost",
-      "description": "Imamo bogato iskustvo na području IT industrije i financiranja društava u ranim fazama razvoja. Pružamo specijalizirane pravne savjete o strategijama financiranja, uključujući povećanje temeljnog kapitala i upis dionica/udjela, kao i konvertibilnih zajmova strukturiranih prema dogovoru između investitora i osnivača društva."
+      "title": "Startup i IT industrija",
+      "description": "Imamo bogato iskustvo na području IT industrije i financiranja društava u svim fazama razvoja. Pružamo specijalizirane pravne savjete o strategijama financiranja, uključujući povećanje temeljnog kapitala i upis dionica/udjela, kao i konvertibilnih zajmova strukturiranih prema dogovoru između investitora i osnivača društva."
     },
     "sidebar": {
-      "title": "Trebate savjet iz prava trgovačkih društava?",
-      "description": "Kontaktirajte nas danas za dogovor konzultacija za pitanja prava trgovačkih društava."
+      "title": "Trebate li savjet iz područja prava trgovačkih društava?",
+      "description": "Kontaktirajte nas radi dogovora termina za pravno savjetovanje."
     }
   },
   "disputeResolution": {
     "breadcrumb": "Područja prakse",
     "title": "Rješavanje sporova",
     "description": "Strateško i učinkovito zastupanje u parničnim postupcima, arbitraži i medijaciji",
-    "ourServices": "Naše usluge rješavanja sporova",
+    "ourServices": "Usluge rješavanja sporova",
     "introText": "Zastupamo klijente u širokom rasponu postupaka rješavanja sporova, uključujući parnične postupke, arbitražu i medijaciju. Naš pristup je usmjeren na pronalaženje najučinkovitijih i ekonomičnih rješenja za složene pravne sporove.",
     "litigation": {
-      "title": "Usluge parničenja",
-      "description": "Zastupamo klijente u sudskim postupcima u različitim područjima prava, pružajući:",
+      "title": "Parnični postupci",
+      "description": "Zastupamo klijente u sudskim postupcima pred općinskim i trgovačkim sudocima u različitim područjima prava, pružajući:",
       "items": [
         "Stratešku procjenu i planiranje slučaja",
         "Pregovore prije parnice",
-        "Zastupanje na sudu na svim razinama",
-        "Koordinaciju vještaka",
+        "Zastupanje pred sudovima",
+        "Koordinaciju dionika parničnog postupka",
         "Ovršne postupke",
-        "Žalbene postupke i postupke preispitivanja"
+        "Žalbene postupke i postupke po izvanrednim pravnim lijekovima"
       ]
     },
     "arbitration": {
       "title": "Arbitraža",
-      "description": "Imamo veliko iskustvo u domaćim i međunarodnim arbitražnim postupcima. Naše usluge arbitraže uključuju sastavljanje arbitražnih klauzula, zastupanje klijenata tijekom arbitražnog postupka i izvršenje arbitražnih odluka. Uspješno smo vodili složene arbitraže u različitim sektorima, uključujući trgovačke, građevinske i investicijske sporove."
+      "description": "Naše usluge arbitraže uključuju sastavljanje arbitražnih klauzula, zastupanje klijenata tijekom arbitražnog postupka i izvršenje arbitražnih odluka. Posjedujemo bogato iskustvo u zastupanju klijenata vezano za arbitražne postupke."
     },
     "mediation": {
       "title": "Medijacija i alternativno rješavanje sporova",
-      "description": "Prepoznajemo da parnica nije uvijek najučinkovitiji pristup rješavanju sporova. Vješti smo u različitim oblicima alternativnog rješavanja sporova (ARS), uključujući:",
+      "description": "Prepoznajemo da parnica nije najučinkovitiji pristup rješavanju sporova. Imamo bogato iskustvo u postupcima mirenja pred sudovima, Hrvatskom gospodarskom komorom i drugim tijekima, a mirenja provodimo i u našem uredu. Ponosni smo na brojne sklopljene sudske i izvansudske nagodbe u zastuapnju klijenata.",
       "items": [
         "Zastupanje i zagovaranje u medijaciji",
         "Pregovaračke nagodbe",
@@ -192,22 +192,22 @@
       "items": [
         "Ranu procjenu slučaja i analizu rizika",
         "Analizu troškova i koristi različitih metoda rješavanja",
-        "Razvoj prilagođenih strategija za rješavanje sporova",
+        "Razvoj odabrane strategije za rješavanje sporova",
         "Proaktivno upravljanje pravnim troškovima",
         "Kreativna rješenja koja odgovaraju poslovnim ciljevima"
       ],
       "conclusion": "Naš krajnji cilj je postići najbolji mogući ishod za naše klijente uz minimiziranje troškova, poslovnih poremećaja i reputacijske štete. Usko surađujemo s klijentima kako bismo razumjeli njihove ciljeve i razvili strategije rješavanja sporova koje su usklađene s njihovim širim poslovnim ciljevima."
     },
     "sidebar": {
-      "title": "Trebate pomoć s rješavanjem spora?",
-      "description": "Kontaktirajte nas danas za razgovor o vašem slučaju i istraživanje opcija rješavanja sporova."
+      "title": "Trebate li pomoć s rješavanjem spora?",
+      "description": "Kontaktirajte nas radi dogovora termina za konzultacije o vašem slučaju i istraživanje opcija rješavanja sporova."
     }
   },
   "contractLaw": {
     "breadcrumb": "Područja prakse",
     "title": "Ugovorno pravo",
-    "description": "Stručna izrada, pregled i pregovaranje ugovora koji štite vaše interese",
-    "ourServices": "Naše usluge ugovornog prava",
+    "description": "Stručna izrada, pregled i pregovaranje o ugovorima koji štite vaše interese",
+    "ourServices": "Usluge iz područja ugovornog prava",
     "introText": "Specijalizirani smo za izradu, pregled i pregovore o različitim vrstama ugovora i sporazuma. Naša stručnost osigurava da su vaši ugovori pravno valjani, štite vaše interese i učinkovito upravljaju rizicima u poslovnim odnosima.",
     "drafting": {
       "title": "Izrada i pregled ugovora",
@@ -219,19 +219,19 @@
         "Ugovori o radu i pravilnici",
         "Licencni ugovori i ugovori o intelektualnom vlasništvu",
         "Ugovori o povjerljivosti i tajnosti podataka",
-        "Partnerski ugovori i ugovori o zajedničkom pothvatu"
+        "Partnerski ugovori i ugovori o ortaštvu"
       ]
     },
     "negotiation": {
-      "title": "Pregovaranje ugovora",
-      "description": "Naši iskusni odvjetnici zastupaju klijente u pregovorima o ugovorima kako bi osigurali povoljne uvjete. Pažljivo analiziramo svaku klauzulu, identificiramo potencijalne rizike, predlažemo izmjene i pregovaramo za postizanje najboljeg mogućeg ishoda za naše klijente. Naš pristup je i strateški i praktičan, s fokusom na zaštitu vaših interesa uz istovremeno olakšavanje uspješnih poslovnih odnosa."
+      "title": "Pregovaranje",
+      "description": "Zastupamo klijente u pregovorima o ugovorima kako bi osigurali najpovoljnije moguće uvjete u danoj situaciji. Pažljivo analiziramo svaku klauzulu, identificiramo potencijalne rizike, predlažemo izmjene i pregovaramo za postizanje najboljeg mogućeg ishoda za naše klijente. Naš pristup je i strateški i praktičan, s fokusom na zaštitu vaših interesa uz istovremeno olakšavanje uspješnih poslovnih odnosa."
     },
     "disputes": {
-      "title": "Rješavanje ugovornih sporova",
-      "description": "Kada dođe do ugovornih sporova, pružamo sveobuhvatno pravno zastupanje za zaštitu vaših interesa. Naše usluge uključuju:",
+      "title": "Rješavanje sporova iz ugovornih odnosa",
+      "description": "Kada dođe do sporova, pružamo sveobuhvatno pravno zastupanje za zaštitu vaših interesa. Naše usluge uključuju:",
       "items": [
         "Procjena kršenja ugovora i potraživanja",
-        "Pregovori o sporovima i nagodbe",
+        "Pregovori s ciljem sklapanja nagodbe",
         "Medijacija i arbitraža",
         "Zastupanje u parnicama",
         "Restrukturiranje ugovora nakon spora"
@@ -242,16 +242,16 @@
       "description": "Pomažemo klijentima u razvoju učinkovitih sustava upravljanja ugovorima i osiguravanju usklađenosti s regulatornim zahtjevima. Pružamo smjernice o implementaciji ugovora, praćenju izvršenja i periodičnom pregledu kako bi se osigurala kontinuirana usklađenost i smanjenje rizika. Pomažemo tvrtkama održavati jasne evidencije o njihovim ugovornim obvezama i rokovima, smanjujući rizik od nenamjernih kršenja i pravne izloženosti."
     },
     "sidebar": {
-      "title": "Trebate pomoć s ugovorima?",
-      "description": "Kontaktirajte nas danas za razgovor o vašim ugovornim potrebama i pravnim zahtjevima."
+      "title": "Trebate li pomoć s ugovorima?",
+      "description": "Kontaktirajte nas radi dogovora termina za pravno savjetovanje."
     }
   },
   "realEstate": {
     "breadcrumb": "Područja prakse",
     "title": "Nekretnine i Građansko pravo",
-    "description": "Sveobuhvatna pravna podrška za transakcije nekretnina i građanska pitanja",
-    "ourServices": "Naše usluge Nekretnina i Građanskog prava",
-    "introText": "Pružamo kompletnu pravnu potporu prilikom nekretninskih investicija i zastupamo klijente u građanskim postupcima, donoseći jasnoću u složene transakcije nekretnina i građanska pitanja.",
+    "description": "Sveobuhvatna pravna podrška u nekretninskim transakcijama i građanskim pitanjima",
+    "ourServices": "Usluge iz područja Nekretnina i Građanskog prava",
+    "introText": "Pružamo kompletnu pravnu potporu prilikom nekretninskih investicija i zastupamo klijente u građanskim postupcima, donoseći jasnoću u složene transakcije nekretninama i građanska pitanja.",
     "transactions": {
       "title": "Transakcije nekretninama",
       "description": "Naša praksa u području nekretnina nudi sveobuhvatne pravne usluge za sve aspekte transakcija nekretninama, uključujući:",
@@ -259,8 +259,8 @@
         "Kupnja i prodaja nekretnina",
         "Ugovori o zakupu",
         "Razvojni projekti",
-        "Pitanja korištenja zemljišta i zoniranja",
-        "Sporovi oko vlasništva nekretnina",
+        "pravna podrška u postupcima parcelacije",
+        "pravna podrška u svim postupcima radi promjene oblika, površine ili izgrađenosti čestice",
         "Građevinski ugovori"
       ]
     },
@@ -268,8 +268,8 @@
       "title": "Građanske parnice",
       "description": "Zastupamo klijente u širokom rasponu građanskih postupaka vezanih za:",
       "items": [
-        "Sporovi o vlasničkim pravima",
-        "Ugovorni sporovi",
+        "Sporovi o vlasništvu i drugim stvarnim pravima",
+        "Sporovi iz obveznih odnosa",
         "Ovršni postupci",
         "Naplata potraživanja",
         "Zakupni odnosi",
@@ -283,20 +283,20 @@
         "Liječničke greške",
         "Štete prouzročene informacijama objavljenim u medijima",
         "Naknade za osobne ozljede",
-        "Zahtjevi za profesionalnu odgovornost"
+        "Zahtjevi s osnove profesionalne odgovornosti"
       ]
     },
     "administrativeDisputes": {
       "title": "Upravni sporovi",
-      "description": "Zastupamo klijente u postupcima vezanim uz nezakonita postupanja državnih tijela i tijela s javnim ovlastima. Naša stručnost proteže se na sva područja upravnog prava, pomažući klijentima u navigaciji složenim regulatornim okruženjima."
+      "description": "Zastupamo klijente u postupcima vezanim uz nezakonita postupanja državnih tijela i tijela s javnim ovlastima."
     },
     "humanRights": {
       "title": "Zaštita ljudskih prava",
-      "description": "Imamo bogato iskustvo u zastupanju klijenata pred Europskim sudom za ljudska prava i domaćim sudovima u slučajevima zaštite ljudskih prava. Predani smo zaštiti temeljnih prava i osiguravanju pravednog tretmana prema zakonu."
+      "description": "Imamo bogato iskustvo u zastupanju klijenata pred Europskim sudom za ljudska prava i domaćim sudovima u slučajevima radi povrede ljudskih prava. Predani smo zaštiti temeljnih prava i osiguravanju pravednog tretmana prema zakonu."
     },
     "sidebar": {
-      "title": "Trebate savjet iz područja nekretnina ili građanskog prava?",
-      "description": "Kontaktirajte nas danas za dogovor konzultacija za pitanja nekretnina i građanskog prava."
+      "title": "Trebate li pravni savjet iz područja nekretnina ili građanskog prava?",
+      "description": "Kontaktirajte nas radi dogovora termina za pravno savjetovanje."
     }
   },
   "practiceAreas": {
